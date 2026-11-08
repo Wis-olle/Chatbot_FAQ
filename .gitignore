@@ -1,0 +1,28 @@
+node_modules/
+test-results/
+playwright-report/
+.env
+.env.*
+!.env.example
+
+# Local environments, test artifacts, and generated databases
+__pycache__/
+*.py[cod]
+.coverage
+htmlcov/
+*.sqlite
+*.sqlite-*
+*.sqlite.*
+*.tmp
+*.zip
+*.log
+
+# Local backups and exploratory crawl copies
+vinahost-faq/backups/
+vinahost-faq/data/raw/*.html
+
+# Generated local diagnostics (recreated by tests)
+**/prepared/*smoke-test.json
+**/prepared/*live-check.json
+**/prepared/integration-validation.json
+**/prepared/evaluation-report.json

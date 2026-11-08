@@ -1,0 +1,531 @@
+{
+  "version": 1,
+  "description": "Offline Sen Hosting knowledge and business boundary acceptance; Gemini general conversation is tested separately with a mocked provider.",
+  "cases": [
+    {
+      "id": "sen-hosting-definition",
+      "message": "Hosting là gì?",
+      "expectedKind": "answer",
+      "expectedService": "hosting-gia-re",
+      "expectedSourceUrl": "/knowledge/SEN-HOSTING-DEFINITION",
+      "mustContain": [
+        "Hosting là tài nguyên lưu trữ và môi t"
+      ]
+    },
+    {
+      "id": "sen-hosting-domain",
+      "message": "Hosting và tên miền khác nhau thế nào?",
+      "expectedKind": "answer",
+      "expectedService": "hosting-gia-re",
+      "expectedSourceUrl": "/knowledge/SEN-HOSTING-DOMAIN",
+      "mustContain": [
+        "Tên miền là địa chỉ giúp người dùng tì"
+      ]
+    },
+    {
+      "id": "sen-shared-hosting",
+      "message": "Shared Hosting là gì?",
+      "expectedKind": "answer",
+      "expectedService": "hosting-gia-re",
+      "expectedSourceUrl": "/knowledge/SEN-SHARED-HOSTING",
+      "mustContain": [
+        "Shared Hosting là mô hình nhiều websit"
+      ]
+    },
+    {
+      "id": "sen-storage-bandwidth",
+      "message": "Dung lượng hosting và băng thông khác nhau thế nào?",
+      "expectedKind": "answer",
+      "expectedService": "hosting-gia-re",
+      "expectedSourceUrl": "/knowledge/SEN-STORAGE-BANDWIDTH",
+      "mustContain": [
+        "Dung lượng lưu trữ là phần không gian "
+      ]
+    },
+    {
+      "id": "sen-backup-definition",
+      "message": "Backup là gì?",
+      "expectedKind": "answer",
+      "expectedService": "hosting-gia-re",
+      "expectedSourceUrl": "/knowledge/SEN-BACKUP-DEFINITION",
+      "mustContain": [
+        "Backup là bản sao dữ liệu dùng để hỗ t"
+      ]
+    },
+    {
+      "id": "sen-backup-restore",
+      "message": "Cần lưu ý gì trước khi khôi phục website từ backup?",
+      "expectedKind": "answer",
+      "expectedService": "hosting-gia-re",
+      "expectedSourceUrl": "/knowledge/SEN-BACKUP-RESTORE",
+      "mustContain": [
+        "Trước khi khôi phục, nên kiểm tra thời"
+      ]
+    },
+    {
+      "id": "sen-migration-prepare",
+      "message": "Cần chuẩn bị gì trước khi chuyển website sang hosting khác?",
+      "expectedKind": "answer",
+      "expectedService": "hosting-gia-re",
+      "expectedSourceUrl": "/knowledge/SEN-MIGRATION-PREPARE",
+      "mustContain": [
+        "Nên kiểm kê mã nguồn, cơ sở dữ liệu, p"
+      ]
+    },
+    {
+      "id": "sen-renewal-check",
+      "message": "Cần kiểm tra thông tin gì trước khi gia hạn hosting?",
+      "expectedKind": "answer",
+      "expectedService": "hosting-gia-re",
+      "expectedSourceUrl": "/knowledge/SEN-RENEWAL-CHECK",
+      "mustContain": [
+        "Cần kiểm tra tên gói, ngày hết hạn, ch"
+      ]
+    },
+    {
+      "id": "sen-wp-definition",
+      "message": "WordPress Hosting là gì?",
+      "expectedKind": "answer",
+      "expectedService": "wordpress-hosting",
+      "expectedSourceUrl": "/knowledge/SEN-WP-DEFINITION",
+      "mustContain": [
+        "WordPress Hosting là tên gọi cho môi t"
+      ]
+    },
+    {
+      "id": "sen-wp-beginner",
+      "message": "Có cần biết lập trình để bắt đầu dùng WordPress không?",
+      "expectedKind": "answer",
+      "expectedService": "wordpress-hosting",
+      "expectedSourceUrl": "/knowledge/SEN-WP-BEGINNER",
+      "mustContain": [
+        "Bạn có thể tạo và quản lý nhiều loại w"
+      ]
+    },
+    {
+      "id": "sen-wp-themes-plugins",
+      "message": "Theme và plugin trong WordPress khác nhau thế nào?",
+      "expectedKind": "answer",
+      "expectedService": "wordpress-hosting",
+      "expectedSourceUrl": "/knowledge/SEN-WP-THEMES-PLUGINS",
+      "mustContain": [
+        "Theme chủ yếu quyết định cách trình bà"
+      ]
+    },
+    {
+      "id": "sen-wp-update",
+      "message": "Nên lưu ý gì khi cập nhật WordPress?",
+      "expectedKind": "answer",
+      "expectedService": "wordpress-hosting",
+      "expectedSourceUrl": "/knowledge/SEN-WP-UPDATE",
+      "mustContain": [
+        "Trước khi cập nhật WordPress, theme ho"
+      ]
+    },
+    {
+      "id": "sen-wp-cache",
+      "message": "Cache có tác dụng gì với website WordPress?",
+      "expectedKind": "answer",
+      "expectedService": "wordpress-hosting",
+      "expectedSourceUrl": "/knowledge/SEN-WP-CACHE",
+      "mustContain": [
+        "Cache lưu lại kết quả xử lý hoặc dữ li"
+      ]
+    },
+    {
+      "id": "sen-wp-migration",
+      "message": "Khi chuyển website WordPress cần sao chép những gì?",
+      "expectedKind": "answer",
+      "expectedService": "wordpress-hosting",
+      "expectedSourceUrl": "/knowledge/SEN-WP-MIGRATION",
+      "mustContain": [
+        "Một website WordPress thường cần cả tệ"
+      ]
+    },
+    {
+      "id": "sen-windows-definition",
+      "message": "Windows Hosting là gì?",
+      "expectedKind": "answer",
+      "expectedService": "windows-hosting",
+      "expectedSourceUrl": "/knowledge/SEN-WINDOWS-DEFINITION",
+      "mustContain": [
+        "Windows Hosting là môi trường lưu trữ "
+      ]
+    },
+    {
+      "id": "sen-windows-aspnet",
+      "message": "Vì sao cần kiểm tra phiên bản ASP.NET trước khi chọn hosting?",
+      "expectedKind": "answer",
+      "expectedService": "windows-hosting",
+      "expectedSourceUrl": "/knowledge/SEN-WINDOWS-ASPNET",
+      "mustContain": [
+        "Ứng dụng ASP.NET hoặc .NET có thể phụ "
+      ]
+    },
+    {
+      "id": "sen-windows-compatibility",
+      "message": "Cần kiểm tra gì để biết website tương thích với Windows Hosting?",
+      "expectedKind": "answer",
+      "expectedService": "windows-hosting",
+      "expectedSourceUrl": "/knowledge/SEN-WINDOWS-COMPATIBILITY",
+      "mustContain": [
+        "Nên kiểm tra ngôn ngữ và phiên bản run"
+      ]
+    },
+    {
+      "id": "sen-domain-definition",
+      "message": "Tên miền là gì?",
+      "expectedKind": "answer",
+      "expectedService": "dang-ky-ten-mien",
+      "expectedSourceUrl": "/knowledge/SEN-DOMAIN-DEFINITION",
+      "mustContain": [
+        "Tên miền là tên dễ nhớ dùng để truy cậ"
+      ]
+    },
+    {
+      "id": "sen-domain-dns",
+      "message": "DNS là gì?",
+      "expectedKind": "answer",
+      "expectedService": "dang-ky-ten-mien",
+      "expectedSourceUrl": "/knowledge/SEN-DOMAIN-DNS",
+      "mustContain": [
+        "DNS là hệ thống phân giải tên miền, gi"
+      ]
+    },
+    {
+      "id": "sen-domain-nameserver",
+      "message": "Nameserver và bản ghi DNS khác nhau thế nào?",
+      "expectedKind": "answer",
+      "expectedService": "dang-ky-ten-mien",
+      "expectedSourceUrl": "/knowledge/SEN-DOMAIN-NAMESERVER",
+      "mustContain": [
+        "Nameserver là máy chủ cung cấp câu trả"
+      ]
+    },
+    {
+      "id": "sen-domain-record-a",
+      "message": "Bản ghi A dùng để làm gì?",
+      "expectedKind": "answer",
+      "expectedService": "dang-ky-ten-mien",
+      "expectedSourceUrl": "/knowledge/SEN-DOMAIN-RECORD-A",
+      "mustContain": [
+        "Bản ghi A liên kết một tên miền hoặc t"
+      ]
+    },
+    {
+      "id": "sen-domain-cname",
+      "message": "Bản ghi CNAME dùng để làm gì?",
+      "expectedKind": "answer",
+      "expectedService": "dang-ky-ten-mien",
+      "expectedSourceUrl": "/knowledge/SEN-DOMAIN-CNAME",
+      "mustContain": [
+        "Bản ghi CNAME tạo tên bí danh trỏ đến "
+      ]
+    },
+    {
+      "id": "sen-domain-mx",
+      "message": "Bản ghi MX có tác dụng gì?",
+      "expectedKind": "answer",
+      "expectedService": "dang-ky-ten-mien",
+      "expectedSourceUrl": "/knowledge/SEN-DOMAIN-MX",
+      "mustContain": [
+        "Bản ghi MX cho biết máy chủ tiếp nhận "
+      ]
+    },
+    {
+      "id": "sen-domain-external",
+      "message": "Tên miền và hosting ở hai nhà cung cấp khác nhau có kết nối được không?",
+      "expectedKind": "answer",
+      "expectedService": "dang-ky-ten-mien",
+      "expectedSourceUrl": "/knowledge/SEN-DOMAIN-EXTERNAL",
+      "mustContain": [
+        "Có thể kết nối tên miền và hosting đượ"
+      ]
+    },
+    {
+      "id": "sen-domain-transfer",
+      "message": "Chuyển nhà đăng ký tên miền khác với trỏ DNS như thế nào?",
+      "expectedKind": "answer",
+      "expectedService": "dang-ky-ten-mien",
+      "expectedSourceUrl": "/knowledge/SEN-DOMAIN-TRANSFER",
+      "mustContain": [
+        "Chuyển nhà đăng ký thay đổi đơn vị quả"
+      ]
+    },
+    {
+      "id": "sen-vps-definition",
+      "message": "VPS là gì?",
+      "expectedKind": "answer",
+      "expectedService": "thue-vps-gia-re",
+      "expectedSourceUrl": "/knowledge/SEN-VPS-DEFINITION",
+      "mustContain": [
+        "VPS là máy chủ ảo được tạo từ hạ tầng "
+      ]
+    },
+    {
+      "id": "sen-vps-vs-hosting",
+      "message": "VPS và Shared Hosting khác nhau thế nào?",
+      "expectedKind": "answer",
+      "expectedService": "thue-vps-gia-re",
+      "expectedSourceUrl": "/knowledge/SEN-VPS-VS-HOSTING",
+      "mustContain": [
+        "Shared Hosting thường cung cấp môi trư"
+      ]
+    },
+    {
+      "id": "sen-vps-admin",
+      "message": "Khi tự quản trị VPS cần chú ý những việc gì?",
+      "expectedKind": "answer",
+      "expectedService": "thue-vps-gia-re",
+      "expectedSourceUrl": "/knowledge/SEN-VPS-ADMIN",
+      "mustContain": [
+        "Cần quản lý tài khoản và quyền truy cậ"
+      ]
+    },
+    {
+      "id": "sen-vps-os",
+      "message": "Nên dựa vào đâu để chọn hệ điều hành cho VPS?",
+      "expectedKind": "answer",
+      "expectedService": "thue-vps-gia-re",
+      "expectedSourceUrl": "/knowledge/SEN-VPS-OS",
+      "mustContain": [
+        "Nên xem yêu cầu phần mềm, kinh nghiệm "
+      ]
+    },
+    {
+      "id": "sen-vps-security",
+      "message": "Có thể làm gì để giảm rủi ro truy cập trái phép vào VPS?",
+      "expectedKind": "answer",
+      "expectedService": "thue-vps-gia-re",
+      "expectedSourceUrl": "/knowledge/SEN-VPS-SECURITY",
+      "mustContain": [
+        "Nên dùng thông tin xác thực mạnh, giới"
+      ]
+    },
+    {
+      "id": "sen-email-definition",
+      "message": "Email theo tên miền riêng là gì?",
+      "expectedKind": "answer",
+      "expectedService": "email-hosting-chuyen-nghiep",
+      "expectedSourceUrl": "/knowledge/SEN-EMAIL-DEFINITION",
+      "mustContain": [
+        "Email theo tên miền riêng sử dụng địa "
+      ]
+    },
+    {
+      "id": "sen-email-client",
+      "message": "Cần thông tin gì để thêm tài khoản email vào ứng dụng gửi nhận thư?",
+      "expectedKind": "answer",
+      "expectedService": "email-hosting-chuyen-nghiep",
+      "expectedSourceUrl": "/knowledge/SEN-EMAIL-CLIENT",
+      "mustContain": [
+        "Thông thường cần địa chỉ email, tên đă"
+      ]
+    },
+    {
+      "id": "sen-email-imap-pop",
+      "message": "IMAP và POP khác nhau thế nào?",
+      "expectedKind": "answer",
+      "expectedService": "email-hosting-chuyen-nghiep",
+      "expectedSourceUrl": "/knowledge/SEN-EMAIL-IMAP-POP",
+      "mustContain": [
+        "IMAP thường đồng bộ trạng thái thư và "
+      ]
+    },
+    {
+      "id": "sen-email-auth",
+      "message": "SPF, DKIM và DMARC dùng để làm gì?",
+      "expectedKind": "answer",
+      "expectedService": "email-hosting-chuyen-nghiep",
+      "expectedSourceUrl": "/knowledge/SEN-EMAIL-AUTH",
+      "mustContain": [
+        "SPF mô tả những nguồn được phép gửi th"
+      ]
+    },
+    {
+      "id": "sen-email-migration",
+      "message": "Cần chuẩn bị gì khi chuyển dịch vụ email?",
+      "expectedKind": "answer",
+      "expectedService": "email-hosting-chuyen-nghiep",
+      "expectedSourceUrl": "/knowledge/SEN-EMAIL-MIGRATION",
+      "mustContain": [
+        "Nên kiểm kê hộp thư, dung lượng, bí da"
+      ]
+    },
+    {
+      "id": "sen-ssl-definition",
+      "message": "SSL là gì?",
+      "expectedKind": "answer",
+      "expectedService": "mua-ssl-gia-re",
+      "expectedSourceUrl": "/knowledge/SEN-SSL-DEFINITION",
+      "mustContain": [
+        "SSL thường được dùng để gọi chứng chỉ "
+      ]
+    },
+    {
+      "id": "sen-ssl-https",
+      "message": "HTTPS khác HTTP như thế nào?",
+      "expectedKind": "answer",
+      "expectedService": "mua-ssl-gia-re",
+      "expectedSourceUrl": "/knowledge/SEN-SSL-HTTPS",
+      "mustContain": [
+        "HTTPS sử dụng TLS để bảo vệ dữ liệu tr"
+      ]
+    },
+    {
+      "id": "sen-ssl-wildcard",
+      "message": "Wildcard SSL có nghĩa là gì?",
+      "expectedKind": "answer",
+      "expectedService": "mua-ssl-gia-re",
+      "expectedSourceUrl": "/knowledge/SEN-SSL-WILDCARD",
+      "mustContain": [
+        "Chứng chỉ Wildcard thường dùng ký tự đ"
+      ]
+    },
+    {
+      "id": "sen-ssl-multi-domain",
+      "message": "Multi-Domain SSL dùng để làm gì?",
+      "expectedKind": "answer",
+      "expectedService": "mua-ssl-gia-re",
+      "expectedSourceUrl": "/knowledge/SEN-SSL-MULTI-DOMAIN",
+      "mustContain": [
+        "Chứng chỉ Multi-Domain có thể chứa nhi"
+      ]
+    },
+    {
+      "id": "sen-ssl-mixed-content",
+      "message": "Vì sao website dùng HTTPS vẫn có cảnh báo nội dung không an toàn?",
+      "expectedKind": "answer",
+      "expectedService": "mua-ssl-gia-re",
+      "expectedSourceUrl": "/knowledge/SEN-SSL-MIXED-CONTENT",
+      "mustContain": [
+        "Một nguyên nhân có thể là trang HTTPS "
+      ]
+    },
+    {
+      "id": "domain-hosting-paraphrase",
+      "message": "Hosting với tên miền có gì khác nhau?",
+      "expectedKind": "answer",
+      "expectedSourceUrl": "/knowledge/SEN-HOSTING-DOMAIN",
+      "mustContain": [
+        "Tên miền là địa chỉ"
+      ]
+    },
+    {
+      "id": "wordpress-definition-noaccents",
+      "message": "wordpress hosting la gi?",
+      "expectedKind": "answer",
+      "expectedService": "wordpress-hosting",
+      "expectedSourceUrl": "/knowledge/SEN-WP-DEFINITION",
+      "mustContain": [
+        "WordPress"
+      ]
+    },
+    {
+      "id": "ssl-definition-noaccents",
+      "message": "ssl la gi?",
+      "expectedKind": "answer",
+      "expectedSourceUrl": "/knowledge/SEN-SSL-DEFINITION",
+      "mustContain": [
+        "TLS"
+      ]
+    },
+    {
+      "id": "backup-policy",
+      "message": "WordPress Hosting sao lưu bao nhiêu lần?",
+      "expectedKind": "fallback",
+      "mustNotContain": [
+        "4 lần/ngày",
+        "2 lần/ngày",
+        "49.000",
+        "99.000",
+        "1900 6046"
+      ]
+    },
+    {
+      "id": "price-policy",
+      "message": "Sen Hosting có giá bao nhiêu?",
+      "expectedKind": "clarify",
+      "mustNotContain": [
+        "4 lần/ngày",
+        "2 lần/ngày",
+        "49.000",
+        "99.000",
+        "1900 6046"
+      ]
+    },
+    {
+      "id": "refund-policy",
+      "message": "Sen Hosting có hoàn tiền trong 30 ngày không?",
+      "expectedKind": "fallback",
+      "mustNotContain": [
+        "4 lần/ngày",
+        "2 lần/ngày",
+        "49.000",
+        "99.000",
+        "1900 6046"
+      ]
+    },
+    {
+      "id": "contact-policy",
+      "message": "Số điện thoại và địa chỉ Sen Hosting là gì?",
+      "expectedKind": "fallback",
+      "mustNotContain": [
+        "4 lần/ngày",
+        "2 lần/ngày",
+        "49.000",
+        "99.000",
+        "1900 6046"
+      ]
+    },
+    {
+      "id": "sla-policy",
+      "message": "Sen Hosting cam kết uptime bao nhiêu?",
+      "expectedKind": "fallback",
+      "mustNotContain": [
+        "4 lần/ngày",
+        "2 lần/ngày",
+        "49.000",
+        "99.000",
+        "1900 6046"
+      ]
+    },
+    {
+      "id": "payment-policy",
+      "message": "Thanh toán Sen Hosting bằng tài khoản ngân hàng nào?",
+      "expectedKind": "fallback",
+      "mustNotContain": [
+        "4 lần/ngày",
+        "2 lần/ngày",
+        "49.000",
+        "99.000",
+        "1900 6046"
+      ]
+    },
+    {
+      "id": "free-ssl-policy",
+      "message": "Sen Hosting tặng SSL miễn phí cho mọi gói không?",
+      "expectedKind": "clarify",
+      "mustNotContain": [
+        "4 lần/ngày",
+        "2 lần/ngày",
+        "49.000",
+        "99.000",
+        "1900 6046"
+      ]
+    },
+    {
+      "id": "greeting",
+      "message": "Xin chào!",
+      "expectedKind": "answer",
+      "mustContain": [
+        "Sen Hosting"
+      ]
+    },
+    {
+      "id": "booking",
+      "message": "Tôi muốn đặt lịch tư vấn",
+      "expectedKind": "booking"
+    }
+  ]
+}

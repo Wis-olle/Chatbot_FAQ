@@ -1,0 +1,1058 @@
+{
+  "generatedAt": "2026-11-07T10:51:25.342Z",
+  "status": "needs_owner_input",
+  "published": false,
+  "note": "Tài liệu tham khảo riêng để chủ Sen Hosting đối chiếu. Không phải chính sách hoặc cam kết của Sen Hosting.",
+  "entries": [
+    {
+      "id": "SEN-DRAFT-VH-ccc783508b7df17b",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "wordpress-hosting",
+      "questionTemplate": "WordPress là gì?",
+      "referenceAnswer": "WordPress là một hệ thống quản lý nội dung (CMS – Content Management System) mã nguồn mở, giúp bạn dễ dàng tạo, quản lý và xuất bản website hoặc blog mà không cần biết lập trình.",
+      "originalProvenance": {
+        "id": "VH-ccc783508b7df17b",
+        "url": "https://vinahost.vn/wordpress-hosting/",
+        "fetchedAt": "2026-11-07T05:04:09.088003+00:00",
+        "contentHash": "b1328fbf215c0761ad37248aa7e959370a627df4bae119d1ed64e38fad3ad4a9"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-d9e4ee0324401ac3",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "wordpress-hosting",
+      "questionTemplate": "WordPress Hosting là gì?",
+      "referenceAnswer": "WordPress Hosting là dịch vụ lưu trữ web được thiết kế riêng để chạy website sử dụng WordPress.",
+      "originalProvenance": {
+        "id": "VH-d9e4ee0324401ac3",
+        "url": "https://vinahost.vn/wordpress-hosting/",
+        "fetchedAt": "2026-11-07T05:04:09.088003+00:00",
+        "contentHash": "99a84920c650eda0589f76ae64ce1243af4e6f056d4de2174eff60c52729b323"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-cf3efdee96053c93",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "wordpress-hosting",
+      "questionTemplate": "Managed WordPress Hosting là gì?",
+      "referenceAnswer": "Managed WordPress Hosting là một dạng dịch vụ hosting được tối ưu riêng cho WordPress và được nhà cung cấp quản lý hầu hết các tác vụ kỹ thuật liên quan đến vận hành website.",
+      "originalProvenance": {
+        "id": "VH-cf3efdee96053c93",
+        "url": "https://vinahost.vn/wordpress-hosting/",
+        "fetchedAt": "2026-11-07T05:04:09.088003+00:00",
+        "contentHash": "8f4a4c617dacd62074c9048c54e6440c4f022312ad1750bde9c4f97249ecace1"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-2c0ec51e296bc000",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "wordpress-hosting",
+      "questionTemplate": "Hosting WordPress được sử dụng để làm gì?",
+      "referenceAnswer": "Hosting WordPress được sử dụng để lưu trữ và vận hành các website xây dựng bằng nền tảng WordPress . Nó cung cấp không gian và tài nguyên trên máy chủ để website hoạt động 24/7 trên Internet.",
+      "originalProvenance": {
+        "id": "VH-2c0ec51e296bc000",
+        "url": "https://vinahost.vn/wordpress-hosting/",
+        "fetchedAt": "2026-11-07T05:04:09.088003+00:00",
+        "contentHash": "71f8e549ba25ee51c7269d68cdef4e4122768f05e7126049be3a8a3ea7d4bb41"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-c12efbfef3924b56",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "wordpress-hosting",
+      "questionTemplate": "Các gói WordPress Hosting thường bao gồm những tính năng gì?",
+      "referenceAnswer": "Các gói WordPress Hosting của VinaHost thường bao gồm các tính năng nổi bật như: Tốc độ tải nhanh (nhờ SSD NVMe) Công nghệ tăng hiệu suất (LiteSpeed, Redis) Bảo mật toàn diện (WAF, SSL, 2FA) Sao lưu tự động Quản lý dễ qua cPanel Uptime 99.9% Tối ưu riêng cho WordPress, plugin & theme bản quyền miễn phí Tài nguyên không giới hạn Hỗ trợ kỹ thuật 24/7 Miễn phí chuyển website và hoàn tiền trong 5 ngày.",
+      "originalProvenance": {
+        "id": "VH-c12efbfef3924b56",
+        "url": "https://vinahost.vn/wordpress-hosting/",
+        "fetchedAt": "2026-11-07T05:04:09.088003+00:00",
+        "contentHash": "e38e2d00d961eb3b13b1a583d162f377f95c375d5722b5c67360e3162aeb0f82"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-087d420a3c19a57b",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "wordpress-hosting",
+      "questionTemplate": "Có cần kiến thức lập trình để sử dụng WordPress Hosting không?",
+      "referenceAnswer": "Không cần kiến thức lập trình để sử dụng WordPress Hosting. WordPress Hosting được thiết kế dành cho người dùng phổ thông, với giao diện quản trị trực quan và nhiều thao tác tự động như: Cài đặt WordPress chỉ với 1 cú nhấp chuột Quản lý giao diện (theme), plugin, nội dung dễ dàng Cập nhật, sao lưu, bảo mật được tích hợp sẵn",
+      "originalProvenance": {
+        "id": "VH-087d420a3c19a57b",
+        "url": "https://vinahost.vn/wordpress-hosting/",
+        "fetchedAt": "2026-11-07T05:04:09.088003+00:00",
+        "contentHash": "c21135a2b6115506bf120f93faf9645a3c6b0947a717401fd8d100b929fd4050"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-c86633f323071220",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "wordpress-hosting",
+      "questionTemplate": "Tôi có được toàn quyền quản trị Hosting WordPress không?",
+      "referenceAnswer": "Bạn có quyền quản lý đầy đủ các chức năng liên quan đến website WordPress, bao gồm: Quản lý file và cơ sở dữ liệu qua cPanel hoặc FTP/MySQL Cài đặt và gỡ bỏ plugin, theme Tùy chỉnh giao diện, nội dung, cấu hình WordPress Sao lưu, khôi phục dữ liệu Thiết lập bảo mật, email, tên miền phụ,...",
+      "originalProvenance": {
+        "id": "VH-c86633f323071220",
+        "url": "https://vinahost.vn/wordpress-hosting/",
+        "fetchedAt": "2026-11-07T05:04:09.088003+00:00",
+        "contentHash": "44b11d45de5b9eef539d41652c1524d9a1778d30071d3bc3c925fa9acd8f60f5"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-1392cde74e49924d",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "wordpress-hosting",
+      "questionTemplate": "Tôi có được hỗ trợ chuyển website từ nhà cung cấp khác về WordPress Hosting Sen Hosting không?",
+      "referenceAnswer": "Được. Bạn có thể chuyển website WordPress của mình từ nhà cung cấp hosting khác về VinaHost. Bạn có thể tự backup dữ liệu và cung cấp thông tin hosting để VinaHost hỗ trợ chuyển dữ liệu cho bạn.",
+      "originalProvenance": {
+        "id": "VH-1392cde74e49924d",
+        "url": "https://vinahost.vn/wordpress-hosting/",
+        "fetchedAt": "2026-11-07T05:04:09.088003+00:00",
+        "contentHash": "c916b016301882025d03ec08a59bd6268eaf168458d3c3d2d0636b35e9df983f"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-b6b8b703157f7ab9",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "wordpress-hosting",
+      "questionTemplate": "Trong quá trình sử dụng, tôi có thể nâng cấp hoặc hạ gói WordPress Hosting không?",
+      "referenceAnswer": "Được. VinaHost cung cấp nhiều gói WordPress Hosting phù hợp với nhu cầu sử dụng của khách hàng. Bạn có thể liên hệ đội ngũ chăm sóc khách hàng của VinaHost để tiến hành nâng – hạ cấp hoặc chuyển đổi WordPress Hosting sang gói hosting khác phù hợp với nhu cầu sử dụng trong từng thời điểm. Quý khách vui lòng liên hệ email cskh@vinahost.vn hoặc gọi hotline 1900 6046 nhấn phím 1 để được hỗ trợ.",
+      "originalProvenance": {
+        "id": "VH-b6b8b703157f7ab9",
+        "url": "https://vinahost.vn/wordpress-hosting/",
+        "fetchedAt": "2026-11-07T05:04:09.088003+00:00",
+        "contentHash": "0def1498cb60fb9be0c746a08d955ddf8d9650136062d555db6d0e43049dc738"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-e0217d33b29d2c1b",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "wordpress-hosting",
+      "questionTemplate": "Dữ liệu website được sao lưu thường xuyên như thế nào và lưu trữ trong bao lâu?",
+      "referenceAnswer": "Dữ liệu website được sao lưu định kỳ hàng ngày (4 lần/ngày và lưu trữ trong vòng 1 tuần)",
+      "originalProvenance": {
+        "id": "VH-e0217d33b29d2c1b",
+        "url": "https://vinahost.vn/wordpress-hosting/",
+        "fetchedAt": "2026-11-07T05:04:09.088003+00:00",
+        "contentHash": "6cd6a29b9e6ac831f994dcfe3fe4c940de66b84f0d740edcee58b620edf0bea2"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-122ec41f045c9fec",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "dang-ky-ten-mien",
+      "questionTemplate": "Vì sao bạn cần đăng ký tên miền?",
+      "referenceAnswer": "Tên miền và hosting là hai yếu tố quan trọng đối với một website. Hosting là nơi lưu trữ nội dung của trang web, trong khi tên miền là địa chỉ truy cập của trang đó. Khi xây dựng một website, bạn cần mua một tên miền và liên kết nó với dịch vụ lưu trữ website của mình. Khi người dùng muốn vào trang web của bạn, họ chỉ cần nhập tên miền vào thanh địa chỉ trên trình duyệt. Nếu không có tên miền, người dùng sẽ phải nhập địa chỉ IP của máy chủ để truy cập vào trang web. Ví dụ: Tên miền của Tiki là tiki.vn và của báo Tuổi Trẻ là tuoitre.vn. Nhờ có tên miền, người dùng có thể dễ dàng nhận biết và truy cập các website này.",
+      "originalProvenance": {
+        "id": "VH-122ec41f045c9fec",
+        "url": "https://vinahost.vn/dang-ky-ten-mien/",
+        "fetchedAt": "2026-11-07T05:04:03.051399+00:00",
+        "contentHash": "8e24a76e8cab0dd4265392e1ab36525556b6e5618ce057043fcb9b8211badd2a"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-4092858947ff47c8",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "dang-ky-ten-mien",
+      "questionTemplate": "Liệu có sự liên quan giữa tên miền và thương hiệu không?",
+      "referenceAnswer": "Có, tên miền và thương hiệu có mối liên hệ chặt chẽ và ảnh hưởng lớn đến nhận diện thương hiệu của một doanh nghiệp. Một tên miền phù hợp không chỉ giúp củng cố thương hiệu mà còn tạo ấn tượng lâu dài cho người dùng.",
+      "originalProvenance": {
+        "id": "VH-4092858947ff47c8",
+        "url": "https://vinahost.vn/dang-ky-ten-mien/",
+        "fetchedAt": "2026-11-07T05:04:03.051399+00:00",
+        "contentHash": "9ed9bbddf0fcf3f28a432edfff746481b91dd3b46785642995f9a680642a1905"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-05415eb71567059c",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "dang-ky-ten-mien",
+      "questionTemplate": "ICANN là gì?",
+      "referenceAnswer": "ICANN (Internet Corporation for Assigned Names and Numbers) là một tổ chức phi lợi nhuận quốc tế chịu trách nhiệm quản lý và điều phối các hoạt động liên quan đến Hệ thống tên miền (DNS), địa chỉ IP, và các giao thức Internet trên toàn cầu. ICANN được thành lập vào năm 1998, có trụ sở tại Hoa Kỳ, nhằm đảm bảo rằng Internet hoạt động một cách ổn định, an toàn và có thể truy cập được trên toàn thế giới.",
+      "originalProvenance": {
+        "id": "VH-05415eb71567059c",
+        "url": "https://vinahost.vn/dang-ky-ten-mien/",
+        "fetchedAt": "2026-11-07T05:04:03.051399+00:00",
+        "contentHash": "798b51732ef8ddf0cff94b1e08ed51ac7e32234d9db126e121ff9663ebfe9773"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-1ba03faebe93016d",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "dang-ky-ten-mien",
+      "questionTemplate": "Có thể mua tối đa bao nhiêu tên miền?",
+      "referenceAnswer": "Không có giới hạn về số lượng tên miền mà một cá nhân hay tổ chức có thể sở hữu. Khi có nhu cầu, họ có thể mua số lượng lớn tên miền để bảo vệ thương hiệu, mở rộng quyền sở hữu trực tuyến hoặc phục vụ các mục đích kinh doanh khác.",
+      "originalProvenance": {
+        "id": "VH-1ba03faebe93016d",
+        "url": "https://vinahost.vn/dang-ky-ten-mien/",
+        "fetchedAt": "2026-11-07T05:04:03.051399+00:00",
+        "contentHash": "7beae4581e4f1f5db7e6c7467e4b7f1ffce7bf1c0120e29379e8651bced1be10"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-7851706eae8aeefd",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "dang-ky-ten-mien",
+      "questionTemplate": "Cách tra cứu tên miền đã được đăng ký hay chưa?",
+      "referenceAnswer": "Để tra cứu thông tin đăng ký tên miền, bạn có thể sử dụng các công cụ trực tuyến như WHOIS hoặc truy cập trang web của VinaHost để thực hiện tra cứu. Các bước cụ thể như sau: WHOIS lookup: Nhiều trang web cung cấp dịch vụ tra cứu WHOIS, giúp bạn xem thông tin đăng ký tên miền. Hãy nhập “WHOIS lookup” vào công cụ tìm kiếm để tìm các dịch vụ phổ biến, truy cập vào trang WHOIS và nhập tên miền cần kiểm tra. Kết quả sẽ cung cấp thông tin chi tiết về chủ sở hữu, nhà đăng ký, ngày đăng ký, ngày hết hạn và các chi tiết khác. Tra cứu trên VinaHost: Nhập tên miền muốn kiểm tra vào trang tra cứu của VinaHost và nhấn “Tra cứu”. Nếu tên miền đã được đăng ký, sẽ xuất hiện thông báo, bạn có thể nhấn vào nút “Xem thông tin” để biết thêm về chủ sở hữu.",
+      "originalProvenance": {
+        "id": "VH-7851706eae8aeefd",
+        "url": "https://vinahost.vn/dang-ky-ten-mien/",
+        "fetchedAt": "2026-11-07T05:04:03.051399+00:00",
+        "contentHash": "b71d83691832e128a62cf43af5bc2ea8fc8b2eb0cd0a42351b322209e58b1cff"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-c68c1fa383b08c7e",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "dang-ky-ten-mien",
+      "questionTemplate": "Liệu tên miền có thể đăng ký trùng hay không?",
+      "referenceAnswer": "Tên miền không thể đăng ký trùng lặp trong cùng một đuôi miền (ví dụ: hai tên miền giống hệt nhau với đuôi .com hoặc .vn sẽ không thể tồn tại). Tuy nhiên, các tên miền có thể khác nhau về đuôi miền. Ví dụ, bạn có thể thấy tên miền “example.com” đã được đăng ký, nhưng “example.net” hoặc “example.vn” vẫn có thể được đăng ký bởi người khác.",
+      "originalProvenance": {
+        "id": "VH-c68c1fa383b08c7e",
+        "url": "https://vinahost.vn/dang-ky-ten-mien/",
+        "fetchedAt": "2026-11-07T05:04:03.051399+00:00",
+        "contentHash": "77e2d3d008a85f84e761e63ba9258bf8c24901d293150cbd7fe0892f2b7f8d47"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-f12e21641829e78a",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "dang-ky-ten-mien",
+      "questionTemplate": "Liệu tôi có thể đổi nhà đăng ký tên miền khác sau khi đã đăng ký?",
+      "referenceAnswer": "Có, bạn có thể đổi nhà đăng ký tên miền khác sau khi đã đăng ký. Quá trình này gọi là chuyển đổi nhà đăng ký tên miền – domain registrar transfer. Dưới đây là các bước cơ bản để thực hiện chuyển đổi: Kiểm tra điều kiện chuyển đổi: Đảm bảo rằng tên miền của bạn đã được đăng ký ít nhất 60 ngày và không bị khóa chuyển đổi (transfer lock). Lấy mã ủy quyền (Authorization Code / EPP Code): Bạn cần yêu cầu mã này từ nhà đăng ký hiện tại. Mã này thường được gửi qua email đăng ký của bạn. Đăng ký chuyển đổi với nhà đăng ký mới: Bạn sẽ cần cung cấp mã ủy quyền ở bước này. Xác nhận chuyển đổi: Nhà đăng ký hiện tại sẽ gửi email xác nhận yêu cầu chuyển đổi. Bạn cần làm theo hướng dẫn trong email để xác nhận. Hoàn tất chuyển đổi: Quá trình này thường mất từ vài ngày đến một tuần để hoàn tất. Khi chuyển đổi thành công, bạn sẽ nhận được thông báo từ nhà đăng ký mới.",
+      "originalProvenance": {
+        "id": "VH-f12e21641829e78a",
+        "url": "https://vinahost.vn/dang-ky-ten-mien/",
+        "fetchedAt": "2026-11-07T05:04:03.051399+00:00",
+        "contentHash": "7296ec8c074ab133ce918da5f0f6dfdcc2f14371c62dce40ebcbea542b04effb"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-a0d22de6103e8427",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "dang-ky-ten-mien",
+      "questionTemplate": "Tôi có thể chuyển domain đã đăng ký ở nhà đăng ký khác về Sen Hosting được không?",
+      "referenceAnswer": "Có, bạn hoàn toàn có thể mua tên miền từ một nhà đăng ký tên miền khác và sau đó chuyển nó về VinaHost. Quá trình chuyển tên miền giữa các nhà đăng ký khác nhau được gọi là quá trình “transfer tên miền”.",
+      "originalProvenance": {
+        "id": "VH-a0d22de6103e8427",
+        "url": "https://vinahost.vn/dang-ky-ten-mien/",
+        "fetchedAt": "2026-11-07T05:04:03.051399+00:00",
+        "contentHash": "38c5823e3d935a908d0a5edd85b46439819849e7e814f2f38edd94dcf6d7eca9"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-e0c560287cc04012",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "dang-ky-ten-mien",
+      "questionTemplate": "DNS là gì?",
+      "referenceAnswer": "DNS (Domain Name System – Hệ thống Tên Miền) là một hệ thống phân cấp trên Internet, giúp chuyển đổi các tên miền dễ nhớ của con người (như www.google.com) thành các địa chỉ IP tương ứng mà máy tính sử dụng để định tuyến và giao tiếp (như 142.250.190.46).",
+      "originalProvenance": {
+        "id": "VH-e0c560287cc04012",
+        "url": "https://vinahost.vn/dang-ky-ten-mien/",
+        "fetchedAt": "2026-11-07T05:04:03.051399+00:00",
+        "contentHash": "55463e093987236a9e960d90efe661315cc7f4b1bd3b430a6d52233b12202e96"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-553584d06a8724f5",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "dang-ky-ten-mien",
+      "questionTemplate": "DNSSEC là gì?",
+      "referenceAnswer": "DNSSEC (Domain Name System Security Extensions) là phần mở rộng bảo mật cho DNS, giúp ngăn chặn tấn công giả mạo bằng cách sử dụng chữ ký số để xác thực tính toàn vẹn và nguồn gốc dữ liệu.",
+      "originalProvenance": {
+        "id": "VH-553584d06a8724f5",
+        "url": "https://vinahost.vn/dang-ky-ten-mien/",
+        "fetchedAt": "2026-11-07T05:04:03.051399+00:00",
+        "contentHash": "38e549f29a8768c787f8ba206525047db26b048fa9a9334d366c40b8c994ac03"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-c23c558f6f98dbe3",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "dang-ky-ten-mien",
+      "questionTemplate": "Sự khác nhau giữa tên miền và Web Hosting?",
+      "referenceAnswer": "Tên miền là địa chỉ mà người dùng nhập để truy cập trang web, ví dụ: “www.example.com”, giúp người dùng dễ dàng tìm kiếm trang web; không lưu trữ nội dung. Web Hosting là dịch vụ lưu trữ nội dung trang web trên máy chủ, cung cấp không gian và băng thông cho trang web hoạt động. Tóm lại, tên miền là địa chỉ truy cập, còn web hosting là nơi lưu trữ nội dung của trang web. Cả hai đều cần thiết để vận hành một trang web.",
+      "originalProvenance": {
+        "id": "VH-c23c558f6f98dbe3",
+        "url": "https://vinahost.vn/dang-ky-ten-mien/",
+        "fetchedAt": "2026-11-07T05:04:03.051399+00:00",
+        "contentHash": "9ac2ab181700397287276cddf919435d78689789dc02bad1c86385421996ac8c"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-8105c71512dfd35a",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "dang-ky-ten-mien",
+      "questionTemplate": "Tôi đã mua tên miền tại nhà đăng ký khác, liệu tôi có thể mua hosting tại Sen Hosting được không?",
+      "referenceAnswer": "Có, bạn hoàn toàn có thể mua hosting tại VinaHost ngay cả khi bạn đã mua tên miền từ nhà đăng ký khác.",
+      "originalProvenance": {
+        "id": "VH-8105c71512dfd35a",
+        "url": "https://vinahost.vn/dang-ky-ten-mien/",
+        "fetchedAt": "2026-11-07T05:04:03.051399+00:00",
+        "contentHash": "c1edccd72d813cbe6ad342b58dfbc6fb2e48ab44b84a85a2deadb594c8e6d1e9"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-b3933f439417d025",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "email-hosting-chuyen-nghiep",
+      "questionTemplate": "Tôi có thể kiểm tra email trên điện thoại và phần mềm Outlook không?",
+      "referenceAnswer": "Hoàn toàn được. Ngoài giao diện Webmail chuyên nghiệp để truy cập trên trình duyệt, bạn có thể dễ dàng cài đặt và đồng bộ Email Hosting lên các phần mềm như Microsoft Outlook, Thunderbird hoặc các ứng dụng Mail trên điện thoại di động (iOS/Android) qua giao thức IMAP/POP3.",
+      "originalProvenance": {
+        "id": "VH-b3933f439417d025",
+        "url": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+        "fetchedAt": "2026-11-07T05:04:10.076728+00:00",
+        "contentHash": "612381db9c18deff231e60207bf3665d76d84391eafa57246fd3e5e0c1d12437"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-c3f1e79bae72a82e",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "email-hosting-chuyen-nghiep",
+      "questionTemplate": "Email hosting có giống Gmail Google không?",
+      "referenceAnswer": "Không. Mặc dù tính năng gửi mail vẫn tương tự, nhưng Email hosting không thể truy cập vào các công cụ Workspace như Google Docs, Sheets, Meet...",
+      "originalProvenance": {
+        "id": "VH-c3f1e79bae72a82e",
+        "url": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+        "fetchedAt": "2026-11-07T05:04:10.076728+00:00",
+        "contentHash": "0c5ea4f28c2712886bef74b6008f9c10cf4a587646d4d416030d750d6054cdab"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-a5c9f84e1a8800a1",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "email-hosting-chuyen-nghiep",
+      "questionTemplate": "Một tài khoản; tên miền trong gói đăng ký được hiểu như thế nào?",
+      "referenceAnswer": "Tên miền: Là phần đuôi cố định của địa chỉ email (nằm sau chữ @ ). Mỗi gói Email Hosting chỉ hỗ trợ cài đặt cho một tên miền duy nhất . Ví dụ: Nếu bạn đăng ký tên miền là vinahost.vn , thì tất cả các email được tạo ra trong gói dịch vụ này đều phải dùng chung phần đuôi là @vinahost.vn . Tài khoản: Là số lượng hộp thư (địa chỉ email cụ thể) mà bạn được phép tạo ra trên tên miền đó. Mỗi gói cước sẽ quy định số lượng tài khoản tối đa khác nhau. Ví dụ: Nếu gói dịch vụ cho phép tạo 5 tài khoản, bạn có thể thiết lập 5 địa chỉ email khác nhau cho từng cá nhân hoặc phòng ban như: info@vinahost.vn , kinhdoanh@vinahost.vn , ketoan@vinahost.vn ...",
+      "originalProvenance": {
+        "id": "VH-a5c9f84e1a8800a1",
+        "url": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+        "fetchedAt": "2026-11-07T05:04:10.076728+00:00",
+        "contentHash": "f4918f3d5ca9a350d5570f8d5019e6fe7ec0442f0c78b6e3cab2ed0aee456a04"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-9dc64b6c18fedc5d",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "email-hosting-chuyen-nghiep",
+      "questionTemplate": "Email gửi đi có bị rơi vào hộp thư rác (Spam) không?",
+      "referenceAnswer": "VinaHost hạn chế tối đa tình trạng Spam nhờ hệ thống máy chủ hiện đại với địa chỉ IP đã được “warm up” kỹ lưỡng. Đồng thời, hệ thống hỗ trợ đầy đủ các giao thức xác thực tiêu chuẩn quốc tế như SPF, DKIM, DMARC giúp tăng độ uy tín cho email của bạn.",
+      "originalProvenance": {
+        "id": "VH-9dc64b6c18fedc5d",
+        "url": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+        "fetchedAt": "2026-11-07T05:04:10.076728+00:00",
+        "contentHash": "127407034f106dd6da4ce034d5f4ffd33eea3d186ffd1e3c10384d79c2ebc90a"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-1e6a555207aae4f0",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "email-hosting-chuyen-nghiep",
+      "questionTemplate": "Dữ liệu email của tôi có được sao lưu (Backup) an toàn không?",
+      "referenceAnswer": "VinaHost có cơ chế sao lưu dữ liệu định kỳ trên hệ thống máy chủ, giúp bảo vệ dữ liệu email của doanh nghiệp trước các rủi ro. Bạn có thể dễ dàng khôi phục lại dữ liệu khi có sự cố xảy ra.",
+      "originalProvenance": {
+        "id": "VH-1e6a555207aae4f0",
+        "url": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+        "fetchedAt": "2026-11-07T05:04:10.076728+00:00",
+        "contentHash": "bd7eb04fb2508f9b374bc7cdd0a5dc33756831551b5ded732628a3bae4088ae0"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-6fe27a6e107109b4",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "email-hosting-chuyen-nghiep",
+      "questionTemplate": "Tôi có thể thu hồi email khi nhân viên nghỉ việc mà không mất dữ liệu không?",
+      "referenceAnswer": "Được, bạn hoàn toàn có thể thực hiện việc này. Bằng quyền quản trị viên (Admin), bạn chỉ cần thu hồi tài khoản bằng cách vô hiệu hóa quyền đăng nhập (disable login) hoặc thay đổi mật khẩu của nhân viên đó. Thao tác này sẽ chặn ngay lập tức quyền truy cập của nhân sự đã nghỉ việc, trong khi toàn bộ lịch sử thư từ, dữ liệu và tệp đính kèm cũ vẫn được bảo toàn nguyên vẹn trên hệ thống. Nhờ đó, doanh nghiệp có thể dễ dàng quản lý, sao lưu hoặc bàn giao lại toàn bộ dữ liệu công việc này cho nhân sự mới tiếp quản.",
+      "originalProvenance": {
+        "id": "VH-6fe27a6e107109b4",
+        "url": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+        "fetchedAt": "2026-11-07T05:04:10.076728+00:00",
+        "contentHash": "12eb841bf2f38e6bd4b95592fe8476ef380a1a9993c6677f1b02621d12c2c2c5"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-7f7c9ada479562a3",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "email-hosting-chuyen-nghiep",
+      "questionTemplate": "Có thể nâng cấp dung lượng lưu trữ trong quá trình sử dụng không?",
+      "referenceAnswer": "Dung lượng hiện tại được tính trên tổng gói dịch vụ, có thể phân bổ linh hoạt trên từng tài khoản. Trường hợp hết dung lượng, VinaHost hỗ trợ nâng cấp lên gói cao hơn, khách hàng chỉ cần thanh toán phần chi phí chênh lệch.",
+      "originalProvenance": {
+        "id": "VH-7f7c9ada479562a3",
+        "url": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+        "fetchedAt": "2026-11-07T05:04:10.076728+00:00",
+        "contentHash": "6a61c931e0e49f24bfc6095238442e7e60c601082bd77f8d5f60e2c801dae8c2"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-eb30ff6889adfcf1",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "email-hosting-chuyen-nghiep",
+      "questionTemplate": "Nếu tôi đang dùng nhà cung cấp khác, Sen Hosting có hỗ trợ chuyển dữ liệu (Migration) không?",
+      "referenceAnswer": "Có, đội ngũ kỹ thuật của VinaHost hỗ trợ chuyển dữ liệu (Migration) hoàn toàn miễn phí từ nhà cung cấp cũ về hệ thống mới. Quá trình này được thực hiện an toàn, bảo mật và không làm gián đoạn liên lạc của doanh nghiệp.",
+      "originalProvenance": {
+        "id": "VH-eb30ff6889adfcf1",
+        "url": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+        "fetchedAt": "2026-11-07T05:04:10.076728+00:00",
+        "contentHash": "ed11647652838eed68dc9a71b062a6ef1d9b8ff5ea38b668f76266aff1694c5e"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-8c62ca57f0904ce5",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "email-hosting-chuyen-nghiep",
+      "questionTemplate": "Nếu gặp lỗi trong quá trình sử dụng, tôi liên hệ ai?",
+      "referenceAnswer": "VinaHost cung cấp dịch vụ hỗ trợ kỹ thuật 24/7/365 qua đa kênh bao gồm Hệ thống Ticket, Livechat, và Hotline. Bất cứ khi nào bạn cần hỗ trợ cấu hình hoặc xử lý lỗi, đội ngũ chuyên gia của chúng tôi luôn sẵn sàng hỗ trợ.",
+      "originalProvenance": {
+        "id": "VH-8c62ca57f0904ce5",
+        "url": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+        "fetchedAt": "2026-11-07T05:04:10.076728+00:00",
+        "contentHash": "4951b46ccf31723f8645f3898d2e9d74e0e1a930cf4375a61e15d936b49db0f9"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-59ec3f19d6497d3e",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "email-hosting-chuyen-nghiep",
+      "questionTemplate": "Host email là gì?",
+      "referenceAnswer": "Host email là cách gọi phổ biến của dịch vụ lưu trữ và vận hành hệ thống email theo tên miền riêng.",
+      "originalProvenance": {
+        "id": "VH-59ec3f19d6497d3e",
+        "url": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+        "fetchedAt": "2026-11-07T05:04:10.076728+00:00",
+        "contentHash": "a408e7569ae859522939bc4e61031da35f69d99794d0ef155bf8f5f9b2576b10"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-f1e6441c31d5320a",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "thue-vps-gia-re",
+      "questionTemplate": "Đối tượng nào nên sử dụng VPS Việt Nam giá rẻ?",
+      "referenceAnswer": "VPS giá rẻ phù hợp với những đối tượng như: Cá nhân, doanh nghiệp nhỏ, người mới bắt đầu làm quen với VPS, sinh viên (học thuật), người cần tùy chỉnh cao, người cần bảo mật tốt, người cần mở rộng dễ dàng, nhà phát triển ứng dụng,...",
+      "originalProvenance": {
+        "id": "VH-f1e6441c31d5320a",
+        "url": "https://vinahost.vn/thue-vps-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:04.049409+00:00",
+        "contentHash": "e6a1e42fb2f109c9000bb7e23dddf29ded21d44f73a2970bf2b74ce9c6041616"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-e379f76089ea1497",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "thue-vps-gia-re",
+      "questionTemplate": "VPS giá rẻ hỗ trợ những hệ điều hành(OS) nào?",
+      "referenceAnswer": "VPS giá rẻ hỗ trợ nhiều hệ điều hành như: Debian, Ubuntu, Centos, Almalinux, Rocky Linux.",
+      "originalProvenance": {
+        "id": "VH-e379f76089ea1497",
+        "url": "https://vinahost.vn/thue-vps-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:04.049409+00:00",
+        "contentHash": "89481ba62b3b19beda8b197432bd413926dd2324c14391a0051243bcb62e6d82"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-81344c2c8e658138",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "thue-vps-gia-re",
+      "questionTemplate": "Mua VPS giá rẻ có được cấp địa chỉ IP riêng biệt không?",
+      "referenceAnswer": "Có. Mỗi VPS giá rẻ tại VinaHost được cấp 1 địa chỉ IPv4 riêng biệt, đồng thời hỗ trợ thêm IPv6 miễn phí.",
+      "originalProvenance": {
+        "id": "VH-81344c2c8e658138",
+        "url": "https://vinahost.vn/thue-vps-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:04.049409+00:00",
+        "contentHash": "4aa272acebeaf82fd06915cae6f999c20363e5d1da343a16261d4edf03f908c7"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-5f123801ac710729",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "thue-vps-gia-re",
+      "questionTemplate": "Thuê VPS tại Sen Hosting có hỗ trợ sao lưu dữ liệu định kỳ không?",
+      "referenceAnswer": "Không hỗ trợ, tuy nhiên, khách hàng có thể mua thêm Backup tùy chọn có phí, thực hiện sao lưu 1 bản backup/1 tuần, lưu trữ 3 bản backup trong 3 tuần gần nhất, đảm bảo an toàn dữ liệu.",
+      "originalProvenance": {
+        "id": "VH-5f123801ac710729",
+        "url": "https://vinahost.vn/thue-vps-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:04.049409+00:00",
+        "contentHash": "3f37dbca9151753d5670ac43813440ecd6b79c238d60f8e1b4a307659e0a3b6c"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-13bc9b6c0cd2205c",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "thue-vps-gia-re",
+      "questionTemplate": "VPS giá rẻ có hỗ trợ ISO và template custom không?",
+      "referenceAnswer": "Có nhưng khách hàng cần cung cấp đường dẫn download cho kỹ thuật.",
+      "originalProvenance": {
+        "id": "VH-13bc9b6c0cd2205c",
+        "url": "https://vinahost.vn/thue-vps-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:04.049409+00:00",
+        "contentHash": "1fb177538ddcaf020131aa36b5d151b0b419b8801edfd1b5ce603f7687960a7d"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-791ba8aa4591c598",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "thue-vps-gia-re",
+      "questionTemplate": "Khi dùng VPS, tôi có được hỗ trợ chuyển dữ liệu từ nhà cung cấp khác về Sen Hosting hay không?",
+      "referenceAnswer": "Có, sau khi thanh toán thành công, quý khách sẽ nhận được thông tin đăng nhập vào VPS (bao gồm username, password và link). Quý khách cũng có thể sao lưu dữ liệu trước, để đội ngũ kỹ thuật của VinaHost hỗ trợ chuyển dữ liệu vào buổi tối nhằm tránh gián đoạn dịch vụ.",
+      "originalProvenance": {
+        "id": "VH-791ba8aa4591c598",
+        "url": "https://vinahost.vn/thue-vps-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:04.049409+00:00",
+        "contentHash": "5d0345bc60b14462966c0f7faef5c82e69da1e7c1c21431257cd70552c12d47b"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-36c3a1c3c3c7e89a",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "thue-vps-gia-re",
+      "questionTemplate": "Tôi có thể nâng cấp gói VPS giá rẻ lên gói VPS cao cấp, VPS NVMe được không?",
+      "referenceAnswer": "Có, bạn có thể nâng cấp từ gói VPS giá rẻ lên gói VPS cao cấp hoặc VPS NVMe. Khi nâng cấp, bạn sẽ nhận được nhiều tài nguyên hơn (CPU, RAM, dung lượng lưu trữ), cùng với hiệu suất cao hơn nhờ vào công nghệ NVMe, giúp tốc độ đọc/ghi dữ liệu nhanh hơn nhiều so với SSD thông thường.",
+      "originalProvenance": {
+        "id": "VH-36c3a1c3c3c7e89a",
+        "url": "https://vinahost.vn/thue-vps-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:04.049409+00:00",
+        "contentHash": "3668dbde749beb5546380a9de4c41652eedb2bc607ff620d23564caa3503b8f1"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-3f9273b77f4ea937",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "thue-vps-gia-re",
+      "questionTemplate": "So sánh sự khác nhau giữa VPS và Hosting?",
+      "referenceAnswer": "VPS và Hosting khác nhau ở những điểm cơ bản như sau VPS Hosting Phân bổ tài nguyên Tài nguyên riêng, hiệu suất ổn định. Tài nguyên chia sẻ, dễ bị ảnh hưởng bởi người khác. Hiệu suất Phù hợp website vừa và lớn, nhiều lượt truy cập. Phù hợp cho website nhỏ, ít lượt truy cập. Quản trị Toàn quyền quản trị, cần kiến thức kỹ thuật. Dễ dùng, không cần nhiều kỹ thuật. Bảo mật Bảo mật cao, tùy chỉnh linh hoạt. Bảo mật thấp hơn, dễ bị ảnh hưởng.",
+      "originalProvenance": {
+        "id": "VH-3f9273b77f4ea937",
+        "url": "https://vinahost.vn/thue-vps-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:04.049409+00:00",
+        "contentHash": "9cc44fff0b302c2f160b486219fef3562d1af7064c51d86049caea4e65e2de8c"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-28415bf138e2d692",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "thue-vps-gia-re",
+      "questionTemplate": "Tôi có được hỗ trợ trong quá trình sử dụng VPS không?",
+      "referenceAnswer": "Có. Đội ngũ kỹ thuật của VinaHost luôn sẵn sàng hỗ trợ bạn 24/7 qua các kênh: Hotline: 1900 6046 ext.3 Email: support@vinahost.vn Livechat: https://livechat.vinahost.vn/chat.php",
+      "originalProvenance": {
+        "id": "VH-28415bf138e2d692",
+        "url": "https://vinahost.vn/thue-vps-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:04.049409+00:00",
+        "contentHash": "e394bf4ac0554a7afa7c9be078b76427eff8c2d98f0cfb11785770e382b41f8e"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-617610b2c65b7117",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "mua-ssl-gia-re",
+      "questionTemplate": "Điều gì sẽ xảy ra nếu tôi quên gia hạn chứng chỉ SSL?",
+      "referenceAnswer": "Khi chứng chỉ SSL hết hạn, trình duyệt sẽ ngay lập tức chặn quyền truy cập và hiển thị cảnh báo toàn màn hình với nội dung “Kết nối của bạn không phải là riêng tư” (Your connection is not private).",
+      "originalProvenance": {
+        "id": "VH-617610b2c65b7117",
+        "url": "https://vinahost.vn/mua-ssl-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:11.111350+00:00",
+        "contentHash": "77a8f9994bc6fa9c94123c720b994227d63f7f4212e6c8d29ceb00ed9402c2f1"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-8deab0b6e57c254b",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "mua-ssl-gia-re",
+      "questionTemplate": "Wildcard SSL và Multi-Domain SSL khác nhau như thế nào?",
+      "referenceAnswer": "Sự khác biệt chính nằm ở phạm vi bảo vệ tên miền của từng loại chứng chỉ: Wildcard SSL : Được thiết kế để bảo vệ một tên miền chính và không giới hạn số lượng tên miền phụ (subdomains). Ví dụ: bảo vệ vinahost.vn cùng với blog.vinahost.vn, mail.vinahost.vn. Multi-Domain SSL (SAN) : Cho phép bảo vệ nhiều tên miền hoàn toàn khác nhau trên cùng một chứng chỉ duy nhất. Ví dụ: bảo vệ đồng thời vinahost.vn, website-A.com và website-B.net.",
+      "originalProvenance": {
+        "id": "VH-8deab0b6e57c254b",
+        "url": "https://vinahost.vn/mua-ssl-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:11.111350+00:00",
+        "contentHash": "55ed00fd6338eadceb95705915d87cccb7d2be0a331fefaa2ee5f03a245a2eb6"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-9a9a1ef1f0ce79a9",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "mua-ssl-gia-re",
+      "questionTemplate": "Tôi có thể chuyển chứng chỉ SSL cũ sang nhà cung cấp hosting khác được không?",
+      "referenceAnswer": "Bạn hoàn toàn có thể chuyển đổi chứng chỉ SSL sang một máy chủ hoặc nhà cung cấp hosting mới. Để thực hiện, bạn cần trích xuất ba thành phần quan trọng từ hosting cũ bao gồm: Private Key, Certificate (CRT) và CA Bundle. Tại VinaHost, đội ngũ kỹ thuật sẽ hỗ trợ khách hàng thực hiện toàn bộ quy trình chuyển đổi này miễn phí.",
+      "originalProvenance": {
+        "id": "VH-9a9a1ef1f0ce79a9",
+        "url": "https://vinahost.vn/mua-ssl-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:11.111350+00:00",
+        "contentHash": "4f2a940efb546fbfa6ad9a64880089046d4c123bc92c7a308ac28b2e44c2ee85"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-28909fbee0fc61b6",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "mua-ssl-gia-re",
+      "questionTemplate": "Làm thế nào để kiểm tra website đã cài đặt SSL đúng chuẩn hay chưa?",
+      "referenceAnswer": "Cách chính xác nhất để kiểm tra trạng thái SSL là sử dụng các công cụ phân tích trực tuyến uy tín như Công cụ kiểm tra SSL miễn phí của VinaHost, Qualys SSL Labs hoặc SSL Shopper. Các công cụ này sẽ quét toàn bộ cấu hình máy chủ và cung cấp báo cáo chi tiết về độ mạnh của mã hóa, ngày hết hạn và chuỗi chứng chỉ (CA Bundle) có bị lỗi hay không.",
+      "originalProvenance": {
+        "id": "VH-28909fbee0fc61b6",
+        "url": "https://vinahost.vn/mua-ssl-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:11.111350+00:00",
+        "contentHash": "bbe015e5f86b2afe16b605280960893fad3841285efabab82b07ad7c275576f3"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-86741204919ca980",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "mua-ssl-gia-re",
+      "questionTemplate": "Mua SSL cho Subdomain (tên miền con) thì chọn gói nào?",
+      "referenceAnswer": "Việc lựa chọn gói SSL cho tên miền con phụ thuộc vào số lượng subdomain bạn muốn bảo vệ. Nếu bạn chỉ có một subdomain duy nhất, gói DV SSL tiêu chuẩn là đủ. Tuy nhiên, nếu bạn sở hữu nhiều subdomain, gói Wildcard SSL sẽ là giải pháp tối ưu chi phí và giúp bạn quản lý tập trung dễ dàng hơn.",
+      "originalProvenance": {
+        "id": "VH-86741204919ca980",
+        "url": "https://vinahost.vn/mua-ssl-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:11.111350+00:00",
+        "contentHash": "13eccc35ddf4f1ca1df076e224a5751a38ffe36a4ce74d0a8cfc35201a58973c"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-401cc0c38a7b192d",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "hosting-gia-re",
+      "questionTemplate": "Hosting giá rẻ là gì?",
+      "referenceAnswer": "Hosting giá rẻ là dịch vụ lưu trữ web với chi phí thấp, phù hợp cho sinh viên, cá nhân, doanh nghiệp nhỏ, startup hoặc các dự án có ngân sách hạn chế để đáp ứng nhu cầu cơ bản cho mã nguồn PHP. Có nhiều nhà cung cấp hosting giá rẻ tại Việt Nam với các gói dịch vụ đa dạng, từ vài chục nghìn đến vài trăm nghìn đồng mỗi tháng, cung cấp đẩy đủ các tính năng như dung lượng lưu trữ, băng thông, email, SSL, backup và hỗ trợ kỹ thuật. Đặc biệt VinaHost cung cấp các gói hosting giá rẻ với nhiều thông số kĩ thuật khác nhau, sử dụng ổ cứng SSD, nhiều tính năng đi kèm như: không giới hạn Băng thông, MySQL, FTP, Subdomain; Miễn phí cPanel, Chứng chỉ SSL, Sao lưu dữ liệu; Tặng kho Themes và Plugins bản quyền.",
+      "originalProvenance": {
+        "id": "VH-401cc0c38a7b192d",
+        "url": "https://vinahost.vn/hosting-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:02.013867+00:00",
+        "contentHash": "530f2d876080d9e93d7990299fe079de737a0b20496d50e2f69797f399d714ce"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-18050d0b3af84ced",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "hosting-gia-re",
+      "questionTemplate": "Cách thức hoạt động của Hosting giá rẻ",
+      "referenceAnswer": "Hosting giá rẻ hoạt động bằng cách chia sẻ tài nguyên máy chủ như CPU, RAM và dung lượng lưu trữ giữa nhiều khách hàng, giúp giảm chi phí cho mỗi người dùng.",
+      "originalProvenance": {
+        "id": "VH-18050d0b3af84ced",
+        "url": "https://vinahost.vn/hosting-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:02.013867+00:00",
+        "contentHash": "48d99cc819e4fdeac6fa7a10e2b7b7abe967c2696aa9b44a2cebe010fef0816e"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-161363f646c55a8c",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "hosting-gia-re",
+      "questionTemplate": "Đối tượng nào nên sử dụng hosting giá rẻ?",
+      "referenceAnswer": "Học sinh, sinh viên: Hosting giá rẻ là lựa chọn phù hợp cho học sinh, sinh viên đang học tập, nghiên cứu công nghệ thông tin, thiết kế website cho cá nhân hoặc trường lớp. Với mức giá phải chăng, các bạn có thể dùng hosting để thực hành, trải nghiệm và làm quen với việc xây dựng website. Người mới bắt đầu: Những người mới tìm hiểu về website, bán hàng online, thương mại điện tử, digital marketing. Người mới làm quen với việc xây dựng website và muốn có một giải pháp tiết kiệm chi phí. Đây là lựa chọn tốt để bắt đầu và trải nghiệm trước khi đầu tư vào các gói hosting cao cấp hơn. Cá nhân và doanh nghiệp nhỏ: Các cá nhân, startup, doanh nghiệp nhỏ muốn sở hữu một website đầy đủ tính năng với mức giá tiết kiệm và tối ưu nhất. Những người có nhu cầu lưu trữ website cá nhân, blog hoặc các dự án kinh doanh nhỏ với chi phí tiết kiệm. Website có lưu lương truy cập vừa và nhỏ / website không yêu cầu cao về hiệu suất: Những website không yêu cầu quá cao về giao diện, tốc độ, dung lượng lưu trữ, băng thông và độ bảo mật tuyệt đối. Các trang web nhỏ, blog cá nhân hoặc website giới thiệu đơn giản. Tóm lại, hosting giá rẻ phù hợp cho cá nhân, sinh viên, doanh nghiệp nhỏ và dễ dàng tiếp cận khách hàng mới với mong muốn tiết kiệm chi phí khởi đầu nhưng vẫn đảm bảo website hoạt động ổn định, mang lại trải nghiệm tốt cho người dùng. Gói Hosting giá rẻ còn bao gồm hỗ trợ xây dựng website cơ bản (Kho themes & Plugins đa dạng), giúp bạn nhanh chóng có một trang web chuyên nghiệp mà không cần quá nhiều kiến thức kỹ thuật.",
+      "originalProvenance": {
+        "id": "VH-161363f646c55a8c",
+        "url": "https://vinahost.vn/hosting-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:02.013867+00:00",
+        "contentHash": "119c8a65a5f8799a849c3caffde04dc135e3861a9fabeb82d5fec3b95543214b"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-1738b7503f9b1773",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "hosting-gia-re",
+      "questionTemplate": "Hosting giá rẻ sử dụng Control Panel nào để quản trị website?",
+      "referenceAnswer": "Hosting giá rẻ tại VinaHost sử dụng cPanel để quản trị website. Đây là một trong những Control Panel phổ biến và được ưa chuộng nhất, được cấp phép đầy đủ và dễ sử dụng. cPanel cung cấp giao diện trực quan giúp người dùng dễ dàng quản lý website, email, DNS, FTP và các tính năng khác. Nó phù hợp cho cả người mới bắt đầu và người có kinh nghiệm.",
+      "originalProvenance": {
+        "id": "VH-1738b7503f9b1773",
+        "url": "https://vinahost.vn/hosting-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:02.013867+00:00",
+        "contentHash": "c54df317a3d790aeb129752925fe07b28f39065218694b0397aea923c5aef4be"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-8b31953432d61b8d",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "hosting-gia-re",
+      "questionTemplate": "Thuê Hosting Website tại Sen Hosting hỗ trợ mã nguồn (CMS) nào?",
+      "referenceAnswer": "Gói Hosting giá rẻ VinaHost tương thích với các mã nguồn PHP (phiên bản PHP thường được hỗ trợ bao gồm từ 5.x đến 8.x) như WordPress, Joomla, Drupal, HTMLy, Ghost CMS, Xenforo, PrestaShop, CS-Cart, OpenCart, Magento, InvoicePlane, AbanteCart,...",
+      "originalProvenance": {
+        "id": "VH-8b31953432d61b8d",
+        "url": "https://vinahost.vn/hosting-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:02.013867+00:00",
+        "contentHash": "4382cdcbe5ae69746b8c42ed334762e99afdcb6d2fcb71b73c9f86bbe8d39101"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-1bc96c9234cdcb10",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "hosting-gia-re",
+      "questionTemplate": "Mua Hosting giá rẻ tại Sen Hosting được sao lưu dữ liệu bao nhiêu lần?",
+      "referenceAnswer": "Hệ thống Hosting Website tự động sao lưu dữ liệu 2 lần/ngày và lưu trữ bản backup trong 7 ngày liên tục.",
+      "originalProvenance": {
+        "id": "VH-1bc96c9234cdcb10",
+        "url": "https://vinahost.vn/hosting-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:02.013867+00:00",
+        "contentHash": "cb82b44b5f860d8f3e14e42de174dfd289db9d69171137af5c5ba9555c80f7d7"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-a5565c58e2ddb5fe",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "hosting-gia-re",
+      "questionTemplate": "Host giá rẻ có được sử dụng băng thông không giới hạn không?",
+      "referenceAnswer": "Tất cả các gói Hosting giá rẻ của VinaHost đều được cung cấp mức băng thông không giới hạn",
+      "originalProvenance": {
+        "id": "VH-a5565c58e2ddb5fe",
+        "url": "https://vinahost.vn/hosting-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:02.013867+00:00",
+        "contentHash": "7dd426c988a6579094e2b65cfc14c993dbebff338d439599a13e7f21455b9233"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-ab4e4a38e5e08f77",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "hosting-gia-re",
+      "questionTemplate": "Liệu sử dụng hosting giá rẻ có nhiều rủi ro bảo mật hơn không?",
+      "referenceAnswer": "Việc sử dụng hosting giá rẻ có thể tiềm ẩn một số rủi ro bảo mật nhất định so với các gói hosting cao cấp. Tuy nhiên, chúng tôi có trang bị các biện pháp bảo đảm an toàn dữ liệu cho khách hàng với nhiều lớp bảo mật như CloudLinux, Imunify360, chứng chỉ SSL. Những công cụ này giúp ngăn chặn hiệu quả các cuộc tấn công Brute Force và Local Attack.",
+      "originalProvenance": {
+        "id": "VH-ab4e4a38e5e08f77",
+        "url": "https://vinahost.vn/hosting-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:02.013867+00:00",
+        "contentHash": "5a8191ce3e5ee1474e0be540f7c2d3f955d6022a87f6e18324ea32ebf515ddc6"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-ad3653ff23f149c2",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "hosting-gia-re",
+      "questionTemplate": "Gói Hosting Giá Rẻ có cài đặt và sử dụng được WordPress không?",
+      "referenceAnswer": "Có, Hosting giá rẻ tại VinHost đều hỗ trợ cài đặt WordPress thông qua các công cụ như Softaculous hoặc WP Toolkit, bạn có thể yên tâm và phát triển website WordPress của mình trên shared hosting giá rẻ. Ngoài ra, nhà cung cấp Hosting VinaHost còn tặng kèm bộ Theme và Plugin bản quyền trị giá từ vài triệu đến hàng chục triệu đồng (như Rank Math SEO Pro, Elementor Pro, WPML, Bricks Builder) để giúp khách hàng xây dựng website chuyên nghiệp dễ dàng hơn",
+      "originalProvenance": {
+        "id": "VH-ad3653ff23f149c2",
+        "url": "https://vinahost.vn/hosting-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:02.013867+00:00",
+        "contentHash": "1986e3a6259c1f385b266f4d3f1dbfeb9afe8f1b6f5bde1912b088175a66d63e"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-6f33982c8cf5e92c",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "hosting-gia-re",
+      "questionTemplate": "Khi thuê hosting giá rẻ, tôi có được hỗ trợ chuyển website miễn phí không?",
+      "referenceAnswer": "Có, khách hàng sẽ được đội ngũ kỹ thuật của VinaHost hỗ trợ chuyển dữ liệu Website từ nhà cung cấp cũ sang nhà cung cấp mới VinaHost hoặc chuyên dữ liệu từ file backup hoàn toàn miễn phí.",
+      "originalProvenance": {
+        "id": "VH-6f33982c8cf5e92c",
+        "url": "https://vinahost.vn/hosting-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:02.013867+00:00",
+        "contentHash": "8820feb2d893f9ea8949a936e48286bd12b2508504898255857e59af89cd5923"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-2d746b804adaa2a7",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "hosting-gia-re",
+      "questionTemplate": "Khi thuê hosting giá rẻ tại Sen Hosting có được tặng chứng chỉ SSL miễn phí không?",
+      "referenceAnswer": "Các gói Hosting giá rẻ đều hỗ trợ SSL Miễn phí. Việc cấu hình và cài đặt chứng chỉ SSL miễn phí rất đơn giản. Ngoài ra, VinaHost cũng sẽ hỗ trợ bạn cài đặt chứng chỉ SSL miễn phí cho website khi mua hosting tại VinaHost.",
+      "originalProvenance": {
+        "id": "VH-2d746b804adaa2a7",
+        "url": "https://vinahost.vn/hosting-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:02.013867+00:00",
+        "contentHash": "e3890899f4114eaa40ee63c7caae5b7bc22ac79bf9acde2e112d505fdfd6337c"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-e96f715aa94b792d",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "hosting-gia-re",
+      "questionTemplate": "Có thể nâng cấp từ Hosting giá rẻ sang Hosting khác được không?",
+      "referenceAnswer": "Khi bạn thuê hosting giá rẻ tại VinaHost, bạn có thể dễ dàng nâng cấp dung lượng lưu trữ, băng thông, CPU, RAM,... hoặc nâng cấp sang gói Hosting khác, chẳng hạn như Hosting cao cấp, Hosting doanh nghiệp. Quá trình nâng cấp diễn ra nhanh chóng và an toàn tuyệt đối vì đội ngũ kỹ thuật của VinaHost sẽ hỗ trợ bạn.",
+      "originalProvenance": {
+        "id": "VH-e96f715aa94b792d",
+        "url": "https://vinahost.vn/hosting-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:02.013867+00:00",
+        "contentHash": "021a8d94ec21bb194ce1424e75e09c01c825fcefec0c143ead3b78968ef2d68b"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-4e435825b257a3c8",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "hosting-gia-re",
+      "questionTemplate": "Liệu Hosting giá rẻ có hỗ trợ mã nguồn ASP.NET không?",
+      "referenceAnswer": "Hiện tại, gói Hosting Giá Rẻ của VinaHost chưa hỗ trợ mã nguồn ASP.NET. Tuy nhiên, nếu website của bạn sử dụng mã nguồn ASP.NET thì bạn có thể tham khảo các gói Hosting Windows của VinaHost nhé.",
+      "originalProvenance": {
+        "id": "VH-4e435825b257a3c8",
+        "url": "https://vinahost.vn/hosting-gia-re/",
+        "fetchedAt": "2026-11-07T05:04:02.013867+00:00",
+        "contentHash": "a54568cc77106c9aa78353484c66bca8f5bdde8030f95f177a6aab7685f26b94"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-9b8756ec60dd430f",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "windows-hosting",
+      "questionTemplate": "Hosting windows là gì?",
+      "referenceAnswer": "Hosting Windows là dịch vụ lưu trữ website trên máy chủ chạy hệ điều hành Windows Server. Điều này có nghĩa là website của bạn sẽ được lưu trữ, vận hành và quản lý trên một môi trường được cài đặt sẵn Windows, hỗ trợ các ứng dụng của Microsoft như ASP, ASP.NET, .NET Framework, cùng với cơ sở dữ liệu MSSQL. Hosting Windows thường được lựa chọn cho các website, ứng dụng web hoặc hệ thống doanh nghiệp sử dụng công nghệ của Microsoft.",
+      "originalProvenance": {
+        "id": "VH-9b8756ec60dd430f",
+        "url": "https://vinahost.vn/windows-hosting/",
+        "fetchedAt": "2026-11-07T05:05:59.939083+00:00",
+        "contentHash": "b775f3b31dd4fae10cd8a4d056ee97c17a0b123eaf1ab2d3ae11349e0c6052cd"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-4376343282ae85be",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "windows-hosting",
+      "questionTemplate": "Ai nên sử dụng Host Windows?",
+      "referenceAnswer": "Những đối tượng nên sử dụng Host Windows là những cá nhân, doanh nghiệp hoặc tổ chức phát triển website và ứng dụng dựa trên công nghệ Microsoft. Cụ thể, nếu bạn: Phát triển các ứng dụng web bằng ASP, ASP.NET, C#, VB.NET hay các công nghệ .NET khác, vì môi trường Windows được tối ưu cho các ngôn ngữ này. Cần tích hợp với các sản phẩm của Microsoft như MS SQL Server, Exchange, SharePoint, Active Directory... nhằm đảm bảo sự tương thích và hiệu quả trong quản lý dữ liệu. Ưu tiên sử dụng bảng điều khiển quản lý thân thiện (như Plesk) để dễ dàng cài đặt và cấu hình các dịch vụ liên quan.",
+      "originalProvenance": {
+        "id": "VH-4376343282ae85be",
+        "url": "https://vinahost.vn/windows-hosting/",
+        "fetchedAt": "2026-11-07T05:05:59.939083+00:00",
+        "contentHash": "6652acf88498c551cf51f01815d4921d4decc5b6352e2a917f475a7bda14fd04"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-3247137ed90a7118",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "windows-hosting",
+      "questionTemplate": "Windows Hosting hỗ trợ những mã nguồn nào?",
+      "referenceAnswer": "Windows hosting thường được sử dụng để lưu trữ các website dùng ngôn ngữ ASP, ASP.NET.",
+      "originalProvenance": {
+        "id": "VH-3247137ed90a7118",
+        "url": "https://vinahost.vn/windows-hosting/",
+        "fetchedAt": "2026-11-07T05:05:59.939083+00:00",
+        "contentHash": "3cea698b0fd64c002d8aae9b34309625de870abdb7fe68f56c93e82c5f4ac8dc"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-579b3983487a04a4",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "windows-hosting",
+      "questionTemplate": "Host Windows sử dụng Control Panel nào?",
+      "referenceAnswer": "Hosting Windows sử dụng control panel Plesk Obsidian.",
+      "originalProvenance": {
+        "id": "VH-579b3983487a04a4",
+        "url": "https://vinahost.vn/windows-hosting/",
+        "fetchedAt": "2026-11-07T05:05:59.939083+00:00",
+        "contentHash": "9347f39d7c53d873c07799590ff0226d2aae667c34183a63cf51db857c60b933"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-cf4254e20cbcbb85",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "windows-hosting",
+      "questionTemplate": "Mua Windows Hosting tại Sen Hosting hỗ trợ sao lưu dữ liệu bao nhiêu lần?",
+      "referenceAnswer": "Các gói Windows Hosting tại VinaHost hỗ trợ sao lưu 2 lần/ngày, lưu dữ liệu trong 1 tuần.",
+      "originalProvenance": {
+        "id": "VH-cf4254e20cbcbb85",
+        "url": "https://vinahost.vn/windows-hosting/",
+        "fetchedAt": "2026-11-07T05:05:59.939083+00:00",
+        "contentHash": "51f4628247ca3435cc58644474c5175803687e89e1b5dac369f104c43f836a42"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-7d98532e8b786ca9",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "windows-hosting",
+      "questionTemplate": "Hosting ASP.NET có được sử dụng băng thông không giới hạn không?",
+      "referenceAnswer": "Hosting ASP.NET không giới hạn băng thông (Data Transfer).",
+      "originalProvenance": {
+        "id": "VH-7d98532e8b786ca9",
+        "url": "https://vinahost.vn/windows-hosting/",
+        "fetchedAt": "2026-11-07T05:05:59.939083+00:00",
+        "contentHash": "fb6d6ba10fa9fec1b203f77872b64022fb9b552069b45cece6f30b6861314e73"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-e359e62d4e84d5a3",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "windows-hosting",
+      "questionTemplate": "Khi thuê Hosting Windows, tôi có được hỗ trợ chuyển dữ liệu website miễn phí không?",
+      "referenceAnswer": "Có, đội ngũ kỹ thuật của VinaHost sẽ miễn phí hỗ trợ khách hàng trong việc chuyển dữ liệu website.",
+      "originalProvenance": {
+        "id": "VH-e359e62d4e84d5a3",
+        "url": "https://vinahost.vn/windows-hosting/",
+        "fetchedAt": "2026-11-07T05:05:59.939083+00:00",
+        "contentHash": "f0216726df7db051f09b94e1002c4411219cdafd5b6c68f72324597ff73ef6a9"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-e9dd14161401b4c7",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "windows-hosting",
+      "questionTemplate": "Tôi có được hỗ trợ trong quá trình sử dụng dịch vụ Hosting Windows giá rẻ không?",
+      "referenceAnswer": "Có. Đội ngũ kỹ thuật của VinaHost luôn sẵn sàng hỗ trợ bạn 24/7 qua các kênh: Hotline: 1900 6046 ext.3 Email: support@vinahost.vn Livechat: https://livechat.vinahost.vn/chat.php",
+      "originalProvenance": {
+        "id": "VH-e9dd14161401b4c7",
+        "url": "https://vinahost.vn/windows-hosting/",
+        "fetchedAt": "2026-11-07T05:05:59.939083+00:00",
+        "contentHash": "3ad96e232de47d4eb7ddba87d584ee677d1a557f99eabcaeff510276313b3789"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-e82e2998ae218b15",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "windows-hosting",
+      "questionTemplate": "Khi mua Windows Hosting giá rẻ tại Sen Hosting có được tặng chứng chỉ SSL miễn phí không?",
+      "referenceAnswer": "Có, khách hàng sẽ được tặng kèm chứng chỉ SSL miễn phí khi mua Windows Hosting giá rẻ tại VinaHost.",
+      "originalProvenance": {
+        "id": "VH-e82e2998ae218b15",
+        "url": "https://vinahost.vn/windows-hosting/",
+        "fetchedAt": "2026-11-07T05:05:59.939083+00:00",
+        "contentHash": "5c37e83ba6b8f188cf4c37b93b8ebbdecf90aafc87cebf6bbceed617302cef2d"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-12e7ea4bd02aa876",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "windows-hosting",
+      "questionTemplate": "Có thể nâng cấp cấu hình gói Host ASP.NET lên gói cao hơn không?",
+      "referenceAnswer": "Bạn có thể chuyển đổi Host ASP.NET sang gói Hosting khác như Hosting cao cấp hay Hosting doanh nghiệp khi nhu cầu về hiệu suất và bảo mật gia tăng. Đội ngũ kỹ thuật của VinaHost luôn sẵn sàng hỗ trợ bạn.",
+      "originalProvenance": {
+        "id": "VH-12e7ea4bd02aa876",
+        "url": "https://vinahost.vn/windows-hosting/",
+        "fetchedAt": "2026-11-07T05:05:59.939083+00:00",
+        "contentHash": "c4775152e4ec3c12746e3a47d5efa4c9b7303c2cdc923e410e0a18f524f1721f"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-POLICY-REFUND",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "chinh-sach-hoan-tien",
+      "questionTemplate": "Chính sách hoàn tiền của Sen Hosting áp dụng như thế nào?",
+      "referenceAnswer": "VinaHost xây dựng chính sách hoàn tiền nhằm: Tạo điều kiện cho khách hàng mới trải nghiệm dịch vụ. Giúp khách hàng dễ dàng thử nghiệm các dịch vụ mới. Bảo vệ quyền lợi khách hàng trong trường hợp dịch vụ không đáp ứng đúng như cam kết. Chính sách này được áp dụng cho một số dịch vụ cụ thể với các điều kiện rõ ràng như sau: 1. Phạm vi áp dụng Chính sách hoàn tiền áp dụng cho các dịch vụ cung cấp tại Việt Nam, bao gồm: Dịch vụ lưu trữ website (Hosting) Email Hosting Hosting Đại lý (Reseller) Máy chủ ảo (VPS) Lưu ý: Chính sách này không áp dụng cho: Các sản phẩm được mua trong chương trình khuyến mãi Các sản phẩm, dịch vụ không thuộc danh sách nêu trên 2. Điều kiện hoàn tiền 2.1 Hoàn tiền 100% trong 5 ngày đầu Áp dụng cho tất cả dịch vụ nằm trong phạm vi chính sách . Không yêu cầu lý do hoàn tiền. Thời gian yêu cầu hoàn tiền: Trong vòng 05 ngày kể từ ngày kích hoạt dịch vụ (ngày khách hàng nhận thông tin dịch vụ từ VinaHost). Trường hợp đã xuất hóa đơn: Bên mua có trách nhiệm hoàn tất việc ký kết biên bản thỏa thuận điều chỉnh hoặc thay thế hóa đơn theo quy định pháp luật hiện hành. Giới hạn: Tối đa 01 lần/dịch vụ/khách hàng. Sau khi yêu cầu được xác nhận: Dịch vụ sẽ bị tạm ngưng ngay lập tức . Dữ liệu sẽ bị xóa sau 24 giờ . Khách hàng tự chi trả phí chuyển tiền và phí hành chính liên quan (nếu có). 2.2 Hoàn tiền một phần sau 5 ngày Áp dụng cho: Hosting, VPS tại Việt Nam Dịch vụ thuê máy chủ riêng Dịch vụ chỗ đặt máy chủ Số tiền còn lại (sau khi trừ chi phí sử dụng theo tháng) sẽ được hoàn dưới dạng tín dụng (credit) trong tài khoản VinaHost. Số dư này chỉ được dùng để mua dịch vụ trên vinahost.vn , không áp dụng cho: Tên miền Dịch vụ có bản quyền Không thể quy đổi thành tiền mặt. 2.3 Trường hợp không được hoàn tiền Chính sách hoàn tiền không áp dụng trong các trường hợp sau: Khách hàng vi phạm Điều khoản sử dụng dịch vụ (ví dụ: sử dụng cho mục đích bất hợp pháp). Khách hàng tự thay đổi hoặc hạ cấp gói dịch vụ. Các dịch vụ, tài nguyên mua thêm như: Tên miền Địa chỉ IP riêng Firewall chống DDoS dùng riêng Dịch vụ bản quyền Email 365, google workspace Các trường hợp trùng lặp thông tin: Cùng số CMND/CCCD Cùng tên miền đã sử dụng trước đó Cùng số điện thoại đăng ký 3. Hình thức hoàn tiền Việc hoàn tiền được thực hiện theo đúng hình thức thanh toán ban đầu: Chuyển khoản ngân hàng: Hoàn tiền vào số tài khoản do khách hàng cung cấp. Cổng thanh toán online: onepay, MoMo, thẻ tín dụng (Visa, Mastercard). Tài khoản VINAHOST: Theo yêu cầu, hoàn tiền vào tài khoản trên vinahost.vn để tiếp tục sử dụng dịch vụ khác. 4. Quy trình hoàn tiền Khách hàng gửi yêu cầu hoàn tiền về billing@vinahost.vn bằng email đã đăng ký dịch vụ , với các thông tin: Mã đơn hàng hoặc mã hóa đơn Lý do hoàn tiền (nếu yêu cầu sau 5 ngày) Thông tin tài khoản nhận tiền (nếu cần) Hình ảnh chuyển khoản Thời gian xử lý: VinaHost xác minh trong vòng 1–3 ngày làm việc Sau khi xác minh, hoàn tiền sẽ được tiến hành theo phương thức thanh toán đã sử dụng 5. Thời gian hoàn tiền Phương thức hoàn tiền Thời gian xử lý Tài khoản VinaHost 1 – 3 ngày làm việc Chuyển khoản ngân hàng 7 – 14 ngày làm việc Thẻ tín dụng/Visa/Master 7 – 90 ngày (tùy ngân hàng) Thời gian trên được tính kể từ khi VinaHost xác minh hoàn tất yêu cầu hoàn tiền. 6. Quyền hạn của VinaHost & Giải quyết tranh chấp VinaHost có quyền từ chối hoặc hủy dịch vụ nếu phát hiện khách hàng: Có dấu hiệu lạm dụng chính sách hoàn tiền Vi phạm Điều khoản sử dụng dịch vụ Mọi tranh chấp phát sinh sẽ được giải quyết tại tòa án có thẩm quyền theo pháp luật Việt Nam Xin chân thành cảm ơn Quý khách đã tin tưởng và sử dụng dịch vụ tại VinaHost!",
+      "originalProvenance": {
+        "id": "VH-POLICY-REFUND",
+        "url": "https://vinahost.vn/chinh-sach-hoan-tien/",
+        "fetchedAt": "2026-11-07T05:04:13.103283+00:00",
+        "contentHash": "64f7b829d98e8bfa609566d0cafddabd56ae55db86840805337b0cd5a38cadaf"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-SUPPORT-CHANNELS",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "ho-tro",
+      "questionTemplate": "Liên hệ hỗ trợ kỹ thuật của Sen Hosting bằng cách nào?",
+      "referenceAnswer": "Tại mọi thời điểm, VinaHost đảm bảo luôn có nhân viên trực tiếp nhận các thắc mắc hoặc yêu cầu trợ giúp của khách hàng thông qua các hình thức sau. 1. Hỗ trợ qua hệ thống ticket trong trung tâm tài khoản khách hàng [ tại đây ] Đây là hình thức hỗ trợ được ưu tiên và khuyến khích khách hàng sử dụng trong tất cả các trường hợp, cho phép VinaHost nhanh chóng xác thực quyền sở hữu gói dịch vụ và cung cấp cho khách hàng nhiều tiện ích khác trong quá trình sử dụng. Khách hàng có thể gửi email trực tiếp tới support@vinahost.vn và hệ thống sẽ tự động chuyển thành ticket tương ứng. 2. Hỗ trợ qua điện thoại – 1900 6046 hoặc (028) 7300 6046 Đây là hình thức hỗ trợ dành cho các khách hàng ưa thích hình thức hỗ trợ truyền thống qua điện thoại, các trường hợp cần thông báo khẩn cấp về các trường hợp cần ưu tiên đặc biệt hoặc các khách hàng không có kết nối truy cập Internet. Tất cả các cuộc gọi tới tổng đài điện thoại của VinaHost đều được ghi âm dành cho mục đích kiểm soát chất lượng. Do tính chất không bảo mật của cuộc gọi, rất tiếc VinaHost sẽ hạn chế giải quyết các vấn đề liên quan tới quyền sở hữu dịch vụ nếu khách hàng yêu cầu hỗ trợ bằng hình thức này. 3. Hỗ trợ trực tuyến live chat [ tại đây ] Đây là hình thức hỗ trợ ưa thích của các khách hàng muốn trao đổi trực tuyến để được tư vấn lựa chọn sử dụng gói dịch vụ hoặc hỗ trợ xử lý các vấn đề cần phối hợp từ cả hai phía khách hàng và nhân viên kỹ thuật VinaHost. Khách hàng có thể tham khảo thêm thông tin về giới hạn hỗ trợ dịch vụ miễn phí và có phí tại đây .",
+      "originalProvenance": {
+        "id": "VH-SUPPORT-CHANNELS",
+        "url": "https://vinahost.vn/ho-tro/",
+        "fetchedAt": "2026-11-07T05:04:07.048212+00:00",
+        "contentHash": "f5390ef1fba202d0a0cae03fba686044ed05feb893125102b851d30b67391e18"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-CONTACT-OFFICES",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "lien-he",
+      "questionTemplate": "Địa chỉ văn phòng, giờ làm việc và hotline Sen Hosting là gì?",
+      "referenceAnswer": "VĂN PHÒNG VINAHOST TP. HỒ CHÍ MINH Thời gian làm việc: 8h sáng – 5h chiều từ thứ 2 đến thứ 7. Địa chỉ: 351/31 Nơ Trang Long, phường Bình Lợi Trung, Thành phố Hồ Chí Minh Điện thoại: 1900 6046 (Ext. 1 – Sales, Ext. 2 – Customer service, Ext. 3 – Technical support, Ext. 4 – Billing) Fax: (028) 3511 9349 Email: support@vinahost.vn VĂN PHÒNG ĐẠI DIỆN HÀ NỘI Thời gian làm việc: 8h sáng – 5h chiều từ thứ 2 đến thứ 7. Địa chỉ: Tầng 3, số nhà 2/22 đường Nguyễn Ngọc Nại, Phường Phương Liệt, TP. Hà Nội Điện thoại: 1900 6046 (Ext. 1 – Sales, Ext. 2 – Customer service, Ext. 3 – Technical support, Ext. 4 – Billing) Fax: (028) 3511 9349 Email: support@vinahost.vn",
+      "originalProvenance": {
+        "id": "VH-CONTACT-OFFICES",
+        "url": "https://vinahost.vn/lien-he/",
+        "fetchedAt": "2026-11-07T05:04:05.013932+00:00",
+        "contentHash": "e47e8518bb14b82719f2485a66e9398c4ce955db63a359692e3550a19683fa1b"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-PAYMENT-METHODS",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "thanh-toan",
+      "questionTemplate": "Sen Hosting hỗ trợ những hình thức thanh toán nào?",
+      "referenceAnswer": "VINAHOST hỗ trợ các hình thức thanh toán đa dạng như Chuyển khoản / Thanh toán trực tuyến / Thanh toán thẻ / Thanh toán trực tiếp tại văn phòng.",
+      "originalProvenance": {
+        "id": "VH-PAYMENT-METHODS",
+        "url": "https://vinahost.vn/thanh-toan/",
+        "fetchedAt": "2026-11-07T05:04:06.028539+00:00",
+        "contentHash": "7f0cfc6ff2bc4334c4703f548cdcc1f237c902690880fc4271a8a2b3268bb065"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-PAYMENT-CONFIRMATION",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "thanh-toan",
+      "questionTemplate": "Đã thanh toán nhưng chưa nhận xác nhận thì cần làm gì?",
+      "referenceAnswer": "Quý khách hàng vui lòng ghi số hóa đơn (invoice number) khi chuyển tiền vào tài khoản của Công ty VinaHost để hóa đơn được xác nhận thanh toán tự động . Nếu điều kiện thanh toán không cho phép điền nội dung hoặc trong vòng 48 giờ kể từ thời gian thanh toán Quý khách hàng không nhận được email xác nhận, xin vui lòng gửi email đến billing@vinahost.vn hoặc gọi điện đến số 1900 6046 nhấn phím 4 trong giờ hành chính để thông báo về tình trạng thanh toán. Nội dung bao gồm: ngân hàng chuyển đến, tên người chuyển tiền, số tài khoản của người chuyển tiền, số tiền đã chuyển, số hóa đơn thanh toán, số bút toán giao dịch (nếu có). Quý khách hàng chịu các khoản phí giao dịch với ngân hàng hoặc các khoản phí phát sinh do bên thứ ba (nếu có). Quý khách hàng hoàn toàn chịu trách nhiệm với những trường hợp gián đoạn dịch vụ hoặc mất tên miền do giao dịch chuyển tiền có nội dung không đầy đủ hoặc nội dung không chính xác hoặc không có nội dung và không thông báo với Công ty VinaHost.",
+      "originalProvenance": {
+        "id": "VH-PAYMENT-CONFIRMATION",
+        "url": "https://vinahost.vn/thanh-toan/",
+        "fetchedAt": "2026-11-07T05:04:06.028539+00:00",
+        "contentHash": "b14a6229f14a679d5492089713212851ce5f7ec42eeea3d952aaa24f43e8005b"
+      }
+    },
+    {
+      "id": "SEN-DRAFT-VH-POLICY-VPS-TRIAL",
+      "status": "needs_owner_input",
+      "published": false,
+      "service": "chinh-sach-dung-thu-vps",
+      "questionTemplate": "Chính sách dùng thử VPS và bảo lưu phí dùng thử như thế nào?",
+      "referenceAnswer": "Mục đích Nhằm tạo điều kiện để quý khách hàng trải nghiệm dịch vụ máy chủ ảo VPS, VinaHost triển khai chính sách dùng thử VPS trong thời gian 7 ngày và hoàn tiền trong 05 ngày đầu không yêu cầu lý do. Quý khách tiến hành đặt hàng như thông thường và chỉ cần thanh toán số tiền 100,000 VND cho đơn hàng này. Sau thời gian 7 ngày, nếu tiếp tục sử dụng đơn hàng, quý khách vui lòng hoàn tất hóa đơn và có thể sử dụng số tiền 100,000 VND để bù vào việc thanh toán. Trường hợp nếu không có nhu cầu tiếp tục đơn hàng, VinaHost sẽ hỗ trợ hủy dịch vụ và bảo lưu số tiền 100,000 VND vào tài khoản khách hàng của quý khách. Quý khách có thể dùng số tiền này để thanh toán cho các khoản phát sinh khác tại VinaHost. Lưu ý Mức phí này được áp dụng cho việc dùng thử tất cả các gói VPS (Không áp dụng cho VPS nước ngoài). Số tiền 100,000 VND chỉ được bảo lưu trong tài khoản khách hàng tại VinaHost và không được hỗ trợ hoàn trả qua hình thức chuyển khoản hay tiền mặt. Nếu quý khách cần hỗ trợ thêm thông tin, xin vui lòng liên hệ VinaHost. Cảm ơn quý khách. Liên hệ VinaHost để được hỗ trợ Email: support@vinahost.vn Hotline:1900 6046 Livechat: https://livechat.vinahost.vn/chat.php",
+      "originalProvenance": {
+        "id": "VH-POLICY-VPS-TRIAL",
+        "url": "https://vinahost.vn/chinh-sach-dung-thu-vps/",
+        "fetchedAt": "2026-11-07T05:04:17.140193+00:00",
+        "contentHash": "19e700f2f6e0cac2623a4ef87a8fe549661e9abf6fe31fed300536050a07849b"
+      }
+    }
+  ]
+}

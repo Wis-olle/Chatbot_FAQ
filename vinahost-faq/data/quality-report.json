@@ -1,0 +1,26 @@
+{
+  "snapshot_date_local": "2026-11-07",
+  "counts": {
+    "sources": 114,
+    "faqs": 951,
+    "chunks": 9867
+  },
+  "sqlite_integrity": "ok",
+  "foreign_key_errors": [],
+  "source_links_valid": true,
+  "duplicate_ids": 0,
+  "empty_faqs": 0,
+  "extraction_methods": {
+    "html-faq": 888,
+    "jsonld-faqpage": 63
+  },
+  "tests_passed": 66,
+  "line_coverage_percent": 90,
+  "http_smoke_test": "passed against final SQLite",
+  "limitations": [
+    "FAQ source extraction is unreviewed, not manually verified.",
+    "FTS is keyword evidence retrieval, not a complete answer engine.",
+    "Some chunks are short table rows; retain headings/title and rerank.",
+    "Prices and policies are a snapshot; verify source before quoting."
+  ]
+}

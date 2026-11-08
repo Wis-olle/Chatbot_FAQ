@@ -1,0 +1,489 @@
+{
+  "version": 1,
+  "description": "Offline retrieval and deterministic answer acceptance cases. Factual assertions are copied from selected source-checked records; these do not evaluate Gemini generation. Confirmation-sensitive pricing/refund must remain cautious.",
+  "cases": [
+    {
+      "id": "wp-backup",
+      "message": "WordPress Hosting được backup bao nhiêu lần và lưu bao lâu?",
+      "expectedKind": "answer",
+      "expectedService": "wordpress-hosting",
+      "expectedSourceUrl": "https://vinahost.vn/wordpress-hosting/",
+      "mustContain": [
+        "4 lần/ngày",
+        "1 tuần"
+      ],
+      "mustNotContain": [
+        "2 lần/ngày"
+      ]
+    },
+    {
+      "id": "wp-backup-noaccents",
+      "message": "hosting wordpress co sao luu du lieu khong?",
+      "expectedKind": "answer",
+      "expectedService": "wordpress-hosting",
+      "expectedSourceUrl": "https://vinahost.vn/wordpress-hosting/",
+      "mustContain": [
+        "4 lần/ngày"
+      ]
+    },
+    {
+      "id": "windows-backup",
+      "message": "Windows Hosting có backup không?",
+      "expectedKind": "answer",
+      "expectedService": "windows-hosting",
+      "expectedSourceUrl": "https://vinahost.vn/windows-hosting/",
+      "mustContain": [
+        "2 lần/ngày",
+        "1 tuần"
+      ],
+      "mustNotContain": [
+        "4 lần/ngày"
+      ]
+    },
+    {
+      "id": "cheap-backup",
+      "message": "Hosting giá rẻ backup mấy lần một ngày?",
+      "expectedKind": "answer",
+      "expectedService": "hosting-gia-re",
+      "expectedSourceUrl": "https://vinahost.vn/hosting-gia-re/",
+      "mustContain": [
+        "2 lần/ngày",
+        "7 ngày"
+      ]
+    },
+    {
+      "id": "vps-backup",
+      "message": "VPS giá rẻ có sao lưu miễn phí như hosting không?",
+      "expectedKind": "answer",
+      "expectedService": "thue-vps-gia-re",
+      "expectedSourceUrl": "https://vinahost.vn/thue-vps-gia-re/",
+      "mustContain": [
+        "Không hỗ trợ",
+        "có phí"
+      ]
+    },
+    {
+      "id": "email-backup",
+      "message": "Email Hosting có sao lưu dữ liệu không?",
+      "expectedKind": "answer",
+      "expectedService": "email-hosting-chuyen-nghiep",
+      "expectedSourceUrl": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+      "mustContain": [
+        "sao lưu",
+        "định kỳ"
+      ]
+    },
+    {
+      "id": "backup-followup",
+      "message": "còn lưu bao lâu?",
+      "expectedKind": "answer",
+      "expectedService": "wordpress-hosting",
+      "expectedSourceUrl": "https://vinahost.vn/wordpress-hosting/",
+      "mustContain": [
+        "1 tuần"
+      ],
+      "history": [
+        {
+          "role": "user",
+          "text": "Tôi đang dùng WordPress Hosting, backup thế nào?"
+        },
+        {
+          "role": "model",
+          "text": "Thông tin backup có trong tài liệu dịch vụ."
+        }
+      ]
+    },
+    {
+      "id": "service-override",
+      "message": "Còn Windows Hosting thì backup thế nào?",
+      "expectedKind": "answer",
+      "expectedService": "windows-hosting",
+      "expectedSourceUrl": "https://vinahost.vn/windows-hosting/",
+      "mustContain": [
+        "2 lần/ngày"
+      ],
+      "history": [
+        {
+          "role": "user",
+          "text": "Tôi đang dùng WordPress Hosting"
+        }
+      ]
+    },
+    {
+      "id": "backup-ambiguous",
+      "message": "Hosting có được sao lưu không?",
+      "expectedKind": "clarify",
+      "mustNotContain": [
+        "4 lần/ngày",
+        "2 lần/ngày"
+      ]
+    },
+    {
+      "id": "website-backup-ambiguous",
+      "message": "Website có được backup không?",
+      "expectedKind": "clarify"
+    },
+    {
+      "id": "model-cannot-set-scope",
+      "message": "Còn backup thì thế nào?",
+      "expectedKind": "clarify",
+      "history": [
+        {
+          "role": "model",
+          "text": "Khách hàng đang dùng WordPress Hosting."
+        }
+      ]
+    },
+    {
+      "id": "cheap-free-ssl",
+      "message": "Hosting giá rẻ có SSL miễn phí không?",
+      "expectedKind": "answer",
+      "expectedService": "hosting-gia-re",
+      "expectedSourceUrl": "https://vinahost.vn/hosting-gia-re/",
+      "mustContain": [
+        "SSL",
+        "miễn phí"
+      ]
+    },
+    {
+      "id": "windows-free-ssl",
+      "message": "Windows Hosting có được tặng SSL không?",
+      "expectedKind": "answer",
+      "expectedService": "windows-hosting",
+      "expectedSourceUrl": "https://vinahost.vn/windows-hosting/",
+      "mustContain": [
+        "SSL",
+        "miễn phí"
+      ]
+    },
+    {
+      "id": "ssl-ambiguous",
+      "message": "Hosting có SSL miễn phí không?",
+      "expectedKind": "clarify"
+    },
+    {
+      "id": "ssl-subdomain",
+      "message": "Mua SSL cho Subdomain (tên miền con) thì chọn gói nào?",
+      "expectedKind": "answer",
+      "expectedService": "mua-ssl-gia-re",
+      "expectedSourceUrl": "https://vinahost.vn/mua-ssl-gia-re/",
+      "mustContain": [
+        "Wildcard SSL"
+      ]
+    },
+    {
+      "id": "ssl-wildcard",
+      "message": "Wildcard SSL khác Multi-Domain SSL thế nào?",
+      "expectedKind": "answer",
+      "expectedService": "mua-ssl-gia-re",
+      "expectedSourceUrl": "https://vinahost.vn/mua-ssl-gia-re/",
+      "mustContain": [
+        "Wildcard SSL",
+        "Multi-Domain SSL"
+      ]
+    },
+    {
+      "id": "ssl-check",
+      "message": "Làm sao kiểm tra website cài đặt SSL đúng chuẩn?",
+      "expectedKind": "answer",
+      "expectedService": "mua-ssl-gia-re",
+      "expectedSourceUrl": "https://vinahost.vn/mua-ssl-gia-re/",
+      "mustContain": [
+        "SSL Labs"
+      ]
+    },
+    {
+      "id": "domain-hosting-difference",
+      "message": "Tên miền và web hosting khác nhau thế nào?",
+      "expectedKind": "answer",
+      "expectedService": "dang-ky-ten-mien",
+      "expectedSourceUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "mustContain": [
+        "Tên miền",
+        "Web Hosting"
+      ]
+    },
+    {
+      "id": "domain-dns",
+      "message": "DNS là gì?",
+      "expectedKind": "answer",
+      "expectedService": "dang-ky-ten-mien",
+      "expectedSourceUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "mustContain": [
+        "Domain Name System"
+      ]
+    },
+    {
+      "id": "domain-dnssec",
+      "message": "DNSSEC là gì?",
+      "expectedKind": "answer",
+      "expectedService": "dang-ky-ten-mien",
+      "expectedSourceUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "mustContain": [
+        "chữ ký số"
+      ]
+    },
+    {
+      "id": "external-domain-hosting",
+      "message": "Tôi đã mua tên miền tại nhà đăng ký khác, liệu tôi có thể mua hosting tại VinaHost được không?",
+      "expectedKind": "answer",
+      "expectedService": "dang-ky-ten-mien",
+      "expectedSourceUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "mustContain": [
+        "Có"
+      ]
+    },
+    {
+      "id": "registrar-transfer",
+      "message": "Tôi có thể chuyển domain đã đăng ký ở nhà đăng ký khác về VinaHost được không?",
+      "expectedKind": "answer",
+      "expectedService": "dang-ky-ten-mien",
+      "expectedSourceUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "mustContain": [
+        "transfer tên miền"
+      ]
+    },
+    {
+      "id": "wp-migration",
+      "message": "WordPress Hosting có hỗ trợ chuyển website từ nhà cung cấp khác không?",
+      "expectedKind": "answer",
+      "expectedService": "wordpress-hosting",
+      "expectedSourceUrl": "https://vinahost.vn/wordpress-hosting/",
+      "mustContain": [
+        "chuyển website",
+        "VinaHost"
+      ]
+    },
+    {
+      "id": "windows-migration",
+      "message": "Windows Hosting có chuyển dữ liệu website miễn phí không?",
+      "expectedKind": "answer",
+      "expectedService": "windows-hosting",
+      "expectedSourceUrl": "https://vinahost.vn/windows-hosting/",
+      "mustContain": [
+        "miễn phí"
+      ]
+    },
+    {
+      "id": "email-migration",
+      "message": "Email Hosting có hỗ trợ migration từ nhà cung cấp khác không?",
+      "expectedKind": "answer",
+      "expectedService": "email-hosting-chuyen-nghiep",
+      "expectedSourceUrl": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+      "mustContain": [
+        "miễn phí"
+      ]
+    },
+    {
+      "id": "vps-os",
+      "message": "VPS giá rẻ hỗ trợ những hệ điều hành nào?",
+      "expectedKind": "answer",
+      "expectedService": "thue-vps-gia-re",
+      "expectedSourceUrl": "https://vinahost.vn/thue-vps-gia-re/",
+      "mustContain": [
+        "Debian",
+        "Ubuntu"
+      ]
+    },
+    {
+      "id": "windows-controlpanel",
+      "message": "Windows Hosting dùng control panel nào?",
+      "expectedKind": "answer",
+      "expectedService": "windows-hosting",
+      "expectedSourceUrl": "https://vinahost.vn/windows-hosting/",
+      "mustContain": [
+        "Plesk Obsidian"
+      ]
+    },
+    {
+      "id": "cheap-controlpanel",
+      "message": "Hosting giá rẻ dùng control panel nào?",
+      "expectedKind": "answer",
+      "expectedService": "hosting-gia-re",
+      "expectedSourceUrl": "https://vinahost.vn/hosting-gia-re/",
+      "mustContain": [
+        "cPanel"
+      ]
+    },
+    {
+      "id": "cheap-aspnet",
+      "message": "Hosting giá rẻ có hỗ trợ mã nguồn ASP.NET không?",
+      "expectedKind": "answer",
+      "expectedService": "hosting-gia-re",
+      "expectedSourceUrl": "https://vinahost.vn/hosting-gia-re/",
+      "mustContain": [
+        "chưa hỗ trợ"
+      ]
+    },
+    {
+      "id": "wp-programming",
+      "message": "Có cần biết lập trình để dùng WordPress Hosting không?",
+      "expectedKind": "answer",
+      "expectedService": "wordpress-hosting",
+      "expectedSourceUrl": "https://vinahost.vn/wordpress-hosting/",
+      "mustContain": [
+        "Không cần kiến thức lập trình"
+      ]
+    },
+    {
+      "id": "wp-upgrade",
+      "message": "Tôi có thể nâng cấp hoặc hạ gói WordPress Hosting không?",
+      "expectedKind": "answer",
+      "expectedService": "wordpress-hosting",
+      "expectedSourceUrl": "https://vinahost.vn/wordpress-hosting/",
+      "mustContain": [
+        "nâng",
+        "hạ cấp"
+      ]
+    },
+    {
+      "id": "email-upgrade",
+      "message": "Email Hosting có nâng cấp dung lượng lưu trữ được không?",
+      "expectedKind": "answer",
+      "expectedService": "email-hosting-chuyen-nghiep",
+      "expectedSourceUrl": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+      "mustContain": [
+        "nâng cấp lên gói cao hơn"
+      ]
+    },
+    {
+      "id": "email-outlook",
+      "message": "Email Hosting có dùng trên điện thoại và Outlook không?",
+      "expectedKind": "answer",
+      "expectedService": "email-hosting-chuyen-nghiep",
+      "expectedSourceUrl": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+      "mustContain": [
+        "Outlook",
+        "IMAP/POP3"
+      ]
+    },
+    {
+      "id": "refund-caution",
+      "message": "Chính sách hoàn tiền của VinaHost áp dụng như thế nào?",
+      "expectedKind": "fallback",
+      "expectedSourceUrl": "https://vinahost.vn/chinh-sach-hoan-tien/",
+      "mustNotContain": [
+        "hoàn tiền vô điều kiện 60 ngày"
+      ]
+    },
+    {
+      "id": "payment-methods",
+      "message": "VinaHost hỗ trợ những hình thức thanh toán nào?",
+      "expectedKind": "answer",
+      "expectedService": "thanh-toan",
+      "expectedSourceUrl": "https://vinahost.vn/thanh-toan/",
+      "mustContain": [
+        "Chuyển khoản",
+        "Thanh toán trực tiếp tại văn phòng."
+      ]
+    },
+    {
+      "id": "payment-confirmation",
+      "message": "Đã thanh toán nhưng chưa nhận xác nhận thì cần làm gì?",
+      "expectedKind": "answer",
+      "expectedService": "thanh-toan",
+      "expectedSourceUrl": "https://vinahost.vn/thanh-toan/",
+      "mustContain": [
+        "billing@vinahost.vn",
+        "48 giờ"
+      ]
+    },
+    {
+      "id": "office-contact",
+      "message": "Địa chỉ văn phòng và giờ làm việc của VinaHost?",
+      "expectedKind": "answer",
+      "expectedService": "lien-he",
+      "expectedSourceUrl": "https://vinahost.vn/lien-he/",
+      "mustContain": [
+        "Nơ Trang Long",
+        "thứ 2 đến thứ 7"
+      ]
+    },
+    {
+      "id": "support-channel",
+      "message": "Tôi muốn gửi ticket hỗ trợ kỹ thuật VinaHost",
+      "expectedKind": "answer",
+      "expectedService": "ho-tro",
+      "expectedSourceUrl": "https://vinahost.vn/ho-tro/",
+      "mustContain": [
+        "support@vinahost.vn"
+      ]
+    },
+    {
+      "id": "price-caution",
+      "message": "Hosting giá rẻ có giá bao nhiêu một tháng?",
+      "expectedKind": "fallback",
+      "mustNotContain": [
+        "49.000",
+        "99.000",
+        "13.000đ"
+      ]
+    },
+    {
+      "id": "price-no-product",
+      "message": "Giá hosting là bao nhiêu?",
+      "expectedKind": "clarify",
+      "mustNotContain": [
+        "49.000",
+        "99.000"
+      ]
+    },
+    {
+      "id": "vps-trial-caution",
+      "message": "Chính sách dùng thử VPS và bảo lưu phí dùng thử như thế nào?",
+      "expectedKind": "fallback",
+      "expectedSourceUrl": "https://vinahost.vn/chinh-sach-dung-thu-vps/",
+      "mustNotContain": [
+        "miễn phí hoàn toàn"
+      ]
+    },
+    {
+      "id": "unsupported-guarantee",
+      "message": "WordPress Hosting có bảo đảm hoàn tiền vô điều kiện sau 60 ngày không?",
+      "expectedKind": "fallback",
+      "mustNotContain": [
+        "Có, hoàn tiền vô điều kiện"
+      ]
+    },
+    {
+      "id": "nonsense",
+      "message": "xyzzynonexistenttoken abcdefghijklmnopqrstuvwxyz",
+      "expectedKind": "fallback"
+    },
+    {
+      "id": "unrelated-weather",
+      "message": "Hôm nay trời mưa không?",
+      "expectedKind": "fallback"
+    },
+    {
+      "id": "unrelated-facebook",
+      "message": "Đổi mật khẩu Facebook như thế nào?",
+      "expectedKind": "fallback"
+    },
+    {
+      "id": "greeting",
+      "message": "Xin chào!",
+      "expectedKind": "answer"
+    },
+    {
+      "id": "booking",
+      "message": "Tôi muốn gặp nhân viên tư vấn",
+      "expectedKind": "booking"
+    },
+    {
+      "id": "reset-product-scope",
+      "message": "Hosting có backup không?",
+      "expectedKind": "clarify",
+      "history": [
+        {
+          "role": "user",
+          "text": "Tôi hỏi về WordPress Hosting"
+        },
+        {
+          "role": "user",
+          "text": "Bây giờ tôi muốn hỏi VPS"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2728 @@
+{
+  "version": 1,
+  "brandName": "Sen Hosting",
+  "importedAt": "2026-11-07T15:49:16.297004+00:00",
+  "snapshotAt": "2026-11-07T05:05:59.939083+00:00",
+  "availability": {
+    "checked": false,
+    "note": "Danh mục đuôi tên miền không xác nhận tên miền cụ thể còn trống."
+  },
+  "items": [
+    {
+      "id": "SEN-CATALOG-DOMAIN-COM",
+      "type": "domain",
+      "name": ".com",
+      "service": "domain",
+      "serviceLabel": "Tên miền .com",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-COM",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .com trong danh mục Sen Hosting.",
+      "extensions": [
+        ".com"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "370.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "370.000 đ",
+        "transferDisplay": "370.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-VN",
+      "type": "domain",
+      "name": ".vn",
+      "service": "domain",
+      "serviceLabel": "Tên miền .vn",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-VN",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .vn trong danh mục Sen Hosting.",
+      "extensions": [
+        ".vn"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "450.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "450.000 đ",
+        "transferDisplay": "450.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-COM-VN",
+      "type": "domain",
+      "name": ".com.vn",
+      "service": "domain",
+      "serviceLabel": "Tên miền .com.vn",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-COM-VN",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .com.vn trong danh mục Sen Hosting.",
+      "extensions": [
+        ".com.vn"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "350.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "350.000 đ",
+        "transferDisplay": "350.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-NET",
+      "type": "domain",
+      "name": ".net",
+      "service": "domain",
+      "serviceLabel": "Tên miền .net",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-NET",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .net trong danh mục Sen Hosting.",
+      "extensions": [
+        ".net"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "410.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "410.000 đ",
+        "transferDisplay": "410.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-ORG",
+      "type": "domain",
+      "name": ".org",
+      "service": "domain",
+      "serviceLabel": "Tên miền .org",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-ORG",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .org trong danh mục Sen Hosting.",
+      "extensions": [
+        ".org"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "390.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "390.000 đ",
+        "transferDisplay": "390.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-SHOP",
+      "type": "domain",
+      "name": ".shop",
+      "service": "domain",
+      "serviceLabel": "Tên miền .shop",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-SHOP",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .shop trong danh mục Sen Hosting.",
+      "extensions": [
+        ".shop"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "870.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "870.000 đ",
+        "transferDisplay": "870.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-STORE",
+      "type": "domain",
+      "name": ".store",
+      "service": "domain",
+      "serviceLabel": "Tên miền .store",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-STORE",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .store trong danh mục Sen Hosting.",
+      "extensions": [
+        ".store"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "1.250.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "1.250.000 đ",
+        "transferDisplay": "1.250.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-ONLINE",
+      "type": "domain",
+      "name": ".online",
+      "service": "domain",
+      "serviceLabel": "Tên miền .online",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-ONLINE",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .online trong danh mục Sen Hosting.",
+      "extensions": [
+        ".online"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "910.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "910.000 đ",
+        "transferDisplay": "910.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-SITE",
+      "type": "domain",
+      "name": ".site",
+      "service": "domain",
+      "serviceLabel": "Tên miền .site",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-SITE",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .site trong danh mục Sen Hosting.",
+      "extensions": [
+        ".site"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "920.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "920.000 đ",
+        "transferDisplay": "920.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-WEBSITE",
+      "type": "domain",
+      "name": ".website",
+      "service": "domain",
+      "serviceLabel": "Tên miền .website",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-WEBSITE",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .website trong danh mục Sen Hosting.",
+      "extensions": [
+        ".website"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "550.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "550.000 đ",
+        "transferDisplay": "550.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-BOUTIQUE",
+      "type": "domain",
+      "name": ".boutique",
+      "service": "domain",
+      "serviceLabel": "Tên miền .boutique",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-BOUTIQUE",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .boutique trong danh mục Sen Hosting.",
+      "extensions": [
+        ".boutique"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "860.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "860.000 đ",
+        "transferDisplay": "860.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-BIZ",
+      "type": "domain",
+      "name": ".biz",
+      "service": "domain",
+      "serviceLabel": "Tên miền .biz",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-BIZ",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .biz trong danh mục Sen Hosting.",
+      "extensions": [
+        ".biz"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "630.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "630.000 đ",
+        "transferDisplay": "630.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-INFO",
+      "type": "domain",
+      "name": ".info",
+      "service": "domain",
+      "serviceLabel": "Tên miền .info",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-INFO",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .info trong danh mục Sen Hosting.",
+      "extensions": [
+        ".info"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "740.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "740.000 đ",
+        "transferDisplay": "740.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-IO",
+      "type": "domain",
+      "name": ".io",
+      "service": "domain",
+      "serviceLabel": "Tên miền .io",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-IO",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .io trong danh mục Sen Hosting.",
+      "extensions": [
+        ".io"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "1.620.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "1.620.000 đ",
+        "transferDisplay": "1.620.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-CO",
+      "type": "domain",
+      "name": ".co",
+      "service": "domain",
+      "serviceLabel": "Tên miền .co",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-CO",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .co trong danh mục Sen Hosting.",
+      "extensions": [
+        ".co"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "1.050.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "1.050.000 đ",
+        "transferDisplay": "1.050.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-CLOUD",
+      "type": "domain",
+      "name": ".cloud",
+      "service": "domain",
+      "serviceLabel": "Tên miền .cloud",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-CLOUD",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .cloud trong danh mục Sen Hosting.",
+      "extensions": [
+        ".cloud"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "595.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "595.000 đ",
+        "transferDisplay": "595.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-ASIA",
+      "type": "domain",
+      "name": ".asia",
+      "service": "domain",
+      "serviceLabel": "Tên miền .asia",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-ASIA",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .asia trong danh mục Sen Hosting.",
+      "extensions": [
+        ".asia"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "342.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "342.000 đ",
+        "transferDisplay": "342.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-IO-VN",
+      "type": "domain",
+      "name": ".io.vn",
+      "service": "domain",
+      "serviceLabel": "Tên miền .io.vn",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-IO-VN",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .io.vn trong danh mục Sen Hosting.",
+      "extensions": [
+        ".io.vn"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "30.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "40.000 đ",
+        "transferDisplay": "40.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-ID-VN",
+      "type": "domain",
+      "name": ".id.vn",
+      "service": "domain",
+      "serviceLabel": "Tên miền .id.vn",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-ID-VN",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .id.vn trong danh mục Sen Hosting.",
+      "extensions": [
+        ".id.vn"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "60.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "70.000 đ",
+        "transferDisplay": "70.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-BIZ-VN",
+      "type": "domain",
+      "name": ".biz.vn",
+      "service": "domain",
+      "serviceLabel": "Tên miền .biz.vn",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-BIZ-VN",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .biz.vn trong danh mục Sen Hosting.",
+      "extensions": [
+        ".biz.vn"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "350.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "350.000 đ",
+        "transferDisplay": "350.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-NET-VN",
+      "type": "domain",
+      "name": ".net.vn",
+      "service": "domain",
+      "serviceLabel": "Tên miền .net.vn",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-NET-VN",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .net.vn trong danh mục Sen Hosting.",
+      "extensions": [
+        ".net.vn"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "350.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "350.000 đ",
+        "transferDisplay": "350.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-PRO-VN",
+      "type": "domain",
+      "name": ".pro.vn",
+      "service": "domain",
+      "serviceLabel": "Tên miền .pro.vn",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-PRO-VN",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .pro.vn trong danh mục Sen Hosting.",
+      "extensions": [
+        ".pro.vn"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "60.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "100.000 đ",
+        "transferDisplay": "100.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-NAME-VN",
+      "type": "domain",
+      "name": ".name.vn",
+      "service": "domain",
+      "serviceLabel": "Tên miền .name.vn",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-NAME-VN",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .name.vn trong danh mục Sen Hosting.",
+      "extensions": [
+        ".name.vn"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "30.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "40.000 đ",
+        "transferDisplay": "40.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-ME",
+      "type": "domain",
+      "name": ".me",
+      "service": "domain",
+      "serviceLabel": "Tên miền .me",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-ME",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .me trong danh mục Sen Hosting.",
+      "extensions": [
+        ".me"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "650.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "650.000 đ",
+        "transferDisplay": "650.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-APP",
+      "type": "domain",
+      "name": ".app",
+      "service": "domain",
+      "serviceLabel": "Tên miền .app",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-APP",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .app trong danh mục Sen Hosting.",
+      "extensions": [
+        ".app"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "560.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "560.000 đ",
+        "transferDisplay": "560.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-DEV",
+      "type": "domain",
+      "name": ".dev",
+      "service": "domain",
+      "serviceLabel": "Tên miền .dev",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-DOMAIN-DEV",
+      "specs": {},
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Đuôi tên miền .dev trong danh mục Sen Hosting.",
+      "extensions": [
+        ".dev"
+      ],
+      "useCases": [
+        "tên miền thương hiệu",
+        "website doanh nghiệp",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "490.000 đ",
+        "currency": "VND",
+        "billingPeriod": "mục đăng ký tên miền; thời hạn cần xác nhận",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false,
+        "renewalDisplay": "490.000 đ",
+        "transferDisplay": "490.000 đ"
+      }
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-GIA-RE-LH-START",
+      "type": "hosting",
+      "name": "LH - Start",
+      "service": "hosting-gia-re",
+      "serviceLabel": "Hosting giá rẻ",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:02.013867+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-HOSTING-GIA-RE-LH-START",
+      "specs": {
+        "SSD": "300MB",
+        "RAM": "0.5 GB",
+        "CPU": "0.5 core",
+        "Website": "1",
+        "Tài Khoản Emails": "1",
+        "Băng thông, MySQL": "Không giới hạn",
+        "MySQL CPU": "100%"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Hosting giá rẻ — gói LH - Start.",
+      "useCases": [
+        "website giới thiệu",
+        "blog",
+        "website nhỏ"
+      ],
+      "price": {
+        "display": "12,750 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-GIA-RE-LH1",
+      "type": "hosting",
+      "name": "LH1",
+      "service": "hosting-gia-re",
+      "serviceLabel": "Hosting giá rẻ",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:02.013867+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-HOSTING-GIA-RE-LH1",
+      "specs": {
+        "SSD": "1.5 GB + [TẶNG 2 GB]",
+        "RAM": "1 GB",
+        "CPU": "1 core",
+        "Website": "1",
+        "Tài Khoản Emails": "10",
+        "Băng thông, MySQL": "Không giới hạn",
+        "MySQL CPU": "120%"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Hosting giá rẻ — gói LH1.",
+      "useCases": [
+        "website giới thiệu",
+        "blog",
+        "website nhỏ"
+      ],
+      "price": {
+        "display": "21,250 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-GIA-RE-LH2",
+      "type": "hosting",
+      "name": "LH2",
+      "service": "hosting-gia-re",
+      "serviceLabel": "Hosting giá rẻ",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:02.013867+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-HOSTING-GIA-RE-LH2",
+      "specs": {
+        "SSD": "4 GB + [TẶNG 3 GB]",
+        "RAM": "2 GB",
+        "CPU": "1.5 cores",
+        "Website": "2",
+        "Tài Khoản Emails": "15",
+        "Băng thông, MySQL": "Không giới hạn",
+        "MySQL CPU": "120%"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Hosting giá rẻ — gói LH2.",
+      "useCases": [
+        "website giới thiệu",
+        "blog",
+        "website nhỏ"
+      ],
+      "price": {
+        "display": "34,000 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-GIA-RE-LH3",
+      "type": "hosting",
+      "name": "LH3",
+      "service": "hosting-gia-re",
+      "serviceLabel": "Hosting giá rẻ",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:02.013867+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-HOSTING-GIA-RE-LH3",
+      "specs": {
+        "SSD": "6 GB + [TẶNG 5 GB]",
+        "RAM": "3 GB",
+        "CPU": "1.5 cores",
+        "Website": "3",
+        "Tài Khoản Emails": "25",
+        "Băng thông, MySQL": "Không giới hạn",
+        "MySQL CPU": "150%"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Hosting giá rẻ — gói LH3.",
+      "useCases": [
+        "website giới thiệu",
+        "blog",
+        "website nhỏ"
+      ],
+      "price": {
+        "display": "51,000 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-GIA-RE-LH4",
+      "type": "hosting",
+      "name": "LH4",
+      "service": "hosting-gia-re",
+      "serviceLabel": "Hosting giá rẻ",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:02.013867+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-HOSTING-GIA-RE-LH4",
+      "specs": {
+        "SSD": "12 GB + [TẶNG 12 GB]",
+        "RAM": "3 GB",
+        "CPU": "2 cores",
+        "Website": "5",
+        "Tài Khoản Emails": "50",
+        "Băng thông, MySQL": "Không giới hạn",
+        "MySQL CPU": "150%"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Hosting giá rẻ — gói LH4.",
+      "useCases": [
+        "website giới thiệu",
+        "blog",
+        "website nhỏ"
+      ],
+      "price": {
+        "display": "80,750 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-GIA-RE-LH5",
+      "type": "hosting",
+      "name": "LH5",
+      "service": "hosting-gia-re",
+      "serviceLabel": "Hosting giá rẻ",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:02.013867+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-HOSTING-GIA-RE-LH5",
+      "specs": {
+        "SSD": "25 GB + [TẶNG 20 GB]",
+        "RAM": "5 GB",
+        "CPU": "2 cores",
+        "Website": "10",
+        "Tài Khoản Emails": "80",
+        "Băng thông, MySQL": "Không giới hạn",
+        "MySQL CPU": "200%"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Hosting giá rẻ — gói LH5.",
+      "useCases": [
+        "website giới thiệu",
+        "blog",
+        "website nhỏ"
+      ],
+      "price": {
+        "display": "148,750 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-GIA-RE-LH6",
+      "type": "hosting",
+      "name": "LH6",
+      "service": "hosting-gia-re",
+      "serviceLabel": "Hosting giá rẻ",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:02.013867+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-HOSTING-GIA-RE-LH6",
+      "specs": {
+        "SSD": "40 GB + [TẶNG 20 GB]",
+        "RAM": "8 GB",
+        "CPU": "3 cores",
+        "Website": "15",
+        "Tài Khoản Emails": "150",
+        "Băng thông, MySQL": "Không giới hạn",
+        "MySQL CPU": "200%"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Hosting giá rẻ — gói LH6.",
+      "useCases": [
+        "website giới thiệu",
+        "blog",
+        "website nhỏ"
+      ],
+      "price": {
+        "display": "233,750 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-WORDPRESS-HOSTING-WPH-START",
+      "type": "hosting",
+      "name": "WPH-Start",
+      "service": "wordpress-hosting",
+      "serviceLabel": "WordPress Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:09.088003+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-WORDPRESS-HOSTING-WPH-START",
+      "specs": {
+        "CPU (Platinum)": "2 cores",
+        "Dung Lượng (NVMe)": "6 GB",
+        "RAM": "2.5 GB",
+        "Website": "1",
+        "Tài Khoản Emails": "30",
+        "Băng thông, MySQL": "Không giới hạn",
+        "MySQL CPU": "150%"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "WordPress Hosting — gói WPH-Start.",
+      "useCases": [
+        "WordPress",
+        "WooCommerce",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "72,250 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-WORDPRESS-HOSTING-WPH-1",
+      "type": "hosting",
+      "name": "WPH 1",
+      "service": "wordpress-hosting",
+      "serviceLabel": "WordPress Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:09.088003+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-WORDPRESS-HOSTING-WPH-1",
+      "specs": {
+        "CPU (Platinum)": "2 cores",
+        "Dung Lượng (NVMe)": "10 GB",
+        "RAM": "4 GB",
+        "Website": "4",
+        "Tài Khoản Emails": "50",
+        "Băng thông, MySQL": "Không giới hạn",
+        "MySQL CPU": "200%"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "WordPress Hosting — gói WPH 1.",
+      "useCases": [
+        "WordPress",
+        "WooCommerce",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "123,250 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-WORDPRESS-HOSTING-WPH-2",
+      "type": "hosting",
+      "name": "WPH 2",
+      "service": "wordpress-hosting",
+      "serviceLabel": "WordPress Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:09.088003+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-WORDPRESS-HOSTING-WPH-2",
+      "specs": {
+        "CPU (Platinum)": "3 cores",
+        "Dung Lượng (NVMe)": "15 GB",
+        "RAM": "7 GB",
+        "Website": "6",
+        "Tài Khoản Emails": "75",
+        "Băng thông, MySQL": "Không giới hạn",
+        "MySQL CPU": "200%"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "WordPress Hosting — gói WPH 2.",
+      "useCases": [
+        "WordPress",
+        "WooCommerce",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "195,500 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-WORDPRESS-HOSTING-WPH-3",
+      "type": "hosting",
+      "name": "WPH 3",
+      "service": "wordpress-hosting",
+      "serviceLabel": "WordPress Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:09.088003+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-WORDPRESS-HOSTING-WPH-3",
+      "specs": {
+        "CPU (Platinum)": "6 cores",
+        "Dung Lượng (NVMe)": "18 GB",
+        "RAM": "9 GB",
+        "Website": "10",
+        "Tài Khoản Emails": "100",
+        "Băng thông, MySQL": "Không giới hạn",
+        "MySQL CPU": "250%"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "WordPress Hosting — gói WPH 3.",
+      "useCases": [
+        "WordPress",
+        "WooCommerce",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "250,750 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-WORDPRESS-HOSTING-WPH-4",
+      "type": "hosting",
+      "name": "WPH 4",
+      "service": "wordpress-hosting",
+      "serviceLabel": "WordPress Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:09.088003+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-WORDPRESS-HOSTING-WPH-4",
+      "specs": {
+        "CPU (Platinum)": "8 cores",
+        "Dung Lượng (NVMe)": "25 GB",
+        "RAM": "12 GB",
+        "Website": "12",
+        "Tài Khoản Emails": "150",
+        "Băng thông, MySQL": "Không giới hạn",
+        "MySQL CPU": "300%"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "WordPress Hosting — gói WPH 4.",
+      "useCases": [
+        "WordPress",
+        "WooCommerce",
+        "cửa hàng trực tuyến"
+      ],
+      "price": {
+        "display": "344,250 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-WINDOWS-HOSTING-WH-START",
+      "type": "hosting",
+      "name": "WH-Start",
+      "service": "windows-hosting",
+      "serviceLabel": "Windows Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:05:59.939083+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-WINDOWS-HOSTING-WH-START",
+      "specs": {
+        "SSD": "300 MB",
+        "RAM": "0.5 GB",
+        "CPU": "0.5 core",
+        "Số Lượng Tên Miền": "1",
+        "MSSQL CPU": "100%",
+        "Tài Khoản Emails": "1"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Windows Hosting — gói WH-Start.",
+      "useCases": [
+        "ASP.NET",
+        "ứng dụng Windows"
+      ],
+      "price": {
+        "display": "12,750 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-WINDOWS-HOSTING-WH1",
+      "type": "hosting",
+      "name": "WH1",
+      "service": "windows-hosting",
+      "serviceLabel": "Windows Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:05:59.939083+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-WINDOWS-HOSTING-WH1",
+      "specs": {
+        "SSD": "1.5 GB + [TẶNG 2 GB]",
+        "RAM": "1 GB",
+        "CPU": "1 core",
+        "Số Lượng Tên Miền": "1",
+        "MSSQL CPU": "120%",
+        "Tài Khoản Emails": "10"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Windows Hosting — gói WH1.",
+      "useCases": [
+        "ASP.NET",
+        "ứng dụng Windows"
+      ],
+      "price": {
+        "display": "21,250 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-WINDOWS-HOSTING-WH2",
+      "type": "hosting",
+      "name": "WH2",
+      "service": "windows-hosting",
+      "serviceLabel": "Windows Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:05:59.939083+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-WINDOWS-HOSTING-WH2",
+      "specs": {
+        "SSD": "4 GB + [TẶNG 3 GB]",
+        "RAM": "2 GB",
+        "CPU": "1.5 cores",
+        "Số Lượng Tên Miền": "2",
+        "MSSQL CPU": "120%",
+        "Tài Khoản Emails": "15"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Windows Hosting — gói WH2.",
+      "useCases": [
+        "ASP.NET",
+        "ứng dụng Windows"
+      ],
+      "price": {
+        "display": "34,000 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-WINDOWS-HOSTING-WH3",
+      "type": "hosting",
+      "name": "WH3",
+      "service": "windows-hosting",
+      "serviceLabel": "Windows Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:05:59.939083+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-WINDOWS-HOSTING-WH3",
+      "specs": {
+        "SSD": "6 GB + [TẶNG 5 GB]",
+        "RAM": "3 GB",
+        "CPU": "1.5 cores",
+        "Số Lượng Tên Miền": "3",
+        "MSSQL CPU": "150%",
+        "Tài Khoản Emails": "25"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Windows Hosting — gói WH3.",
+      "useCases": [
+        "ASP.NET",
+        "ứng dụng Windows"
+      ],
+      "price": {
+        "display": "51,000 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-WINDOWS-HOSTING-WH4",
+      "type": "hosting",
+      "name": "WH4",
+      "service": "windows-hosting",
+      "serviceLabel": "Windows Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:05:59.939083+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-WINDOWS-HOSTING-WH4",
+      "specs": {
+        "SSD": "12 GB + [TẶNG 12 GB]",
+        "RAM": "3 GB",
+        "CPU": "2 cores",
+        "Số Lượng Tên Miền": "5",
+        "MSSQL CPU": "150%",
+        "Tài Khoản Emails": "50"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Windows Hosting — gói WH4.",
+      "useCases": [
+        "ASP.NET",
+        "ứng dụng Windows"
+      ],
+      "price": {
+        "display": "80,750 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-WINDOWS-HOSTING-WH5",
+      "type": "hosting",
+      "name": "WH5",
+      "service": "windows-hosting",
+      "serviceLabel": "Windows Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:05:59.939083+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-WINDOWS-HOSTING-WH5",
+      "specs": {
+        "SSD": "25 GB + [TẶNG 20 GB]",
+        "RAM": "5 GB",
+        "CPU": "2 cores",
+        "Số Lượng Tên Miền": "10",
+        "MSSQL CPU": "200%",
+        "Tài Khoản Emails": "80"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Windows Hosting — gói WH5.",
+      "useCases": [
+        "ASP.NET",
+        "ứng dụng Windows"
+      ],
+      "price": {
+        "display": "148,750 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-WINDOWS-HOSTING-WH6",
+      "type": "hosting",
+      "name": "WH6",
+      "service": "windows-hosting",
+      "serviceLabel": "Windows Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:05:59.939083+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-WINDOWS-HOSTING-WH6",
+      "specs": {
+        "SSD": "40 GB + [TẶNG 20 GB]",
+        "RAM": "8 GB",
+        "CPU": "3 cores",
+        "Số Lượng Tên Miền": "15",
+        "MSSQL CPU": "200%",
+        "Tài Khoản Emails": "150"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Windows Hosting — gói WH6.",
+      "useCases": [
+        "ASP.NET",
+        "ứng dụng Windows"
+      ],
+      "price": {
+        "display": "233,750 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-DOANH-NGHIEP-BH1",
+      "type": "hosting",
+      "name": "BH1",
+      "service": "hosting-doanh-nghiep",
+      "serviceLabel": "Hosting doanh nghiệp",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:58.473557+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-HOSTING-DOANH-NGHIEP-BH1",
+      "specs": {
+        "Dung Lượng (NVMe)": "15 GB",
+        "Số Lượng Tên Miền": "1",
+        "Tài Khoản Emails": "25",
+        "CPU (Platinum)": "3 cores",
+        "RAM": "6 GB",
+        "CPU": "3 cores",
+        "MySQL CPU": "250%"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Hosting doanh nghiệp — gói BH1.",
+      "useCases": [
+        "nhiều website",
+        "website doanh nghiệp"
+      ],
+      "price": {
+        "display": "180,000 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-DOANH-NGHIEP-BH2",
+      "type": "hosting",
+      "name": "BH2",
+      "service": "hosting-doanh-nghiep",
+      "serviceLabel": "Hosting doanh nghiệp",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:58.473557+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-HOSTING-DOANH-NGHIEP-BH2",
+      "specs": {
+        "Dung Lượng (NVMe)": "25 GB",
+        "Số Lượng Tên Miền": "2",
+        "Tài Khoản Emails": "50",
+        "CPU (Platinum)": "4 cores",
+        "RAM": "8 GB",
+        "CPU": "4 cores",
+        "MySQL CPU": "250%"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Hosting doanh nghiệp — gói BH2.",
+      "useCases": [
+        "nhiều website",
+        "website doanh nghiệp"
+      ],
+      "price": {
+        "display": "280,000 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-DOANH-NGHIEP-BH3",
+      "type": "hosting",
+      "name": "BH3",
+      "service": "hosting-doanh-nghiep",
+      "serviceLabel": "Hosting doanh nghiệp",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:58.473557+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-HOSTING-DOANH-NGHIEP-BH3",
+      "specs": {
+        "Dung Lượng (NVMe)": "40 GB",
+        "Số Lượng Tên Miền": "3",
+        "Tài Khoản Emails": "75",
+        "CPU (Platinum)": "5 cores",
+        "RAM": "10 GB",
+        "CPU": "5 cores",
+        "MySQL CPU": "300%"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Hosting doanh nghiệp — gói BH3.",
+      "useCases": [
+        "nhiều website",
+        "website doanh nghiệp"
+      ],
+      "price": {
+        "display": "480,000 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-DOANH-NGHIEP-BH4",
+      "type": "hosting",
+      "name": "BH4",
+      "service": "hosting-doanh-nghiep",
+      "serviceLabel": "Hosting doanh nghiệp",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:58.473557+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-HOSTING-DOANH-NGHIEP-BH4",
+      "specs": {
+        "Dung Lượng (NVMe)": "60 GB",
+        "Số Lượng Tên Miền": "4",
+        "Tài Khoản Emails": "100",
+        "CPU (Platinum)": "6 cores",
+        "RAM": "12 GB",
+        "CPU": "6 cores",
+        "MySQL CPU": "300%"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Hosting doanh nghiệp — gói BH4.",
+      "useCases": [
+        "nhiều website",
+        "website doanh nghiệp"
+      ],
+      "price": {
+        "display": "650,000 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-THUE-VPS-GIA-RE-CHEAP-SSD1",
+      "type": "vps",
+      "name": "Cheap-SSD1",
+      "service": "thue-vps-gia-re",
+      "serviceLabel": "VPS SSD",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:04.049409+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-THUE-VPS-GIA-RE-CHEAP-SSD1",
+      "specs": {
+        "vCPU": "1",
+        "RAM": "1 GB",
+        "SSD": "25 GB",
+        "Băng thông trong nước": "100Mbps",
+        "Băng thông quốc tế": "1-10Mbps",
+        "Hệ điều hành": "Hỗ trợ đa dạng OS Linux"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "VPS SSD — gói Cheap-SSD1.",
+      "useCases": [
+        "tự quản trị máy chủ",
+        "ứng dụng Linux"
+      ],
+      "price": {
+        "display": "61,413 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-THUE-VPS-GIA-RE-CHEAP-SSD2",
+      "type": "vps",
+      "name": "Cheap-SSD2",
+      "service": "thue-vps-gia-re",
+      "serviceLabel": "VPS SSD",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:04.049409+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-THUE-VPS-GIA-RE-CHEAP-SSD2",
+      "specs": {
+        "vCPU": "2",
+        "RAM": "2 GB",
+        "SSD": "40 GB",
+        "Băng thông trong nước": "100Mbps",
+        "Băng thông quốc tế": "1-10Mbps",
+        "Hệ điều hành": "Hỗ trợ đa dạng OS Linux"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "VPS SSD — gói Cheap-SSD2.",
+      "useCases": [
+        "tự quản trị máy chủ",
+        "ứng dụng Linux"
+      ],
+      "price": {
+        "display": "119,213 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-THUE-VPS-GIA-RE-CHEAP-SSD3",
+      "type": "vps",
+      "name": "Cheap-SSD3",
+      "service": "thue-vps-gia-re",
+      "serviceLabel": "VPS SSD",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:04.049409+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-THUE-VPS-GIA-RE-CHEAP-SSD3",
+      "specs": {
+        "vCPU": "3",
+        "RAM": "3 GB",
+        "SSD": "60 GB",
+        "Băng thông trong nước": "100Mbps",
+        "Băng thông quốc tế": "1-10Mbps",
+        "Hệ điều hành": "Hỗ trợ đa dạng OS Linux"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "VPS SSD — gói Cheap-SSD3.",
+      "useCases": [
+        "tự quản trị máy chủ",
+        "ứng dụng Linux"
+      ],
+      "price": {
+        "display": "180,625 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-THUE-VPS-GIA-RE-CHEAP-SSD4",
+      "type": "vps",
+      "name": "Cheap-SSD4",
+      "service": "thue-vps-gia-re",
+      "serviceLabel": "VPS SSD",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:04.049409+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-THUE-VPS-GIA-RE-CHEAP-SSD4",
+      "specs": {
+        "vCPU": "4",
+        "RAM": "4 GB",
+        "SSD": "80 GB",
+        "Băng thông trong nước": "100Mbps",
+        "Băng thông quốc tế": "1-10Mbps",
+        "Hệ điều hành": "Hỗ trợ đa dạng OS Linux"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "VPS SSD — gói Cheap-SSD4.",
+      "useCases": [
+        "tự quản trị máy chủ",
+        "ứng dụng Linux"
+      ],
+      "price": {
+        "display": "263,713 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-THUE-VPS-GIA-RE-CHEAP-SSD5",
+      "type": "vps",
+      "name": "Cheap-SSD5",
+      "service": "thue-vps-gia-re",
+      "serviceLabel": "VPS SSD",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:04.049409+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-THUE-VPS-GIA-RE-CHEAP-SSD5",
+      "specs": {
+        "vCPU": "4",
+        "RAM": "6 GB",
+        "SSD": "100 GB",
+        "Băng thông trong nước": "100Mbps",
+        "Băng thông quốc tế": "1-10Mbps",
+        "Hệ điều hành": "Hỗ trợ đa dạng OS Linux"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "VPS SSD — gói Cheap-SSD5.",
+      "useCases": [
+        "tự quản trị máy chủ",
+        "ứng dụng Linux"
+      ],
+      "price": {
+        "display": "325,125 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-THUE-VPS-GIA-RE-CHEAP-SSD6",
+      "type": "vps",
+      "name": "Cheap-SSD6",
+      "service": "thue-vps-gia-re",
+      "serviceLabel": "VPS SSD",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:04.049409+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-THUE-VPS-GIA-RE-CHEAP-SSD6",
+      "specs": {
+        "vCPU": "6",
+        "RAM": "8 GB",
+        "SSD": "120 GB",
+        "Băng thông trong nước": "100Mbps",
+        "Băng thông quốc tế": "1-10Mbps",
+        "Hệ điều hành": "Hỗ trợ đa dạng OS Linux"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "VPS SSD — gói Cheap-SSD6.",
+      "useCases": [
+        "tự quản trị máy chủ",
+        "ứng dụng Linux"
+      ],
+      "price": {
+        "display": "498,525 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-THUE-VPS-GIA-RE-FLEXCHEAPVPS",
+      "type": "vps",
+      "name": "FlexCheapVPS",
+      "service": "thue-vps-gia-re",
+      "serviceLabel": "VPS SSD",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:04.049409+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-THUE-VPS-GIA-RE-FLEXCHEAPVPS",
+      "specs": {
+        "vCPU": "Tối thiểu: 1vCPU / Tối đa: 16vCPU",
+        "RAM": "Tối thiểu: 1GB / Tối đa: 32GB",
+        "SSD": "Tối thiểu: 25GB / Tối đa: 300GB",
+        "Băng thông trong nước": "Liên Hệ",
+        "Băng thông quốc tế": "Liên Hệ",
+        "Hệ điều hành": "Liên Hệ"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "VPS SSD — gói FlexCheapVPS.",
+      "useCases": [
+        "tự quản trị máy chủ",
+        "ứng dụng Linux"
+      ],
+      "price": {
+        "display": "61,413 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-VPS-N8N-VPS-N8N1",
+      "type": "vps",
+      "name": "VPS-N8N1",
+      "service": "vps-n8n",
+      "serviceLabel": "VPS n8n",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:05:49.917583+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-VPS-N8N-VPS-N8N1",
+      "specs": {
+        "vCPU": "1",
+        "RAM": "1 GB",
+        "SSD": "25 GB",
+        "Băng Thông": "100Mbps"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "VPS n8n — gói VPS-N8N1.",
+      "useCases": [
+        "n8n",
+        "tự động hóa workflow"
+      ],
+      "price": {
+        "display": "61,413 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-VPS-N8N-VPS-N8N2",
+      "type": "vps",
+      "name": "VPS-N8N2",
+      "service": "vps-n8n",
+      "serviceLabel": "VPS n8n",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:05:49.917583+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-VPS-N8N-VPS-N8N2",
+      "specs": {
+        "vCPU": "2",
+        "RAM": "2 GB",
+        "SSD": "40 GB",
+        "Băng Thông": "100Mbps"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "VPS n8n — gói VPS-N8N2.",
+      "useCases": [
+        "n8n",
+        "tự động hóa workflow"
+      ],
+      "price": {
+        "display": "119,213 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-VPS-N8N-VPS-N8N3",
+      "type": "vps",
+      "name": "VPS-N8N3",
+      "service": "vps-n8n",
+      "serviceLabel": "VPS n8n",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:05:49.917583+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-VPS-N8N-VPS-N8N3",
+      "specs": {
+        "vCPU": "3",
+        "RAM": "3 GB",
+        "SSD": "60 GB",
+        "Băng Thông": "100Mbps"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "VPS n8n — gói VPS-N8N3.",
+      "useCases": [
+        "n8n",
+        "tự động hóa workflow"
+      ],
+      "price": {
+        "display": "180,625 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-VPS-N8N-VPS-N8N4",
+      "type": "vps",
+      "name": "VPS-N8N4",
+      "service": "vps-n8n",
+      "serviceLabel": "VPS n8n",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:05:49.917583+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-VPS-N8N-VPS-N8N4",
+      "specs": {
+        "vCPU": "4",
+        "RAM": "4 GB",
+        "SSD": "80 GB",
+        "Băng Thông": "100Mbps"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "VPS n8n — gói VPS-N8N4.",
+      "useCases": [
+        "n8n",
+        "tự động hóa workflow"
+      ],
+      "price": {
+        "display": "263,713 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-VPS-N8N-VPS-N8N5",
+      "type": "vps",
+      "name": "VPS-N8N5",
+      "service": "vps-n8n",
+      "serviceLabel": "VPS n8n",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:05:49.917583+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-VPS-N8N-VPS-N8N5",
+      "specs": {
+        "vCPU": "4",
+        "RAM": "6 GB",
+        "SSD": "100 GB",
+        "Băng Thông": "100Mbps"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "VPS n8n — gói VPS-N8N5.",
+      "useCases": [
+        "n8n",
+        "tự động hóa workflow"
+      ],
+      "price": {
+        "display": "325,125 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-VPS-N8N-VPS-N8N6",
+      "type": "vps",
+      "name": "VPS-N8N6",
+      "service": "vps-n8n",
+      "serviceLabel": "VPS n8n",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:05:49.917583+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-VPS-N8N-VPS-N8N6",
+      "specs": {
+        "vCPU": "6",
+        "RAM": "8 GB",
+        "SSD": "120 GB",
+        "Băng Thông": "100Mbps"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "VPS n8n — gói VPS-N8N6.",
+      "useCases": [
+        "n8n",
+        "tự động hóa workflow"
+      ],
+      "price": {
+        "display": "498,525 vnđ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-START",
+      "type": "email",
+      "name": "EH-Start",
+      "service": "email-hosting-chuyen-nghiep",
+      "serviceLabel": "Email Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-START",
+      "specs": {
+        "Dung Lượng Lưu Trữ": "1GB",
+        "Số Tài Khoản Email": "1",
+        "Số Lượng Tên Miền": "1",
+        "Giới hạn gửi/giờ/ 1 tài khoản": "50",
+        "Giới Hạn Gửi/Ngày Chỉ giới hạn khi gửi cho email khác domain. Các email trong cùng domain không bị giới hạn số lượng gửi.": "50"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Email Hosting — gói EH-Start.",
+      "useCases": [
+        "email tên miền riêng",
+        "email doanh nghiệp"
+      ],
+      "price": {
+        "display": "12,750 đ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-ONE",
+      "type": "email",
+      "name": "EH-One",
+      "service": "email-hosting-chuyen-nghiep",
+      "serviceLabel": "Email Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-ONE",
+      "specs": {
+        "Dung Lượng Lưu Trữ": "4GB",
+        "Số Tài Khoản Email": "5",
+        "Số Lượng Tên Miền": "1",
+        "Giới hạn gửi/giờ/ 1 tài khoản": "200",
+        "Giới Hạn Gửi/Ngày Chỉ giới hạn khi gửi cho email khác domain. Các email trong cùng domain không bị giới hạn số lượng gửi.": "250"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Email Hosting — gói EH-One.",
+      "useCases": [
+        "email tên miền riêng",
+        "email doanh nghiệp"
+      ],
+      "price": {
+        "display": "21,250 đ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-TWO",
+      "type": "email",
+      "name": "EH-Two",
+      "service": "email-hosting-chuyen-nghiep",
+      "serviceLabel": "Email Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-TWO",
+      "specs": {
+        "Dung Lượng Lưu Trữ": "8GB",
+        "Số Tài Khoản Email": "10",
+        "Số Lượng Tên Miền": "1",
+        "Giới hạn gửi/giờ/ 1 tài khoản": "200",
+        "Giới Hạn Gửi/Ngày Chỉ giới hạn khi gửi cho email khác domain. Các email trong cùng domain không bị giới hạn số lượng gửi.": "500"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Email Hosting — gói EH-Two.",
+      "useCases": [
+        "email tên miền riêng",
+        "email doanh nghiệp"
+      ],
+      "price": {
+        "display": "38,250 đ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-THREE",
+      "type": "email",
+      "name": "EH-Three",
+      "service": "email-hosting-chuyen-nghiep",
+      "serviceLabel": "Email Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-THREE",
+      "specs": {
+        "Dung Lượng Lưu Trữ": "12GB",
+        "Số Tài Khoản Email": "20",
+        "Số Lượng Tên Miền": "1",
+        "Giới hạn gửi/giờ/ 1 tài khoản": "200",
+        "Giới Hạn Gửi/Ngày Chỉ giới hạn khi gửi cho email khác domain. Các email trong cùng domain không bị giới hạn số lượng gửi.": "1000"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Email Hosting — gói EH-Three.",
+      "useCases": [
+        "email tên miền riêng",
+        "email doanh nghiệp"
+      ],
+      "price": {
+        "display": "55,250 đ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-FOUR",
+      "type": "email",
+      "name": "EH-Four",
+      "service": "email-hosting-chuyen-nghiep",
+      "serviceLabel": "Email Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-FOUR",
+      "specs": {
+        "Dung Lượng Lưu Trữ": "25GB",
+        "Số Tài Khoản Email": "50",
+        "Số Lượng Tên Miền": "1",
+        "Giới hạn gửi/giờ/ 1 tài khoản": "250",
+        "Giới Hạn Gửi/Ngày Chỉ giới hạn khi gửi cho email khác domain. Các email trong cùng domain không bị giới hạn số lượng gửi.": "2500"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Email Hosting — gói EH-Four.",
+      "useCases": [
+        "email tên miền riêng",
+        "email doanh nghiệp"
+      ],
+      "price": {
+        "display": "80,750 đ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-FIVE",
+      "type": "email",
+      "name": "EH-Five",
+      "service": "email-hosting-chuyen-nghiep",
+      "serviceLabel": "Email Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-FIVE",
+      "specs": {
+        "Dung Lượng Lưu Trữ": "90GB",
+        "Số Tài Khoản Email": "100",
+        "Số Lượng Tên Miền": "1",
+        "Giới hạn gửi/giờ/ 1 tài khoản": "250",
+        "Giới Hạn Gửi/Ngày Chỉ giới hạn khi gửi cho email khác domain. Các email trong cùng domain không bị giới hạn số lượng gửi.": "5000"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Email Hosting — gói EH-Five.",
+      "useCases": [
+        "email tên miền riêng",
+        "email doanh nghiệp"
+      ],
+      "price": {
+        "display": "148,750 đ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-SIX",
+      "type": "email",
+      "name": "EH-Six",
+      "service": "email-hosting-chuyen-nghiep",
+      "serviceLabel": "Email Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-SIX",
+      "specs": {
+        "Dung Lượng Lưu Trữ": "180GB",
+        "Số Tài Khoản Email": "200",
+        "Số Lượng Tên Miền": "1",
+        "Giới hạn gửi/giờ/ 1 tài khoản": "250",
+        "Giới Hạn Gửi/Ngày Chỉ giới hạn khi gửi cho email khác domain. Các email trong cùng domain không bị giới hạn số lượng gửi.": "10000"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Email Hosting — gói EH-Six.",
+      "useCases": [
+        "email tên miền riêng",
+        "email doanh nghiệp"
+      ],
+      "price": {
+        "display": "250,750 đ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-SEVEN",
+      "type": "email",
+      "name": "EH-Seven",
+      "service": "email-hosting-chuyen-nghiep",
+      "serviceLabel": "Email Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-SEVEN",
+      "specs": {
+        "Dung Lượng Lưu Trữ": "225GB",
+        "Số Tài Khoản Email": "350",
+        "Số Lượng Tên Miền": "1",
+        "Giới hạn gửi/giờ/ 1 tài khoản": "300",
+        "Giới Hạn Gửi/Ngày Chỉ giới hạn khi gửi cho email khác domain. Các email trong cùng domain không bị giới hạn số lượng gửi.": "17500"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Email Hosting — gói EH-Seven.",
+      "useCases": [
+        "email tên miền riêng",
+        "email doanh nghiệp"
+      ],
+      "price": {
+        "display": "382,500 đ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-EIGHT",
+      "type": "email",
+      "name": "EH-Eight",
+      "service": "email-hosting-chuyen-nghiep",
+      "serviceLabel": "Email Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-EIGHT",
+      "specs": {
+        "Dung Lượng Lưu Trữ": "300GB",
+        "Số Tài Khoản Email": "500",
+        "Số Lượng Tên Miền": "1",
+        "Giới hạn gửi/giờ/ 1 tài khoản": "300",
+        "Giới Hạn Gửi/Ngày Chỉ giới hạn khi gửi cho email khác domain. Các email trong cùng domain không bị giới hạn số lượng gửi.": "25000"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Email Hosting — gói EH-Eight.",
+      "useCases": [
+        "email tên miền riêng",
+        "email doanh nghiệp"
+      ],
+      "price": {
+        "display": "505,750 đ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-NINE",
+      "type": "email",
+      "name": "EH-Nine",
+      "service": "email-hosting-chuyen-nghiep",
+      "serviceLabel": "Email Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-NINE",
+      "specs": {
+        "Dung Lượng Lưu Trữ": "400GB",
+        "Số Tài Khoản Email": "700",
+        "Số Lượng Tên Miền": "1",
+        "Giới hạn gửi/giờ/ 1 tài khoản": "300",
+        "Giới Hạn Gửi/Ngày Chỉ giới hạn khi gửi cho email khác domain. Các email trong cùng domain không bị giới hạn số lượng gửi.": "35000"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Email Hosting — gói EH-Nine.",
+      "useCases": [
+        "email tên miền riêng",
+        "email doanh nghiệp"
+      ],
+      "price": {
+        "display": "633,250 đ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-TEN",
+      "type": "email",
+      "name": "EH-Ten",
+      "service": "email-hosting-chuyen-nghiep",
+      "serviceLabel": "Email Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-TEN",
+      "specs": {
+        "Dung Lượng Lưu Trữ": "500GB",
+        "Số Tài Khoản Email": "Không giới hạn",
+        "Số Lượng Tên Miền": "1",
+        "Giới hạn gửi/giờ/ 1 tài khoản": "300",
+        "Giới Hạn Gửi/Ngày Chỉ giới hạn khi gửi cho email khác domain. Các email trong cùng domain không bị giới hạn số lượng gửi.": "70000"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Email Hosting — gói EH-Ten.",
+      "useCases": [
+        "email tên miền riêng",
+        "email doanh nghiệp"
+      ],
+      "price": {
+        "display": "1,615,000 đ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-ELEVEN",
+      "type": "email",
+      "name": "EH-Eleven",
+      "service": "email-hosting-chuyen-nghiep",
+      "serviceLabel": "Email Hosting",
+      "status": "active",
+      "ownerConfirmed": true,
+      "reviewMethod": "owner-requested-crawl-import",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "sourceUrl": "/knowledge/SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-ELEVEN",
+      "specs": {
+        "Dung Lượng Lưu Trữ": "1000GB",
+        "Số Tài Khoản Email": "Không giới hạn",
+        "Số Lượng Tên Miền": "1",
+        "Giới hạn gửi/giờ/ 1 tài khoản": "300",
+        "Giới Hạn Gửi/Ngày Chỉ giới hạn khi gửi cho email khác domain. Các email trong cùng domain không bị giới hạn số lượng gửi.": "100000"
+      },
+      "availability": {
+        "checked": false,
+        "status": "not_checked"
+      },
+      "suitabilityIsGuidance": true,
+      "description": "Email Hosting — gói EH-Eleven.",
+      "useCases": [
+        "email tên miền riêng",
+        "email doanh nghiệp"
+      ],
+      "price": {
+        "display": "2,805,000 đ/tháng",
+        "currency": "VND",
+        "billingPeriod": "tháng (đơn giá hiển thị; chu kỳ thanh toán cần xác nhận)",
+        "conditions": "Giá theo bản chụp danh mục; chu kỳ đăng ký, ưu đãi và thuế cần đối chiếu trước khi thanh toán.",
+        "verifiedCurrent": false
+      }
+    }
+  ]
+}

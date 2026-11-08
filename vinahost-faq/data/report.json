@@ -1,0 +1,29 @@
+{
+  "sources": 114,
+  "faqs": 951,
+  "chunks": 9867,
+  "categories": {
+    "cloud-server": 34,
+    "domain": 12,
+    "email": 8,
+    "hosting": 13,
+    "support": 5,
+    "ssl-security": 8,
+    "vps": 24,
+    "policy": 9,
+    "company": 1
+  },
+  "started_at": "2026-11-07T05:03:30.535111+00:00",
+  "finished_at": "2026-11-07T05:06:02.309979+00:00",
+  "attempted": 118,
+  "selected": 118,
+  "errors": [],
+  "faq_review_status": "unreviewed — literal source extraction; not manually fact-checked",
+  "scope": "Menu-linked service pages and policy/support seeds; not a full-domain crawl",
+  "reextracted_at": "2026-11-07T05:08:01.155429+00:00",
+  "extractor_version": "1.1",
+  "excluded_editorial_urls": [
+    "https://vinahost.vn/alibaba-cloud-partner/",
+    "https://vinahost.vn/vnnic-tiep-tuc-dau-gia-77-ten-mien-vn-trong-dot-2-nam-2026/"
+  ]
+}

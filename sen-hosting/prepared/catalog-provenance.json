@@ -1,0 +1,1174 @@
+{
+  "version": 1,
+  "importedAt": "2026-11-07T15:49:16.297004+00:00",
+  "records": [
+    {
+      "id": "SEN-CATALOG-DOMAIN-COM",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".com",
+        "370.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-VN",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".vn",
+        "450.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-COM-VN",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".com.vn",
+        "350.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-NET",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".net",
+        "410.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-ORG",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".org",
+        "390.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-SHOP",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".shop",
+        "870.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-STORE",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".store",
+        "1.250.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-ONLINE",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".online",
+        "910.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-SITE",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".site",
+        "920.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-WEBSITE",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".website",
+        "550.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-BOUTIQUE",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".boutique",
+        "860.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-BIZ",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".biz",
+        "630.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-INFO",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".info",
+        "740.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-IO",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".io",
+        "1.620.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-CO",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".co",
+        "1.050.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-CLOUD",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".cloud",
+        "595.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-ASIA",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".asia",
+        "342.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-IO-VN",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".io.vn",
+        "30.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-ID-VN",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".id.vn",
+        "60.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-BIZ-VN",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".biz.vn",
+        "350.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-NET-VN",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".net.vn",
+        "350.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-PRO-VN",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".pro.vn",
+        "60.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-NAME-VN",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".name.vn",
+        "30.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-ME",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".me",
+        "650.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-APP",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".app",
+        "560.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-DOMAIN-DEV",
+      "originalUrl": "https://vinahost.vn/dang-ky-ten-mien/",
+      "sourceId": "5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073",
+      "sourceContentHash": "4e88cf3b3d39c40a458c520590a6c93eb498f46aa340c1f7918f0de7703eb6a4",
+      "rawPath": "raw/5cc3c64aca7999d42a0660545dda2967b73b9abe4bc3e8232e15c8bb00d84073.html.gz",
+      "snapshotAt": "2026-11-07T05:04:03.051399+00:00",
+      "literalEvidence": [
+        ".dev",
+        "490.000 đ"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-GIA-RE-LH-START",
+      "originalUrl": "https://vinahost.vn/hosting-gia-re/",
+      "sourceId": "eb8a96650aae1398278ae4d4e55c15d2ba18f93e5799aa70f7b46acc1498b26d",
+      "sourceContentHash": "7845eba4964d04d816dd0bb4652bb63cf7c20ce030819a7c87a8fb6ee9b1f69a",
+      "rawPath": "raw/eb8a96650aae1398278ae4d4e55c15d2ba18f93e5799aa70f7b46acc1498b26d.html.gz",
+      "snapshotAt": "2026-11-07T05:04:02.013867+00:00",
+      "literalEvidence": [
+        "LH - Start",
+        "300MB",
+        "0.5 GB",
+        "0.5 core",
+        "1",
+        "1",
+        "Không giới hạn",
+        "100%",
+        "12,750 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-GIA-RE-LH1",
+      "originalUrl": "https://vinahost.vn/hosting-gia-re/",
+      "sourceId": "eb8a96650aae1398278ae4d4e55c15d2ba18f93e5799aa70f7b46acc1498b26d",
+      "sourceContentHash": "7845eba4964d04d816dd0bb4652bb63cf7c20ce030819a7c87a8fb6ee9b1f69a",
+      "rawPath": "raw/eb8a96650aae1398278ae4d4e55c15d2ba18f93e5799aa70f7b46acc1498b26d.html.gz",
+      "snapshotAt": "2026-11-07T05:04:02.013867+00:00",
+      "literalEvidence": [
+        "LH1",
+        "1.5 GB + [TẶNG 2 GB]",
+        "1 GB",
+        "1 core",
+        "1",
+        "10",
+        "Không giới hạn",
+        "120%",
+        "21,250 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-GIA-RE-LH2",
+      "originalUrl": "https://vinahost.vn/hosting-gia-re/",
+      "sourceId": "eb8a96650aae1398278ae4d4e55c15d2ba18f93e5799aa70f7b46acc1498b26d",
+      "sourceContentHash": "7845eba4964d04d816dd0bb4652bb63cf7c20ce030819a7c87a8fb6ee9b1f69a",
+      "rawPath": "raw/eb8a96650aae1398278ae4d4e55c15d2ba18f93e5799aa70f7b46acc1498b26d.html.gz",
+      "snapshotAt": "2026-11-07T05:04:02.013867+00:00",
+      "literalEvidence": [
+        "LH2",
+        "4 GB + [TẶNG 3 GB]",
+        "2 GB",
+        "1.5 cores",
+        "2",
+        "15",
+        "Không giới hạn",
+        "120%",
+        "34,000 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-GIA-RE-LH3",
+      "originalUrl": "https://vinahost.vn/hosting-gia-re/",
+      "sourceId": "eb8a96650aae1398278ae4d4e55c15d2ba18f93e5799aa70f7b46acc1498b26d",
+      "sourceContentHash": "7845eba4964d04d816dd0bb4652bb63cf7c20ce030819a7c87a8fb6ee9b1f69a",
+      "rawPath": "raw/eb8a96650aae1398278ae4d4e55c15d2ba18f93e5799aa70f7b46acc1498b26d.html.gz",
+      "snapshotAt": "2026-11-07T05:04:02.013867+00:00",
+      "literalEvidence": [
+        "LH3",
+        "6 GB + [TẶNG 5 GB]",
+        "3 GB",
+        "1.5 cores",
+        "3",
+        "25",
+        "Không giới hạn",
+        "150%",
+        "51,000 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-GIA-RE-LH4",
+      "originalUrl": "https://vinahost.vn/hosting-gia-re/",
+      "sourceId": "eb8a96650aae1398278ae4d4e55c15d2ba18f93e5799aa70f7b46acc1498b26d",
+      "sourceContentHash": "7845eba4964d04d816dd0bb4652bb63cf7c20ce030819a7c87a8fb6ee9b1f69a",
+      "rawPath": "raw/eb8a96650aae1398278ae4d4e55c15d2ba18f93e5799aa70f7b46acc1498b26d.html.gz",
+      "snapshotAt": "2026-11-07T05:04:02.013867+00:00",
+      "literalEvidence": [
+        "LH4",
+        "12 GB + [TẶNG 12 GB]",
+        "3 GB",
+        "2 cores",
+        "5",
+        "50",
+        "Không giới hạn",
+        "150%",
+        "80,750 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-GIA-RE-LH5",
+      "originalUrl": "https://vinahost.vn/hosting-gia-re/",
+      "sourceId": "eb8a96650aae1398278ae4d4e55c15d2ba18f93e5799aa70f7b46acc1498b26d",
+      "sourceContentHash": "7845eba4964d04d816dd0bb4652bb63cf7c20ce030819a7c87a8fb6ee9b1f69a",
+      "rawPath": "raw/eb8a96650aae1398278ae4d4e55c15d2ba18f93e5799aa70f7b46acc1498b26d.html.gz",
+      "snapshotAt": "2026-11-07T05:04:02.013867+00:00",
+      "literalEvidence": [
+        "LH5",
+        "25 GB + [TẶNG 20 GB]",
+        "5 GB",
+        "2 cores",
+        "10",
+        "80",
+        "Không giới hạn",
+        "200%",
+        "148,750 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-GIA-RE-LH6",
+      "originalUrl": "https://vinahost.vn/hosting-gia-re/",
+      "sourceId": "eb8a96650aae1398278ae4d4e55c15d2ba18f93e5799aa70f7b46acc1498b26d",
+      "sourceContentHash": "7845eba4964d04d816dd0bb4652bb63cf7c20ce030819a7c87a8fb6ee9b1f69a",
+      "rawPath": "raw/eb8a96650aae1398278ae4d4e55c15d2ba18f93e5799aa70f7b46acc1498b26d.html.gz",
+      "snapshotAt": "2026-11-07T05:04:02.013867+00:00",
+      "literalEvidence": [
+        "LH6",
+        "40 GB + [TẶNG 20 GB]",
+        "8 GB",
+        "3 cores",
+        "15",
+        "150",
+        "Không giới hạn",
+        "200%",
+        "233,750 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-WORDPRESS-HOSTING-WPH-START",
+      "originalUrl": "https://vinahost.vn/wordpress-hosting/",
+      "sourceId": "481c3050391a1754bd3e741ac33e3528fcb4e35614dba68858d3a3c9e1986b6b",
+      "sourceContentHash": "71cf89c6933116e55e66cbadc5a98fd90d151e0782a261cb693525d58c558d15",
+      "rawPath": "raw/481c3050391a1754bd3e741ac33e3528fcb4e35614dba68858d3a3c9e1986b6b.html.gz",
+      "snapshotAt": "2026-11-07T05:04:09.088003+00:00",
+      "literalEvidence": [
+        "WPH-Start",
+        "2 cores",
+        "6 GB",
+        "2.5 GB",
+        "1",
+        "30",
+        "Không giới hạn",
+        "150%",
+        "72,250 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-WORDPRESS-HOSTING-WPH-1",
+      "originalUrl": "https://vinahost.vn/wordpress-hosting/",
+      "sourceId": "481c3050391a1754bd3e741ac33e3528fcb4e35614dba68858d3a3c9e1986b6b",
+      "sourceContentHash": "71cf89c6933116e55e66cbadc5a98fd90d151e0782a261cb693525d58c558d15",
+      "rawPath": "raw/481c3050391a1754bd3e741ac33e3528fcb4e35614dba68858d3a3c9e1986b6b.html.gz",
+      "snapshotAt": "2026-11-07T05:04:09.088003+00:00",
+      "literalEvidence": [
+        "WPH 1",
+        "2 cores",
+        "10 GB",
+        "4 GB",
+        "4",
+        "50",
+        "Không giới hạn",
+        "200%",
+        "123,250 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-WORDPRESS-HOSTING-WPH-2",
+      "originalUrl": "https://vinahost.vn/wordpress-hosting/",
+      "sourceId": "481c3050391a1754bd3e741ac33e3528fcb4e35614dba68858d3a3c9e1986b6b",
+      "sourceContentHash": "71cf89c6933116e55e66cbadc5a98fd90d151e0782a261cb693525d58c558d15",
+      "rawPath": "raw/481c3050391a1754bd3e741ac33e3528fcb4e35614dba68858d3a3c9e1986b6b.html.gz",
+      "snapshotAt": "2026-11-07T05:04:09.088003+00:00",
+      "literalEvidence": [
+        "WPH 2",
+        "3 cores",
+        "15 GB",
+        "7 GB",
+        "6",
+        "75",
+        "Không giới hạn",
+        "200%",
+        "195,500 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-WORDPRESS-HOSTING-WPH-3",
+      "originalUrl": "https://vinahost.vn/wordpress-hosting/",
+      "sourceId": "481c3050391a1754bd3e741ac33e3528fcb4e35614dba68858d3a3c9e1986b6b",
+      "sourceContentHash": "71cf89c6933116e55e66cbadc5a98fd90d151e0782a261cb693525d58c558d15",
+      "rawPath": "raw/481c3050391a1754bd3e741ac33e3528fcb4e35614dba68858d3a3c9e1986b6b.html.gz",
+      "snapshotAt": "2026-11-07T05:04:09.088003+00:00",
+      "literalEvidence": [
+        "WPH 3",
+        "6 cores",
+        "18 GB",
+        "9 GB",
+        "10",
+        "100",
+        "Không giới hạn",
+        "250%",
+        "250,750 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-WORDPRESS-HOSTING-WPH-4",
+      "originalUrl": "https://vinahost.vn/wordpress-hosting/",
+      "sourceId": "481c3050391a1754bd3e741ac33e3528fcb4e35614dba68858d3a3c9e1986b6b",
+      "sourceContentHash": "71cf89c6933116e55e66cbadc5a98fd90d151e0782a261cb693525d58c558d15",
+      "rawPath": "raw/481c3050391a1754bd3e741ac33e3528fcb4e35614dba68858d3a3c9e1986b6b.html.gz",
+      "snapshotAt": "2026-11-07T05:04:09.088003+00:00",
+      "literalEvidence": [
+        "WPH 4",
+        "8 cores",
+        "25 GB",
+        "12 GB",
+        "12",
+        "150",
+        "Không giới hạn",
+        "300%",
+        "344,250 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-WINDOWS-HOSTING-WH-START",
+      "originalUrl": "https://vinahost.vn/windows-hosting/",
+      "sourceId": "f30954ef27e25c7cd2926ddf5139c26351fcc1d7be3a5c704e526a8dcbb6808e",
+      "sourceContentHash": "e2ad0246ee06792e4b7d762a8be754319901a5906beea154c13df0ee742a8d61",
+      "rawPath": "raw/f30954ef27e25c7cd2926ddf5139c26351fcc1d7be3a5c704e526a8dcbb6808e.html.gz",
+      "snapshotAt": "2026-11-07T05:05:59.939083+00:00",
+      "literalEvidence": [
+        "WH-Start",
+        "300 MB",
+        "0.5 GB",
+        "0.5 core",
+        "1",
+        "100%",
+        "1",
+        "12,750 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-WINDOWS-HOSTING-WH1",
+      "originalUrl": "https://vinahost.vn/windows-hosting/",
+      "sourceId": "f30954ef27e25c7cd2926ddf5139c26351fcc1d7be3a5c704e526a8dcbb6808e",
+      "sourceContentHash": "e2ad0246ee06792e4b7d762a8be754319901a5906beea154c13df0ee742a8d61",
+      "rawPath": "raw/f30954ef27e25c7cd2926ddf5139c26351fcc1d7be3a5c704e526a8dcbb6808e.html.gz",
+      "snapshotAt": "2026-11-07T05:05:59.939083+00:00",
+      "literalEvidence": [
+        "WH1",
+        "1.5 GB + [TẶNG 2 GB]",
+        "1 GB",
+        "1 core",
+        "1",
+        "120%",
+        "10",
+        "21,250 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-WINDOWS-HOSTING-WH2",
+      "originalUrl": "https://vinahost.vn/windows-hosting/",
+      "sourceId": "f30954ef27e25c7cd2926ddf5139c26351fcc1d7be3a5c704e526a8dcbb6808e",
+      "sourceContentHash": "e2ad0246ee06792e4b7d762a8be754319901a5906beea154c13df0ee742a8d61",
+      "rawPath": "raw/f30954ef27e25c7cd2926ddf5139c26351fcc1d7be3a5c704e526a8dcbb6808e.html.gz",
+      "snapshotAt": "2026-11-07T05:05:59.939083+00:00",
+      "literalEvidence": [
+        "WH2",
+        "4 GB + [TẶNG 3 GB]",
+        "2 GB",
+        "1.5 cores",
+        "2",
+        "120%",
+        "15",
+        "34,000 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-WINDOWS-HOSTING-WH3",
+      "originalUrl": "https://vinahost.vn/windows-hosting/",
+      "sourceId": "f30954ef27e25c7cd2926ddf5139c26351fcc1d7be3a5c704e526a8dcbb6808e",
+      "sourceContentHash": "e2ad0246ee06792e4b7d762a8be754319901a5906beea154c13df0ee742a8d61",
+      "rawPath": "raw/f30954ef27e25c7cd2926ddf5139c26351fcc1d7be3a5c704e526a8dcbb6808e.html.gz",
+      "snapshotAt": "2026-11-07T05:05:59.939083+00:00",
+      "literalEvidence": [
+        "WH3",
+        "6 GB + [TẶNG 5 GB]",
+        "3 GB",
+        "1.5 cores",
+        "3",
+        "150%",
+        "25",
+        "51,000 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-WINDOWS-HOSTING-WH4",
+      "originalUrl": "https://vinahost.vn/windows-hosting/",
+      "sourceId": "f30954ef27e25c7cd2926ddf5139c26351fcc1d7be3a5c704e526a8dcbb6808e",
+      "sourceContentHash": "e2ad0246ee06792e4b7d762a8be754319901a5906beea154c13df0ee742a8d61",
+      "rawPath": "raw/f30954ef27e25c7cd2926ddf5139c26351fcc1d7be3a5c704e526a8dcbb6808e.html.gz",
+      "snapshotAt": "2026-11-07T05:05:59.939083+00:00",
+      "literalEvidence": [
+        "WH4",
+        "12 GB + [TẶNG 12 GB]",
+        "3 GB",
+        "2 cores",
+        "5",
+        "150%",
+        "50",
+        "80,750 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-WINDOWS-HOSTING-WH5",
+      "originalUrl": "https://vinahost.vn/windows-hosting/",
+      "sourceId": "f30954ef27e25c7cd2926ddf5139c26351fcc1d7be3a5c704e526a8dcbb6808e",
+      "sourceContentHash": "e2ad0246ee06792e4b7d762a8be754319901a5906beea154c13df0ee742a8d61",
+      "rawPath": "raw/f30954ef27e25c7cd2926ddf5139c26351fcc1d7be3a5c704e526a8dcbb6808e.html.gz",
+      "snapshotAt": "2026-11-07T05:05:59.939083+00:00",
+      "literalEvidence": [
+        "WH5",
+        "25 GB + [TẶNG 20 GB]",
+        "5 GB",
+        "2 cores",
+        "10",
+        "200%",
+        "80",
+        "148,750 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-WINDOWS-HOSTING-WH6",
+      "originalUrl": "https://vinahost.vn/windows-hosting/",
+      "sourceId": "f30954ef27e25c7cd2926ddf5139c26351fcc1d7be3a5c704e526a8dcbb6808e",
+      "sourceContentHash": "e2ad0246ee06792e4b7d762a8be754319901a5906beea154c13df0ee742a8d61",
+      "rawPath": "raw/f30954ef27e25c7cd2926ddf5139c26351fcc1d7be3a5c704e526a8dcbb6808e.html.gz",
+      "snapshotAt": "2026-11-07T05:05:59.939083+00:00",
+      "literalEvidence": [
+        "WH6",
+        "40 GB + [TẶNG 20 GB]",
+        "8 GB",
+        "3 cores",
+        "15",
+        "200%",
+        "150",
+        "233,750 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-DOANH-NGHIEP-BH1",
+      "originalUrl": "https://vinahost.vn/hosting-doanh-nghiep/",
+      "sourceId": "172c6849a13b549d46af62bf6b9b97175d8c21af400e5b8da354028eae680fba",
+      "sourceContentHash": "fc889db1266035607fe754d88d8b3a3ad6a8815d52f56a57576b0eb680ed1d22",
+      "rawPath": "raw/172c6849a13b549d46af62bf6b9b97175d8c21af400e5b8da354028eae680fba.html.gz",
+      "snapshotAt": "2026-11-07T05:04:58.473557+00:00",
+      "literalEvidence": [
+        "BH1",
+        "15 GB",
+        "1",
+        "25",
+        "3 cores",
+        "6 GB",
+        "3 cores",
+        "250%",
+        "180,000 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-DOANH-NGHIEP-BH2",
+      "originalUrl": "https://vinahost.vn/hosting-doanh-nghiep/",
+      "sourceId": "172c6849a13b549d46af62bf6b9b97175d8c21af400e5b8da354028eae680fba",
+      "sourceContentHash": "fc889db1266035607fe754d88d8b3a3ad6a8815d52f56a57576b0eb680ed1d22",
+      "rawPath": "raw/172c6849a13b549d46af62bf6b9b97175d8c21af400e5b8da354028eae680fba.html.gz",
+      "snapshotAt": "2026-11-07T05:04:58.473557+00:00",
+      "literalEvidence": [
+        "BH2",
+        "25 GB",
+        "2",
+        "50",
+        "4 cores",
+        "8 GB",
+        "4 cores",
+        "250%",
+        "280,000 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-DOANH-NGHIEP-BH3",
+      "originalUrl": "https://vinahost.vn/hosting-doanh-nghiep/",
+      "sourceId": "172c6849a13b549d46af62bf6b9b97175d8c21af400e5b8da354028eae680fba",
+      "sourceContentHash": "fc889db1266035607fe754d88d8b3a3ad6a8815d52f56a57576b0eb680ed1d22",
+      "rawPath": "raw/172c6849a13b549d46af62bf6b9b97175d8c21af400e5b8da354028eae680fba.html.gz",
+      "snapshotAt": "2026-11-07T05:04:58.473557+00:00",
+      "literalEvidence": [
+        "BH3",
+        "40 GB",
+        "3",
+        "75",
+        "5 cores",
+        "10 GB",
+        "5 cores",
+        "300%",
+        "480,000 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-HOSTING-DOANH-NGHIEP-BH4",
+      "originalUrl": "https://vinahost.vn/hosting-doanh-nghiep/",
+      "sourceId": "172c6849a13b549d46af62bf6b9b97175d8c21af400e5b8da354028eae680fba",
+      "sourceContentHash": "fc889db1266035607fe754d88d8b3a3ad6a8815d52f56a57576b0eb680ed1d22",
+      "rawPath": "raw/172c6849a13b549d46af62bf6b9b97175d8c21af400e5b8da354028eae680fba.html.gz",
+      "snapshotAt": "2026-11-07T05:04:58.473557+00:00",
+      "literalEvidence": [
+        "BH4",
+        "60 GB",
+        "4",
+        "100",
+        "6 cores",
+        "12 GB",
+        "6 cores",
+        "300%",
+        "650,000 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-THUE-VPS-GIA-RE-CHEAP-SSD1",
+      "originalUrl": "https://vinahost.vn/thue-vps-gia-re/",
+      "sourceId": "b79852f51c912ac6cdfdf535a9eb1dc600c988896a6b90acf61208f226227afc",
+      "sourceContentHash": "cc41bea96a7c11f3039efd522b7638f5fdbe0161542ed431e004e0135c8dacbf",
+      "rawPath": "raw/b79852f51c912ac6cdfdf535a9eb1dc600c988896a6b90acf61208f226227afc.html.gz",
+      "snapshotAt": "2026-11-07T05:04:04.049409+00:00",
+      "literalEvidence": [
+        "Cheap-SSD1",
+        "1",
+        "1 GB",
+        "25 GB",
+        "100Mbps",
+        "1-10Mbps",
+        "Hỗ trợ đa dạng OS Linux",
+        "61,413 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-THUE-VPS-GIA-RE-CHEAP-SSD2",
+      "originalUrl": "https://vinahost.vn/thue-vps-gia-re/",
+      "sourceId": "b79852f51c912ac6cdfdf535a9eb1dc600c988896a6b90acf61208f226227afc",
+      "sourceContentHash": "cc41bea96a7c11f3039efd522b7638f5fdbe0161542ed431e004e0135c8dacbf",
+      "rawPath": "raw/b79852f51c912ac6cdfdf535a9eb1dc600c988896a6b90acf61208f226227afc.html.gz",
+      "snapshotAt": "2026-11-07T05:04:04.049409+00:00",
+      "literalEvidence": [
+        "Cheap-SSD2",
+        "2",
+        "2 GB",
+        "40 GB",
+        "100Mbps",
+        "1-10Mbps",
+        "Hỗ trợ đa dạng OS Linux",
+        "119,213 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-THUE-VPS-GIA-RE-CHEAP-SSD3",
+      "originalUrl": "https://vinahost.vn/thue-vps-gia-re/",
+      "sourceId": "b79852f51c912ac6cdfdf535a9eb1dc600c988896a6b90acf61208f226227afc",
+      "sourceContentHash": "cc41bea96a7c11f3039efd522b7638f5fdbe0161542ed431e004e0135c8dacbf",
+      "rawPath": "raw/b79852f51c912ac6cdfdf535a9eb1dc600c988896a6b90acf61208f226227afc.html.gz",
+      "snapshotAt": "2026-11-07T05:04:04.049409+00:00",
+      "literalEvidence": [
+        "Cheap-SSD3",
+        "3",
+        "3 GB",
+        "60 GB",
+        "100Mbps",
+        "1-10Mbps",
+        "Hỗ trợ đa dạng OS Linux",
+        "180,625 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-THUE-VPS-GIA-RE-CHEAP-SSD4",
+      "originalUrl": "https://vinahost.vn/thue-vps-gia-re/",
+      "sourceId": "b79852f51c912ac6cdfdf535a9eb1dc600c988896a6b90acf61208f226227afc",
+      "sourceContentHash": "cc41bea96a7c11f3039efd522b7638f5fdbe0161542ed431e004e0135c8dacbf",
+      "rawPath": "raw/b79852f51c912ac6cdfdf535a9eb1dc600c988896a6b90acf61208f226227afc.html.gz",
+      "snapshotAt": "2026-11-07T05:04:04.049409+00:00",
+      "literalEvidence": [
+        "Cheap-SSD4",
+        "4",
+        "4 GB",
+        "80 GB",
+        "100Mbps",
+        "1-10Mbps",
+        "Hỗ trợ đa dạng OS Linux",
+        "263,713 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-THUE-VPS-GIA-RE-CHEAP-SSD5",
+      "originalUrl": "https://vinahost.vn/thue-vps-gia-re/",
+      "sourceId": "b79852f51c912ac6cdfdf535a9eb1dc600c988896a6b90acf61208f226227afc",
+      "sourceContentHash": "cc41bea96a7c11f3039efd522b7638f5fdbe0161542ed431e004e0135c8dacbf",
+      "rawPath": "raw/b79852f51c912ac6cdfdf535a9eb1dc600c988896a6b90acf61208f226227afc.html.gz",
+      "snapshotAt": "2026-11-07T05:04:04.049409+00:00",
+      "literalEvidence": [
+        "Cheap-SSD5",
+        "4",
+        "6 GB",
+        "100 GB",
+        "100Mbps",
+        "1-10Mbps",
+        "Hỗ trợ đa dạng OS Linux",
+        "325,125 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-THUE-VPS-GIA-RE-CHEAP-SSD6",
+      "originalUrl": "https://vinahost.vn/thue-vps-gia-re/",
+      "sourceId": "b79852f51c912ac6cdfdf535a9eb1dc600c988896a6b90acf61208f226227afc",
+      "sourceContentHash": "cc41bea96a7c11f3039efd522b7638f5fdbe0161542ed431e004e0135c8dacbf",
+      "rawPath": "raw/b79852f51c912ac6cdfdf535a9eb1dc600c988896a6b90acf61208f226227afc.html.gz",
+      "snapshotAt": "2026-11-07T05:04:04.049409+00:00",
+      "literalEvidence": [
+        "Cheap-SSD6",
+        "6",
+        "8 GB",
+        "120 GB",
+        "100Mbps",
+        "1-10Mbps",
+        "Hỗ trợ đa dạng OS Linux",
+        "498,525 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-THUE-VPS-GIA-RE-FLEXCHEAPVPS",
+      "originalUrl": "https://vinahost.vn/thue-vps-gia-re/",
+      "sourceId": "b79852f51c912ac6cdfdf535a9eb1dc600c988896a6b90acf61208f226227afc",
+      "sourceContentHash": "cc41bea96a7c11f3039efd522b7638f5fdbe0161542ed431e004e0135c8dacbf",
+      "rawPath": "raw/b79852f51c912ac6cdfdf535a9eb1dc600c988896a6b90acf61208f226227afc.html.gz",
+      "snapshotAt": "2026-11-07T05:04:04.049409+00:00",
+      "literalEvidence": [
+        "FlexCheapVPS",
+        "Tối thiểu: 1vCPU / Tối đa: 16vCPU",
+        "Tối thiểu: 1GB / Tối đa: 32GB",
+        "Tối thiểu: 25GB / Tối đa: 300GB",
+        "Liên Hệ",
+        "Liên Hệ",
+        "Liên Hệ",
+        "61,413 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-VPS-N8N-VPS-N8N1",
+      "originalUrl": "https://vinahost.vn/vps-n8n/",
+      "sourceId": "816b8a4b80113499f3706b4b0468c60c29c58f01326185a07573e478c258faea",
+      "sourceContentHash": "cbdd06af11fc9bb67817762fd4e7a5aa5fa6148630b17b347295d7a54a036be3",
+      "rawPath": "raw/816b8a4b80113499f3706b4b0468c60c29c58f01326185a07573e478c258faea.html.gz",
+      "snapshotAt": "2026-11-07T05:05:49.917583+00:00",
+      "literalEvidence": [
+        "VPS-N8N1",
+        "1",
+        "1 GB",
+        "25 GB",
+        "100Mbps",
+        "61,413 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-VPS-N8N-VPS-N8N2",
+      "originalUrl": "https://vinahost.vn/vps-n8n/",
+      "sourceId": "816b8a4b80113499f3706b4b0468c60c29c58f01326185a07573e478c258faea",
+      "sourceContentHash": "cbdd06af11fc9bb67817762fd4e7a5aa5fa6148630b17b347295d7a54a036be3",
+      "rawPath": "raw/816b8a4b80113499f3706b4b0468c60c29c58f01326185a07573e478c258faea.html.gz",
+      "snapshotAt": "2026-11-07T05:05:49.917583+00:00",
+      "literalEvidence": [
+        "VPS-N8N2",
+        "2",
+        "2 GB",
+        "40 GB",
+        "100Mbps",
+        "119,213 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-VPS-N8N-VPS-N8N3",
+      "originalUrl": "https://vinahost.vn/vps-n8n/",
+      "sourceId": "816b8a4b80113499f3706b4b0468c60c29c58f01326185a07573e478c258faea",
+      "sourceContentHash": "cbdd06af11fc9bb67817762fd4e7a5aa5fa6148630b17b347295d7a54a036be3",
+      "rawPath": "raw/816b8a4b80113499f3706b4b0468c60c29c58f01326185a07573e478c258faea.html.gz",
+      "snapshotAt": "2026-11-07T05:05:49.917583+00:00",
+      "literalEvidence": [
+        "VPS-N8N3",
+        "3",
+        "3 GB",
+        "60 GB",
+        "100Mbps",
+        "180,625 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-VPS-N8N-VPS-N8N4",
+      "originalUrl": "https://vinahost.vn/vps-n8n/",
+      "sourceId": "816b8a4b80113499f3706b4b0468c60c29c58f01326185a07573e478c258faea",
+      "sourceContentHash": "cbdd06af11fc9bb67817762fd4e7a5aa5fa6148630b17b347295d7a54a036be3",
+      "rawPath": "raw/816b8a4b80113499f3706b4b0468c60c29c58f01326185a07573e478c258faea.html.gz",
+      "snapshotAt": "2026-11-07T05:05:49.917583+00:00",
+      "literalEvidence": [
+        "VPS-N8N4",
+        "4",
+        "4 GB",
+        "80 GB",
+        "100Mbps",
+        "263,713 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-VPS-N8N-VPS-N8N5",
+      "originalUrl": "https://vinahost.vn/vps-n8n/",
+      "sourceId": "816b8a4b80113499f3706b4b0468c60c29c58f01326185a07573e478c258faea",
+      "sourceContentHash": "cbdd06af11fc9bb67817762fd4e7a5aa5fa6148630b17b347295d7a54a036be3",
+      "rawPath": "raw/816b8a4b80113499f3706b4b0468c60c29c58f01326185a07573e478c258faea.html.gz",
+      "snapshotAt": "2026-11-07T05:05:49.917583+00:00",
+      "literalEvidence": [
+        "VPS-N8N5",
+        "4",
+        "6 GB",
+        "100 GB",
+        "100Mbps",
+        "325,125 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-VPS-N8N-VPS-N8N6",
+      "originalUrl": "https://vinahost.vn/vps-n8n/",
+      "sourceId": "816b8a4b80113499f3706b4b0468c60c29c58f01326185a07573e478c258faea",
+      "sourceContentHash": "cbdd06af11fc9bb67817762fd4e7a5aa5fa6148630b17b347295d7a54a036be3",
+      "rawPath": "raw/816b8a4b80113499f3706b4b0468c60c29c58f01326185a07573e478c258faea.html.gz",
+      "snapshotAt": "2026-11-07T05:05:49.917583+00:00",
+      "literalEvidence": [
+        "VPS-N8N6",
+        "6",
+        "8 GB",
+        "120 GB",
+        "100Mbps",
+        "498,525 vnđ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-START",
+      "originalUrl": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+      "sourceId": "7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a",
+      "sourceContentHash": "8d57bce3521e87fe0817a73c57d7e85b9e4232945452f20765662ea6d6cd036d",
+      "rawPath": "raw/7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a.html.gz",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "literalEvidence": [
+        "EH-Start",
+        "1GB",
+        "1",
+        "1",
+        "50",
+        "50",
+        "12,750 đ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-ONE",
+      "originalUrl": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+      "sourceId": "7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a",
+      "sourceContentHash": "8d57bce3521e87fe0817a73c57d7e85b9e4232945452f20765662ea6d6cd036d",
+      "rawPath": "raw/7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a.html.gz",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "literalEvidence": [
+        "EH-One",
+        "4GB",
+        "5",
+        "1",
+        "200",
+        "250",
+        "21,250 đ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-TWO",
+      "originalUrl": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+      "sourceId": "7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a",
+      "sourceContentHash": "8d57bce3521e87fe0817a73c57d7e85b9e4232945452f20765662ea6d6cd036d",
+      "rawPath": "raw/7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a.html.gz",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "literalEvidence": [
+        "EH-Two",
+        "8GB",
+        "10",
+        "1",
+        "200",
+        "500",
+        "38,250 đ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-THREE",
+      "originalUrl": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+      "sourceId": "7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a",
+      "sourceContentHash": "8d57bce3521e87fe0817a73c57d7e85b9e4232945452f20765662ea6d6cd036d",
+      "rawPath": "raw/7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a.html.gz",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "literalEvidence": [
+        "EH-Three",
+        "12GB",
+        "20",
+        "1",
+        "200",
+        "1000",
+        "55,250 đ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-FOUR",
+      "originalUrl": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+      "sourceId": "7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a",
+      "sourceContentHash": "8d57bce3521e87fe0817a73c57d7e85b9e4232945452f20765662ea6d6cd036d",
+      "rawPath": "raw/7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a.html.gz",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "literalEvidence": [
+        "EH-Four",
+        "25GB",
+        "50",
+        "1",
+        "250",
+        "2500",
+        "80,750 đ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-FIVE",
+      "originalUrl": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+      "sourceId": "7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a",
+      "sourceContentHash": "8d57bce3521e87fe0817a73c57d7e85b9e4232945452f20765662ea6d6cd036d",
+      "rawPath": "raw/7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a.html.gz",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "literalEvidence": [
+        "EH-Five",
+        "90GB",
+        "100",
+        "1",
+        "250",
+        "5000",
+        "148,750 đ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-SIX",
+      "originalUrl": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+      "sourceId": "7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a",
+      "sourceContentHash": "8d57bce3521e87fe0817a73c57d7e85b9e4232945452f20765662ea6d6cd036d",
+      "rawPath": "raw/7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a.html.gz",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "literalEvidence": [
+        "EH-Six",
+        "180GB",
+        "200",
+        "1",
+        "250",
+        "10000",
+        "250,750 đ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-SEVEN",
+      "originalUrl": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+      "sourceId": "7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a",
+      "sourceContentHash": "8d57bce3521e87fe0817a73c57d7e85b9e4232945452f20765662ea6d6cd036d",
+      "rawPath": "raw/7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a.html.gz",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "literalEvidence": [
+        "EH-Seven",
+        "225GB",
+        "350",
+        "1",
+        "300",
+        "17500",
+        "382,500 đ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-EIGHT",
+      "originalUrl": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+      "sourceId": "7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a",
+      "sourceContentHash": "8d57bce3521e87fe0817a73c57d7e85b9e4232945452f20765662ea6d6cd036d",
+      "rawPath": "raw/7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a.html.gz",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "literalEvidence": [
+        "EH-Eight",
+        "300GB",
+        "500",
+        "1",
+        "300",
+        "25000",
+        "505,750 đ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-NINE",
+      "originalUrl": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+      "sourceId": "7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a",
+      "sourceContentHash": "8d57bce3521e87fe0817a73c57d7e85b9e4232945452f20765662ea6d6cd036d",
+      "rawPath": "raw/7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a.html.gz",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "literalEvidence": [
+        "EH-Nine",
+        "400GB",
+        "700",
+        "1",
+        "300",
+        "35000",
+        "633,250 đ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-TEN",
+      "originalUrl": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+      "sourceId": "7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a",
+      "sourceContentHash": "8d57bce3521e87fe0817a73c57d7e85b9e4232945452f20765662ea6d6cd036d",
+      "rawPath": "raw/7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a.html.gz",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "literalEvidence": [
+        "EH-Ten",
+        "500GB",
+        "Không giới hạn",
+        "1",
+        "300",
+        "70000",
+        "1,615,000 đ/tháng"
+      ]
+    },
+    {
+      "id": "SEN-CATALOG-EMAIL-HOSTING-CHUYEN-NGHIEP-EH-ELEVEN",
+      "originalUrl": "https://vinahost.vn/email-hosting-chuyen-nghiep/",
+      "sourceId": "7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a",
+      "sourceContentHash": "8d57bce3521e87fe0817a73c57d7e85b9e4232945452f20765662ea6d6cd036d",
+      "rawPath": "raw/7d424783b236e961dca8bf4502312ebffccecc8787c4aa43798674d869c0b49a.html.gz",
+      "snapshotAt": "2026-11-07T05:04:10.076728+00:00",
+      "literalEvidence": [
+        "EH-Eleven",
+        "1000GB",
+        "Không giới hạn",
+        "1",
+        "300",
+        "100000",
+        "2,805,000 đ/tháng"
+      ]
+    }
+  ]
+}

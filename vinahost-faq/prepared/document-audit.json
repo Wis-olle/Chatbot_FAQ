@@ -1,0 +1,48 @@
+{
+  "documents": 6,
+  "note": "Selected boundaries checked against original source. Full refund/support/trial documents preserved; contact and payment are complete selected sections.",
+  "records": [
+    {
+      "id": "VH-POLICY-REFUND",
+      "sourceUrl": "https://vinahost.vn/chinh-sach-hoan-tien/",
+      "characters": 3600,
+      "firstText": "VinaHost xây dựng chính sách hoàn tiền nhằm: Tạo điều kiện cho khách hàng mới trải nghiệm dịch vụ. G",
+      "lastText": "g dịch vụ Mọi tranh chấp phát sinh sẽ được giải quyết tại tòa án có thẩm quyền theo pháp luật Việt Nam Xin chân thành cảm ơn Quý khách đã tin tưởng và sử dụng dịch vụ tại VinaHost!"
+    },
+    {
+      "id": "VH-SUPPORT-CHANNELS",
+      "sourceUrl": "https://vinahost.vn/ho-tro/",
+      "characters": 1526,
+      "firstText": "Tại mọi thời điểm, VinaHost đảm bảo luôn có nhân viên trực tiếp nhận các thắc mắc hoặc yêu cầu trợ g",
+      "lastText": "các vấn đề cần phối hợp từ cả hai phía khách hàng và nhân viên kỹ thuật VinaHost. Khách hàng có thể tham khảo thêm thông tin về giới hạn hỗ trợ dịch vụ miễn phí và có phí tại đây ."
+    },
+    {
+      "id": "VH-CONTACT-OFFICES",
+      "sourceUrl": "https://vinahost.vn/lien-he/",
+      "characters": 657,
+      "firstText": "VĂN PHÒNG VINAHOST TP. HỒ CHÍ MINH Thời gian làm việc: 8h sáng – 5h chiều từ thứ 2 đến thứ 7. Địa ch",
+      "lastText": "ơng Liệt, TP. Hà Nội Điện thoại: 1900 6046 (Ext. 1 – Sales, Ext. 2 – Customer service, Ext. 3 – Technical support, Ext. 4 – Billing) Fax: (028) 3511 9349 Email: support@vinahost.vn"
+    },
+    {
+      "id": "VH-PAYMENT-METHODS",
+      "sourceUrl": "https://vinahost.vn/thanh-toan/",
+      "characters": 144,
+      "firstText": "VINAHOST hỗ trợ các hình thức thanh toán đa dạng như Chuyển khoản / Thanh toán trực tuyến / Thanh to",
+      "lastText": "VINAHOST hỗ trợ các hình thức thanh toán đa dạng như Chuyển khoản / Thanh toán trực tuyến / Thanh toán thẻ / Thanh toán trực tiếp tại văn phòng."
+    },
+    {
+      "id": "VH-PAYMENT-CONFIRMATION",
+      "sourceUrl": "https://vinahost.vn/thanh-toan/",
+      "characters": 980,
+      "firstText": "Quý khách hàng vui lòng ghi số hóa đơn (invoice number) khi chuyển tiền vào tài khoản của Công ty Vi",
+      "lastText": " gián đoạn dịch vụ hoặc mất tên miền do giao dịch chuyển tiền có nội dung không đầy đủ hoặc nội dung không chính xác hoặc không có nội dung và không thông báo với Công ty VinaHost."
+    },
+    {
+      "id": "VH-POLICY-VPS-TRIAL",
+      "sourceUrl": "https://vinahost.vn/chinh-sach-dung-thu-vps/",
+      "characters": 1171,
+      "firstText": "Mục đích Nhằm tạo điều kiện để quý khách hàng trải nghiệm dịch vụ máy chủ ảo VPS, VinaHost triển kha",
+      "lastText": "g tin, xin vui lòng liên hệ VinaHost. Cảm ơn quý khách. Liên hệ VinaHost để được hỗ trợ Email: support@vinahost.vn Hotline:1900 6046 Livechat: https://livechat.vinahost.vn/chat.php"
+    }
+  ]
+}

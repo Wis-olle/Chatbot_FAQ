@@ -1,0 +1,166 @@
+[
+  {
+    "query": "hoan tien",
+    "results": [
+      {
+        "id": "f8c1a8be790cbe415de041f4489145d388a6a28b1b810e1b3335edcc6ba35830",
+        "kind": "chunk",
+        "source_url": "https://vinahost.vn/chinh-sach-hoan-tien/",
+        "title": "Chính Sách Hoàn Tiền",
+        "category": "policy",
+        "fetched_at": "2026-11-07T05:04:13.103283+00:00",
+        "score": -12.365494318746187,
+        "heading": "5. Thời gian hoàn tiền",
+        "text": "Phương thức hoàn tiền | Thời gian xử lý",
+        "review_status": null
+      },
+      {
+        "id": "5565f47f65cc4c71db705b0e28ddf8762a06fbd9d04b0f2406ab0f53b52415ca",
+        "kind": "chunk",
+        "source_url": "https://vinahost.vn/chinh-sach-hoan-tien/",
+        "title": "Chính Sách Hoàn Tiền",
+        "category": "policy",
+        "fetched_at": "2026-11-07T05:04:13.103283+00:00",
+        "score": -12.209637250797734,
+        "heading": "5. Thời gian hoàn tiền",
+        "text": "Thời gian trên được tính kể từ khi VinaHost xác minh hoàn tất yêu cầu hoàn tiền.",
+        "review_status": null
+      },
+      {
+        "id": "c261110d7b37a0d6f0788ad45dd69612df0c1589482040db873609af7ace4e9c",
+        "kind": "chunk",
+        "source_url": "https://vinahost.vn/chinh-sach-hoan-tien/",
+        "title": "Chính Sách Hoàn Tiền",
+        "category": "policy",
+        "fetched_at": "2026-11-07T05:04:13.103283+00:00",
+        "score": -12.138811756678866,
+        "heading": "5. Thời gian hoàn tiền",
+        "text": "Tài khoản VinaHost | 1 – 3 ngày làm việc | Thời gian xử lý",
+        "review_status": null
+      }
+    ]
+  },
+  {
+    "query": "sao luu",
+    "results": [
+      {
+        "id": "e0217d33b29d2c1b0b58ce7fde606537aa971dc61b25425a337bf5562392b1f9",
+        "kind": "faq",
+        "source_url": "https://vinahost.vn/wordpress-hosting/",
+        "title": "THUÊ WORDPRESS HOSTING",
+        "category": "hosting",
+        "fetched_at": "2026-11-07T05:04:09.088003+00:00",
+        "score": -9.407863495944204,
+        "heading": "Dữ liệu website được sao lưu thường xuyên như thế nào và lưu trữ trong bao lâu?",
+        "text": "Dữ liệu website được sao lưu định kỳ hàng ngày (4 lần/ngày và lưu trữ trong vòng 1 tuần)",
+        "review_status": "unreviewed"
+      },
+      {
+        "id": "aa4b3f339ba620c56ace569dccd80c6e6b80d38b4541864136e1e46e101764b9",
+        "kind": "chunk",
+        "source_url": "https://vinahost.vn/server/quan-tri-may-chu/",
+        "title": "DỊCH VỤ QUẢN TRỊ MÁY CHỦ",
+        "category": "cloud-server",
+        "fetched_at": "2026-11-07T05:05:25.707418+00:00",
+        "score": -9.30796125521946,
+        "heading": "Cấu hình cơ chế sao lưu dữ liệu",
+        "text": "Cấu hình sao lưu trên máy chủ của khách hàng hoặc trên dịch vụ sao lưu của VinaHost. Kiểm tra định kỳ, đảm bảo hệ thống sao lưu dữ liệu hoạt động ổn định.",
+        "review_status": null
+      },
+      {
+        "id": "cf4254e20cbcbb85bb876111341facd5c86c97d4645077495aeeb5179a78e348",
+        "kind": "faq",
+        "source_url": "https://vinahost.vn/windows-hosting/",
+        "title": "HOSTING WINDOWS",
+        "category": "hosting",
+        "fetched_at": "2026-11-07T05:05:59.939083+00:00",
+        "score": -9.302700540981599,
+        "heading": "Mua Windows Hosting tại VinaHost hỗ trợ sao lưu dữ liệu bao nhiêu lần?",
+        "text": "Các gói Windows Hosting tại VinaHost hỗ trợ sao lưu 2 lần/ngày, lưu dữ liệu trong 1 tuần.",
+        "review_status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "query": "thanh toan",
+    "results": [
+      {
+        "id": "dd2a1c12e56d97970ef8c42b0a43fc87183da569a92a9c427f57878f70f05051",
+        "kind": "chunk",
+        "source_url": "https://vinahost.vn/thanh-toan/",
+        "title": "Hướng dẫn thanh toán",
+        "category": "support",
+        "fetched_at": "2026-11-07T05:04:06.028539+00:00",
+        "score": -8.080055394745036,
+        "heading": "Hướng dẫn thanh toán",
+        "text": "VINAHOST hỗ trợ các hình thức thanh toán đa dạng như Chuyển khoản / Thanh toán trực tuyến / Thanh toán thẻ / Thanh toán trực tiếp tại văn phòng.",
+        "review_status": null
+      },
+      {
+        "id": "a9909c624d62853f59cd44aadb2ec0e0af7a125ff87852c528cb7902137f09bd",
+        "kind": "chunk",
+        "source_url": "https://vinahost.vn/ten-mien-vn/",
+        "title": "Hướng Dẫn Đăng Kí Tên Miền",
+        "category": "domain",
+        "fetched_at": "2026-11-07T05:05:33.811252+00:00",
+        "score": -7.984774811942824,
+        "heading": "Bước 3: Thanh toán",
+        "text": "|",
+        "review_status": null
+      },
+      {
+        "id": "fda156faabd1ce24568c7695ffe739d37c0b37294aad9e4e1931de27cdaf9f3e",
+        "kind": "chunk",
+        "source_url": "https://vinahost.vn/thanh-toan/",
+        "title": "Hướng dẫn thanh toán",
+        "category": "support",
+        "fetched_at": "2026-11-07T05:04:06.028539+00:00",
+        "score": -7.935215791939834,
+        "heading": "Video hướng dẫn thanh toán",
+        "text": "CREDIT CARD\nONLINE PAYMENT\nTổng lượt truy cập: lượt xem\nCập nhật: 01/07/2025",
+        "review_status": null
+      }
+    ]
+  },
+  {
+    "query": "SSL mien phi",
+    "results": [
+      {
+        "id": "bf2bb3103eff83c22b60b5a34d28578a8ea921577169ea6f8e14e62455830e1e",
+        "kind": "chunk",
+        "source_url": "https://vinahost.vn/sectigo-ssl/",
+        "title": "Sectigo SSL – Chứng chỉ bảo mật website hàng đầu 2026",
+        "category": "ssl-security",
+        "fetched_at": "2026-11-07T05:05:15.619097+00:00",
+        "score": -11.477780005638714,
+        "heading": "Tại sao nên chọn Sectigo SSL thay vì SSL miễn phí?",
+        "text": "Tiêu chí | Sectigo SSL (Trả phí) | Let’s Encrypt (Miễn phí)",
+        "review_status": null
+      },
+      {
+        "id": "f93be0dd28c5178cc3be95c3e7b3394cf6027bb1b6444f4c79c5f875f7b77da9",
+        "kind": "chunk",
+        "source_url": "https://vinahost.vn/mua-ssl-gia-re/",
+        "title": "Mua SSL Giá Rẻ chỉ từ 150K/năm",
+        "category": "ssl-security",
+        "fetched_at": "2026-11-07T05:04:11.111350+00:00",
+        "score": -11.386408993956445,
+        "heading": "Công cụ kiểm tra SSL miễn phí",
+        "text": "Nhập tên miền để kiểm tra tình trạng SSL",
+        "review_status": null
+      },
+      {
+        "id": "ce71c2b8146c8b47697e7c8d03b99e030bdf1f213a3bb41e2872b76d9b531f60",
+        "kind": "chunk",
+        "source_url": "https://vinahost.vn/sectigo-ssl/",
+        "title": "Sectigo SSL – Chứng chỉ bảo mật website hàng đầu 2026",
+        "category": "ssl-security",
+        "fetched_at": "2026-11-07T05:05:15.619097+00:00",
+        "score": -11.100568105388895,
+        "heading": "Tại sao nên chọn Sectigo SSL thay vì SSL miễn phí?",
+        "text": "Bảo hiểm tài chính | Có, lên tới hàng triệu USD tùy loại chứng chỉ | Không có",
+        "review_status": null
+      }
+    ]
+  }
+]

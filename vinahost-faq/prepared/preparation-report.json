@@ -1,0 +1,32 @@
+{
+  "sources": 114,
+  "inputFaqs": 951,
+  "selectedCandidates": 73,
+  "sourceCheckedFaqs": 69,
+  "sourceCheckedDocuments": 6,
+  "activeEntries": 75,
+  "pendingFaqs": 882,
+  "pendingDocuments": 0,
+  "inputChunks": 9867,
+  "cleanedChunks": 2045,
+  "droppedChunks": 7822,
+  "duplicateFaqs": 0,
+  "confirmationRequired": 6,
+  "reviewMeaning": "Source-checked means literal consistency with the saved source, not human/business approval or a guarantee of present-day correctness.",
+  "version": 1,
+  "generatedAt": "2026-11-07T09:48:14.003Z",
+  "rawSnapshotsRetained": true,
+  "activeFaqsAreHumanApproved": false,
+  "reviewReasons": {
+    "not-selected-for-source-check": 869,
+    "answer-not-found-in-source": 4,
+    "Institutional affiliation may be outdated; requires current verification": 2,
+    "Generalized WHOIS disclosure claim requires privacy/regulatory review": 1,
+    "Generalized spam claim and editorial marker require review": 1,
+    "Generic provider comparison and broad uptime claims require review": 1,
+    "Absolute security guarantee in source wording requires specialist review": 1,
+    "SSL renewal/validation claims require specialist review": 1,
+    "SEO ranking guarantee requires specialist review": 1,
+    "Broad bundled feature claims including DDoS require product verification": 1
+  }
+}
