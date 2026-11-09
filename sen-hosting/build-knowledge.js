@@ -60,7 +60,7 @@ export function prepareSenKnowledge(content, {profile}={}) {
 }
 
 async function draftReferences() {
-  const source = JSON.parse(await readFile(join(root, '..', 'vinahost-faq', 'prepared', 'knowledge.json'), 'utf8'));
+  const source = JSON.parse(await readFile(join(root, '..', 'faq', 'prepared', 'knowledge.json'), 'utf8'));
   return { generatedAt:new Date().toISOString(), status:'needs_owner_input', published:false,
     note:'Tài liệu tham khảo riêng để chủ Sen Hosting đối chiếu. Không phải chính sách hoặc cam kết của Sen Hosting.',
     entries:source.entries.map(entry=>({ id:'SEN-DRAFT-' + entry.id, status:'needs_owner_input', published:false,

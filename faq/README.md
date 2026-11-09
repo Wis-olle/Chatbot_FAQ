@@ -69,7 +69,7 @@ Bước chuẩn bị đọc `data/` và ghi `prepared/`, không ghi đè snapsho
 Tại máy hiện tại, Python venv của MinGW nằm ở `.venv\bin\python.exe`. Venv chuẩn Windows thường dùng `.venv\Scripts\python.exe`; thay đường dẫn tương ứng khi cài mới.
 
 ```powershell
-cd 'E:\AI Agents\vibe coding\vinahost-faq'
+cd 'E:\AI Agents\vibe coding\faq'
 $faqPython = '.\.venv\bin\python.exe'
 & $faqPython -m faqdata.crawl --output data --limit 150 --delay 1
 & $faqPython -m faqdata.crawl --output data --limit 150 --delay 1 --refresh

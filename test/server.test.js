@@ -40,7 +40,7 @@ test('server rejects malformed URLs and private files then continues serving', {
     assert.equal(status.mode, 'retrieval');
     assert.equal(status.configured, true);
     assert.ok(status.knowledge.faqs >= 30);
-    for (const path of ['/faq.js', '/knowledge.js', '/vinahost-faq/prepared/knowledge.sqlite', '/vinahost-faq/prepared/review-queue.json']) {
+    for (const path of ['/faq.js', '/knowledge.js', '/faq/prepared/knowledge.sqlite', '/faq/prepared/review-queue.json']) {
       assert.equal((await request(path)).statusCode, 404);
     }
     const catalog = await (await fetch(`${url}/api/knowledge`)).json();

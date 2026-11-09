@@ -52,9 +52,9 @@ Khi chưa có API key, server dùng chế độ `retrieval`. `CHAT_MODE=mock` l�
 
 Các chính sách và thông tin riêng chưa khai báo vẫn nằm trong `business-profile.json` để chủ sở hữu bổ sung. Giá và thông số sản phẩm đã có được đọc riêng từ `catalog.json`; chatbot không tự điền giá mới, tài khoản ngân hàng, liên hệ hay cam kết thiếu dữ liệu.
 
-`npm run import:catalog` tái nhập từ HTML crawl đã lưu, không gọi mạng. Importer kiểm tra tên/thông số/giá trùng nguồn và tách xuất xứ khỏi dữ liệu công khai. Sau khi cập nhật danh mục, khởi động lại web để dựng lại chỉ mục. Importer cần môi trường Python crawler đã cài ở `vinahost-faq/.venv` hoặc Python có các dependencies tương ứng.
+`npm run import:catalog` tái nhập từ HTML crawl đã lưu, không gọi mạng. Importer kiểm tra tên/thông số/giá trùng nguồn và tách xuất xứ khỏi dữ liệu công khai. Sau khi cập nhật danh mục, khởi động lại web để dựng lại chỉ mục. Importer cần môi trường Python crawler đã cài ở `faq/.venv` hoặc Python có các dependencies tương ứng.
 
-Nguồn hiển thị cho khách là các trang nội bộ `/knowledge/SEN-...`, có tên và nội dung Sen Hosting. Bản crawl tham khảo trước đây vẫn được giữ trong `vinahost-faq/` để đối chiếu nội bộ; dữ liệu và chính sách của nguồn tham khảo không tự chuyển thành nội dung kinh doanh đang hoạt động của Sen Hosting.
+Nguồn hiển thị cho khách là các trang nội bộ `/knowledge/SEN-...`, có tên và nội dung Sen Hosting. Bản crawl tham khảo trước đây vẫn được giữ trong `faq/` để đối chiếu nội bộ; dữ liệu và chính sách của nguồn tham khảo không tự chuyển thành nội dung kinh doanh đang hoạt động của Sen Hosting.
 
 Sau khi sửa nội dung, chạy `npm run prepare:knowledge`, kiểm tra kết quả và khởi động lại server. Runtime giữ một snapshot trong bộ nhớ và dựng lại SQLite khi dữ liệu thay đổi.
 

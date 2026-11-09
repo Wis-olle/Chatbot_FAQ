@@ -4,7 +4,7 @@ import { mkdtemp, readFile, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { createHash } from 'node:crypto';
-import { cleanChunk, normalizeRecord, prepareKnowledge, writePreparedKnowledge } from '../vinahost-faq/prepare-knowledge.js';
+import { cleanChunk, normalizeRecord, prepareKnowledge, writePreparedKnowledge } from '../faq/prepare-knowledge.js';
 
 const url = 'https://vinahost.vn/windows-hosting/';
 const source = { id: 'source1', url, title: 'Windows Hosting', category: 'hosting', fetched_at: '2026-11-07T05:00:00Z',

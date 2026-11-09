@@ -9,7 +9,7 @@ import unicodedata
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent
-DATA = ROOT.parent / 'vinahost-faq' / 'data'
+DATA = ROOT.parent / 'faq' / 'data'
 SERVICES = {
     'hosting-gia-re': ('hosting', 'Hosting giá rẻ', ['website giới thiệu', 'blog', 'website nhỏ']),
     'wordpress-hosting': ('hosting', 'WordPress Hosting', ['WordPress', 'WooCommerce', 'cửa hàng trực tuyến']),

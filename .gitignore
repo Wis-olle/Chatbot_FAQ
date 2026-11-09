@@ -18,8 +18,8 @@ htmlcov/
 *.log
 
 # Local backups and exploratory crawl copies
-vinahost-faq/backups/
-vinahost-faq/data/raw/*.html
+faq/backups/
+faq/data/raw/*.html
 
 # Generated local diagnostics (recreated by tests)
 **/prepared/*smoke-test.json
