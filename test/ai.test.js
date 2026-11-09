@@ -121,6 +121,33 @@ test('general Gemini chat needs credentials instead of silently using a fixed FA
     knowledge: { retrieve: () => { assert.fail('general chat must bypass retrieval'); } } }), /GEMINI_API_KEY/);
 });
 
+test('general and business answers expose three contextual model follow-ups', async () => {
+  const questions = ['n8n kết nối những ứng dụng nào?', 'Bắt đầu tạo workflow n8n thế nào?', 'Cần lưu ý gì khi chạy n8n?'];
+  const general = await generateReply({ message: 'n8n là gì?' }, {
+    key: 'test', fetcher: async (url, options) => {
+      const schema = JSON.parse(options.body).generationConfig.responseSchema;
+      assert.ok(schema.required.includes('followUpQuestions'));
+      assert.equal(schema.properties.followUpQuestions.minItems, 3);
+      assert.equal(schema.properties.followUpQuestions.maxItems, 3);
+      return provider({ ...goodOutput, text: 'n8n giúp tự động hóa quy trình.', sourceIds: [], followUpQuestions: questions });
+    }
+  });
+  assert.deepEqual(general.suggestions, questions.map(question => ({ question })));
+  const businessQuestions = ['Cách khôi phục bản sao lưu WordPress?', 'Tự tải bản sao lưu WordPress thế nào?', 'Kiểm tra bản sao lưu có hoạt động thế nào?'];
+  const business = await call({ ...goodOutput, followUpQuestions: businessQuestions });
+  assert.deepEqual(business.suggestions, businessQuestions.map(question => ({ question })));
+});
+
+test('retrieval fallback and booking also provide three questions when knowledge suggestions are sparse', () => {
+  for (const kind of ['answer', 'clarify', 'fallback', 'booking']) {
+    const reply = generateKnowledgeReply({ message: evidence.question }, {
+      knowledge: knowledge({ kind, suggestions: [{ question: 'Có thể khôi phục bản sao lưu thế nào?' }] })
+    });
+    assert.equal(reply.suggestions.length, 3, kind);
+    assert.equal(new Set(reply.suggestions.map(item => item.question)).size, 3);
+  }
+});
+
 test('Gemini can request company data after a general question without publishing a guessed policy', async () => {
   let retrievals = 0;
   const reply = await generateReply({ message: 'Mình cần hỏi thêm thông tin cho website' }, {
@@ -202,6 +229,17 @@ test('invalid suggestion IDs are replaced with three unique trusted suggestions'
   assert.equal(reply.suggestions.length, 3);
   assert.equal(new Set(reply.suggestions.map(item => item.id)).size, 3);
   assert.ok(reply.suggestions.every(item => item.id !== 'FAKE'));
+});
+
+test('business follow-ups without FAQ IDs retain all contextual fallback questions', async () => {
+  const fallback = ['Cách khôi phục bản sao lưu WordPress?', 'Kiểm tra bản sao lưu WordPress thế nào?', 'Tự tải bản sao lưu WordPress thế nào?']
+    .map(question => ({ question }));
+  for (const followUpQuestions of [[], ['Làm sao bảo vệ bản sao lưu WordPress?']]) {
+    const reply = await call({ ...goodOutput, followUpQuestions }, { knowledge: knowledge({ suggestions: fallback }) });
+    assert.equal(reply.suggestions.length, 3);
+    assert.ok(reply.suggestions.every(item => /WordPress/.test(item.question)));
+    assert.deepEqual(reply.suggestions[followUpQuestions.length], fallback[0]);
+  }
 });
 
 test('grounded generation still requires credentials', async () => {

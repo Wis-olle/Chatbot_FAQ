@@ -159,9 +159,15 @@ export function createKnowledge({ entries, stats = {}, findCandidates, brandName
   }
 
   function catalog() {
-    const services = [...new Map(publicFaqs.map(entry => [entry.service, entry])).values()];
-    const topics = services.slice(0, 6).map(entry => ({ id: entry.service, label: entry.serviceLabel ?? entry.title,
-      description: `Tìm hiểu cùng ${brandName}`, question: entry.question, faqId: entry.id }));
+    const products = active.filter(entry => entry.kind === 'catalog' && ['hosting', 'vps', 'email'].includes(entry.category));
+    const services = ['hosting-gia-re', 'wordpress-hosting', 'windows-hosting', 'hosting-doanh-nghiep',
+      'thue-vps-gia-re', 'vps-n8n', 'email-hosting-chuyen-nghiep'].filter(service => products.some(entry => entry.service === service));
+    const topics = services.map(service => {
+      const items = products.filter(entry => entry.service === service);
+      const label = items[0].serviceLabel ?? items[0].title;
+      return { id: service, label, description: `${items.length} gói dịch vụ`,
+        question: `Tư vấn các gói ${label} của ${brandName}` };
+    });
     return { configured: true, brandName, stats: summary, suggestions: suggestionsFor(), topics,
       faqs: publicFaqs.map(({ id, question, category, service }) => ({ id, question, category, service })) };
   }

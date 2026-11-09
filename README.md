@@ -61,6 +61,7 @@ Sau khi sửa nội dung, chạy `npm run prepare:knowledge`, kiểm tra kết q
 - Câu hỏi chung có thể được Gemini giải thích tự nhiên mà không phải khớp một FAQ.
 - Câu về giá, chính sách, gói dịch vụ hoặc tài khoản khách hàng cần dữ liệu Sen Hosting phù hợp.
 - Câu hỏi tiếp nối giữ ngữ cảnh người dùng; không lấy lời mô hình trước đó làm bằng chứng doanh nghiệp.
+- Sau mỗi lượt trả lời, hiển thị **3 câu hỏi liên quan** có thể bấm để hỏi tiếp. Gemini sinh câu hỏi theo ngữ cảnh; ứng dụng bỏ câu rỗng/trùng và bổ sung gợi ý dự phòng nếu thiếu, kể cả khi hỏi làm rõ hoặc đề xuất đặt lịch. Chế độ `retrieval` dùng gợi ý cục bộ, không gọi AI.
 - Nguồn, câu hỏi và lịch sử đều là dữ liệu không đáng tin; nội dung nguồn không được đổi chỉ dẫn hệ thống.
 - ID nguồn, một số đơn vị/số liệu và phạm vi sản phẩm được kiểm tra ở luồng có bằng chứng. Các kiểm tra này không chứng minh đầy đủ tính đúng ngữ nghĩa của mọi câu Gemini sinh.
 - Lỗi provider được hiển thị rõ; không báo đã liên hệ nhân viên hoặc đã thực hiện giao dịch.

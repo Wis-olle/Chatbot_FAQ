@@ -1,5 +1,29 @@
 import { test, expect } from '@playwright/test';
 
+test('Sen Hosting service navigation displays the requested list and starts consultation', async ({ page }, testInfo) => {
+  const services = ['Hosting giá rẻ', 'WordPress Hosting', 'Windows Hosting', 'Hosting doanh nghiệp', 'VPS SSD', 'VPS n8n', 'Email Hosting'];
+  const requests = [];
+  await page.route('**/api/chat', route => {
+    requests.push(route.request().postDataJSON());
+    return route.fulfill({ json: { kind: 'answer', text: 'Mình sẽ tư vấn các gói phù hợp với nhu cầu của bạn.', suggestions: [] } });
+  });
+  await page.goto('/');
+  const navigation = page.getByRole('complementary', { name: 'Các dịch vụ của Sen Hosting', exact: true });
+  await expect(navigation.locator('.eyebrow')).toHaveText('Các dịch vụ của Sen Hosting');
+  await expect(navigation.locator('.topic-copy strong')).toHaveText(services);
+  await expect(navigation).not.toContainText('BẠN MUỐN TÌM HIỂU');
+  const input = page.getByLabel('Nhập câu hỏi của bạn');
+  for (const [index, service] of services.entries()) {
+    await navigation.getByRole('button', { name: new RegExp(service) }).click();
+    await expect(page.locator('.assistant-message')).toHaveCount(index + 2);
+    await expect(input).toBeEnabled();
+    expect(requests[index].message).toBe(`Tư vấn các gói ${service} của Sen Hosting`);
+    expect(requests[index].faqId).toBeUndefined();
+  }
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  await page.screenshot({ path: testInfo.outputPath('sen-hosting-services.png'), fullPage: true });
+});
+
 test('live Sen Hosting explains hosting and domain using its own knowledge page', async ({ page }, testInfo) => {
   await page.goto('/');
   await expect(page).toHaveTitle(/Sen Hosting/);

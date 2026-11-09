@@ -14,6 +14,20 @@ test('public Sen Hosting catalog uses authored brand data and internal source li
   for (const faq of catalog.faqs) assert.match(faq.id, /^SEN-/);
 });
 
+test('service navigation comes from all seven product groups rather than FAQ headings', () => {
+  const topics = knowledge.catalog().topics;
+  assert.deepEqual(topics.map(topic => topic.label), [
+    'Hosting giá rẻ', 'WordPress Hosting', 'Windows Hosting', 'Hosting doanh nghiệp',
+    'VPS SSD', 'VPS n8n', 'Email Hosting'
+  ]);
+  assert.deepEqual(topics.map(topic => topic.description), [7, 5, 7, 4, 7, 6, 12].map(count => `${count} gói dịch vụ`));
+  assert.equal(new Set(topics.map(topic => topic.id)).size, 7);
+  for (const topic of topics) {
+    assert.equal(topic.question, `Tư vấn các gói ${topic.label} của Sen Hosting`);
+    assert.equal(topic.faqId, undefined);
+  }
+});
+
 test('general education answers carry Sen Hosting internal knowledge provenance', () => {
   for (const message of ['Hosting và tên miền khác nhau thế nào?', 'SSL là gì?', 'DNS là gì?', 'VPS là gì?']) {
     const reply = generateKnowledgeReply({ message }, { knowledge });

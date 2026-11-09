@@ -1,4 +1,5 @@
 import { mountBooking, renderAdmin } from './booking.js';
+import { relatedSuggestions } from './suggestions.js';
 
 const byId = (id) => document.getElementById(id);
 const conversation = byId('conversation');
@@ -133,10 +134,9 @@ function appendAssistant(reply, welcome = false, topic = lastQuestion) {
     action.addEventListener('click', () => openBooking(topic));
     body.append(action);
   }
-  if (safeSuggestions(reply.suggestions).length) {
-    body.append(element('p', 'suggestions-label', welcome ? 'Bắt đầu với một câu hỏi' : 'Bạn có thể muốn biết thêm'));
-    appendSuggestions(body, reply.suggestions);
-  }
+  const suggestions = relatedSuggestions(reply.suggestions, { message: welcome ? '' : topic });
+  body.append(element('p', 'suggestions-label', welcome ? 'Bắt đầu với một câu hỏi' : '3 câu hỏi liên quan'));
+  appendSuggestions(body, suggestions);
   message.append(body);
   conversation.append(message);
 }
@@ -164,7 +164,7 @@ async function ask(question, faqId) {
     });
     const reply = await response.json();
     if (!response.ok) throw new Error(reply.error || 'Chưa nhận được phản hồi từ máy chủ.');
-    if (typeof reply.text !== 'string' || !Array.isArray(reply.suggestions)) throw new Error('Phản hồi chưa hợp lệ. Vui lòng thử lại.');
+    if (typeof reply.text !== 'string') throw new Error('Phản hồi chưa hợp lệ. Vui lòng thử lại.');
     pending.remove();
     appendAssistant(reply);
     history = [...history, { role: 'user', text: value }, { role: 'model', text: reply.text }].slice(-20);

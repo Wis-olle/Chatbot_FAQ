@@ -120,6 +120,18 @@ test('conversation validation retains enough turns for advice and rejects an exc
   assert.throws(()=>validateChat({message:'x',history:Array(21).fill({role:'user',text:'x'})}),/hợp lệ/);
 });
 
+test('consultation always fills missing invalid or duplicate model follow-ups to three', async () => {
+  for (const followUpQuestions of [undefined, [], ['Cần kiểm tra tên miền thế nào?'], ['Chọn tên miền thế nào?', 'Nên dùng đuôi .vn hay .com?'],
+    ['Cần kiểm tra tên miền thế nào?', ' cần kiểm tra tên miền thế nào? ', '', null, 'x'.repeat(181)]]) {
+    const reply = await generateReply({message:question,history}, {
+      key:'test',profile,knowledge:knowledge(),fetcher:async()=>provider(output({followUpQuestions}))
+    });
+    assert.equal(reply.suggestions.length, 3);
+    assert.equal(new Set(reply.suggestions.map(item=>item.question)).size, 3);
+    assert.ok(reply.suggestions.every(item=>!/backup|sao lưu/i.test(item.question)));
+  }
+});
+
 test('mentioning a chosen plan does not turn a concrete policy question into open-ended advice', async () => {
   for (const message of ['Gói tôi chọn có hoàn tiền bao nhiêu ngày?', 'Gói tôi chọn sao lưu bao nhiêu lần?', 'Còn gói đã chọn cam kết uptime bao nhiêu?']) {
     let lookedUp = false;

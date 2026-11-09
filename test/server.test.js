@@ -28,6 +28,7 @@ test('server rejects malformed URLs and private files then continues serving', {
     const url = `http://127.0.0.1:${port}`;
     assert.equal((await request('/.env')).statusCode, 404);
     assert.equal((await request('/ai.js')).statusCode, 404);
+    assert.equal((await request('/suggestions.js')).statusCode, 200);
     const status = await (await fetch(`${url}/api/status`)).json();
     assert.equal(status.mode, 'retrieval');
     assert.equal(status.configured, true);
@@ -62,8 +63,10 @@ test('server rejects malformed URLs and private files then continues serving', {
     assert.doesNotMatch(JSON.stringify(definition), /VinaHost|vinahost\.vn/i);
     assert.ok(definition.sources.length > 0);
     assert.ok(definition.sources.every(source => source.url.startsWith('/knowledge/SEN-')));
+    assert.equal(definition.suggestions.length, 3);
     const wordpress = await ask('WordPress Hosting sao lưu bao nhiêu lần?');
     assert.equal(wordpress.kind, 'fallback');
+    assert.equal(wordpress.suggestions.length, 3);
     assert.doesNotMatch(JSON.stringify(wordpress), /VinaHost|vinahost\.vn|4 lần\/ngày|2 lần\/ngày|Starter|49\.000|99\.000/i);
     assert.equal((await ask('Hosting có backup không?')).kind, 'clarify');
     for (const message of ['Chính sách hoàn tiền của Sen Hosting?', 'Số điện thoại Sen Hosting là gì?', 'Thanh toán Sen Hosting vào ngân hàng nào?']) {

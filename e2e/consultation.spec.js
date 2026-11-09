@@ -35,7 +35,8 @@ test('shop conversation flows into real catalog recommendations and unchecked na
   await expect(last.locator('.recommendation-card')).toHaveCount(2);
   await expect(last.locator('.recommendation-card').first()).toContainText('370.000 đ');
   await expect(last.locator('.domain-ideas')).toContainText('Chưa kiểm tra còn trống');
-  await expect(last.locator('.suggestion')).toContainText('.com hay .vn');
+  await expect(last.locator('.suggestion')).toHaveCount(3);
+  await expect(last.locator('.suggestion').first()).toContainText('.com hay .vn');
   await expect(last.locator('.fallback-booking')).toHaveCount(0);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
 });
@@ -58,6 +59,7 @@ test('VPS automation advice uses the same needs and catalog composition', async 
   await input.press('Enter');
   const last = page.locator('.assistant-message').last();
   await expect(last.locator('.recommendation-card')).toHaveCount(1);
-  await expect(last.locator('.suggestion')).toContainText('workflow');
+  await expect(last.locator('.suggestion')).toHaveCount(3);
+  await expect(last.locator('.suggestion').first()).toContainText('workflow');
   await expect(last.locator('.fallback-booking')).toHaveCount(0);
 });

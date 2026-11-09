@@ -56,7 +56,7 @@ test('source URLs, provenance and API conversation history are displayed safely'
   await expect(input).toHaveValue('thử lỗi');
 });
 
-test('catalog loads real FAQ topics and supports empty suggestions', async ({ page }) => {
+test('catalog loads FAQ topics and fills empty API suggestions after every answer', async ({ page }) => {
   await fixtureCatalog(page);
   const requests = [];
   await page.route('**/api/chat', route => {
@@ -78,9 +78,36 @@ test('catalog loads real FAQ topics and supports empty suggestions', async ({ pa
   await page.getByLabel('Nhập câu hỏi của bạn').fill('Câu không có dữ liệu');
   await page.getByRole('button', { name: 'Gửi câu hỏi', exact: true }).click();
   await expect(page.locator('.assistant-bubble').last()).toContainText('Chưa có bằng chứng');
-  await expect(page.locator('.assistant-message').last().locator('.suggestion')).toHaveCount(0);
+  await expect(page.locator('.assistant-message').last().locator('.suggestion')).toHaveCount(3);
+  await expect(page.locator('.assistant-message').last().locator('.suggestions-label')).toHaveText('3 câu hỏi liên quan');
   await expect(page.locator('.assistant-message').last().locator('.fallback-booking')).toHaveCount(1);
   expect(requests[2].faqId).toBeUndefined();
+});
+
+test('related questions are distinct clickable prompts on successive turns', async ({ page }) => {
+  await fixtureCatalog(page);
+  const requests = [];
+  await page.route('**/api/chat', route => {
+    requests.push(route.request().postDataJSON());
+    return route.fulfill({ json: { kind: 'answer', text: 'Kết nối HTTPS giúp bảo vệ dữ liệu.', sources: [],
+      suggestions: [{ question: ' Cài SSL thế nào? ' }, { question: 'cài ssl thế nào?' }, null] } });
+  });
+  await page.goto('/');
+  const input = page.getByLabel('Nhập câu hỏi của bạn');
+  await input.fill('SSL là gì?');
+  await input.press('Enter');
+  const last = page.locator('.assistant-message').last();
+  await expect(last.locator('.suggestion')).toHaveCount(3);
+  await expect(last.locator('.suggestions-label')).toHaveText('3 câu hỏi liên quan');
+  await expect(input).toBeEnabled();
+  await last.locator('.suggestion').first().click();
+  await expect.poll(() => requests.length).toBe(2);
+  expect(requests[1].message).toBe('Cài SSL thế nào?');
+  expect(requests[1].faqId).toBeUndefined();
+  expect(requests[1].history).toHaveLength(2);
+  await expect(page.locator('.assistant-message')).toHaveCount(3);
+  await expect(input).toBeEnabled();
+  await expect(last.locator('.suggestion')).toHaveCount(3);
 });
 
 test('source URL and source markup cannot inject navigation or HTML', async ({ page }) => {

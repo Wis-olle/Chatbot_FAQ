@@ -9,7 +9,7 @@
     "prepare:reference": "node vinahost-faq/prepare-knowledge.js",
     "import:catalog": "node sen-hosting/import-catalog.js",
     "test": "node --test test/*.test.js",
-    "test:coverage": "node --experimental-test-coverage --test-coverage-include=appointments.js --test-coverage-include=ai.js --test-coverage-include=knowledge.js --test-coverage-include=knowledge-text.js --test-coverage-include=knowledge-repository.js --test-coverage-include=knowledge-page.js --test-coverage-include=chat-router.js --test-coverage-include=consultation.js --test-coverage-include=consultation-response.js --test-coverage-include=catalog-knowledge.js --test-coverage-include=sen-hosting/build-knowledge.js --test-coverage-lines=80 --test test/*.test.js",
+    "test:coverage": "node --experimental-test-coverage --test-coverage-include=appointments.js --test-coverage-include=ai.js --test-coverage-include=knowledge.js --test-coverage-include=knowledge-text.js --test-coverage-include=knowledge-repository.js --test-coverage-include=knowledge-page.js --test-coverage-include=chat-router.js --test-coverage-include=consultation.js --test-coverage-include=consultation-response.js --test-coverage-include=suggestions.js --test-coverage-include=catalog-knowledge.js --test-coverage-include=sen-hosting/build-knowledge.js --test-coverage-lines=80 --test test/*.test.js",
     "test:e2e": "playwright test"
   },
   "devDependencies": {

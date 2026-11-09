@@ -1,4 +1,5 @@
 import { normalize } from './knowledge-text.js';
+import { relatedSuggestions } from './suggestions.js';
 
 function assertsAvailability(value) {
   const text = normalize(value);
@@ -22,7 +23,7 @@ function usefulText(context, ideas, recommendations) {
   return opening + offered + names + ' Bạn có thể chọn một hướng bên dưới để mình tư vấn tiếp.';
 }
 
-export function consultationResponse(output, context) {
+export function consultationResponse(output, context, { message = '' } = {}) {
   const items = new Map(context.catalog.items.map(item => [item.id, item]));
   const requested = Array.isArray(output.recommendedItemIds) ? [...new Set(output.recommendedItemIds)] : [];
   const invalidIds = requested.some(id => !items.has(id));
@@ -36,10 +37,9 @@ export function consultationResponse(output, context) {
   // Quantified commercial facts are displayed from selected records, never model prose.
   let text = rejected ? usefulText(context, domainIdeas, recommendations) : output.text.trim();
   if (domainIdeas.length && !/chưa|cần kiểm tra|kiểm tra.*(khả dụng|còn trống)/i.test(text)) text += '\nCác tên miền trên là ý tưởng chưa kiểm tra còn trống.';
-  const followUps = Array.isArray(output.followUpQuestions) ? [...new Set(output.followUpQuestions.filter(q => typeof q === 'string' && q.trim() && q.length <= 180))] : [];
   return {
     kind: 'answer', text, source: rejected ? 'knowledge' : 'gemini', route: 'consultation',
-    suggestions: followUps.length ? followUps.slice(0, 3).map(question => ({ question })) : context.suggestions,
+    suggestions: relatedSuggestions(output.followUpQuestions, { fallback: context.suggestions, message }),
     sources: recommendations.filter(item => item.sourceUrl).map(item => ({ id: item.id, title: `Sen Hosting · ${item.name}`,
       question: item.name, answer: item.description, url: item.sourceUrl, fetchedAt: item.snapshotAt, reviewStatus: 'sen_approved' })),
     recommendations, domainIdeas, availability: { checked: false },
