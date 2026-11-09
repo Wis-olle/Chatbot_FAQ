@@ -2,7 +2,7 @@
 
 Website chatbot FAQ và đặt lịch tư vấn tiếng Việt của đội **WIS**, dự thi **Bảng A — Công nghệ**, **Đề 4: Chatbot FAQ & đặt lịch tư vấn**.
 
-README được điền theo `MAUREADME.md`. Các mục ghi **Chưa bổ sung** cần hoàn tất trước khi nộp. Bản bàn giao được phát hành tại **Release v2.0.0**, chứa mã nguồn, minh chứng AI và toàn bộ hồ sơ kiểm thử; giữ nguyên thư mục gốc trong ZIP là `sen-hosting-v1.0.0-source/`.
+README được điền theo `MAUREADME.md`. Video demo, minh chứng AI và bảng kiểm thử có liên kết tại mục 1. Bản bàn giao được phát hành tại **Release v2.0.0**, chứa mã nguồn, minh chứng AI và toàn bộ hồ sơ kiểm thử; giữ nguyên thư mục gốc trong ZIP là `sen-hosting-v1.0.0-source/`.
 
 ## 1. Thông tin chung
 
@@ -14,7 +14,7 @@ README được điền theo `MAUREADME.md`. Các mục ghi **Chưa bổ sung** 
 | Đề bài bốc thăm | Đề 4: Chatbot FAQ & đặt lịch tư vấn |
 | Demo online | [sen-hosting-faq.netlify.app](https://sen-hosting-faq.netlify.app) |
 | Mã nguồn | [Wis-olle/Chatbot_FAQ](https://github.com/Wis-olle/Chatbot_FAQ) |
-| Video demo (≤ 02 phút) | **Chưa bổ sung — mục 03** |
+| Video demo | [Xem video demo Sen Hosting](https://youtu.be/hYEp6b93Rus) |
 | Source ZIP | [Tải sen-hosting-v2.0.0-source.zip](https://github.com/Wis-olle/Chatbot_FAQ/releases/download/v2.0.0/sen-hosting-v2.0.0-source.zip) · [Release v2.0.0](https://github.com/Wis-olle/Chatbot_FAQ/releases/tag/v2.0.0) |
 | Minh chứng dùng AI | [PDF 1 trang, 3 đoạn hội thoại thật](sen-hosting/ho-so/MINH_CHUNG_AI.pdf), xem mục 10 |
 | Bảng kiểm thử | [Toàn bộ 346 lượt kiểm thử](sen-hosting/ho-so/BANG_KIEM_THU_DAY_DU.pdf) · [CSV đầy đủ](sen-hosting/ho-so/BANG_KIEM_THU_DAY_DU.csv), xem mục 11 |
@@ -239,6 +239,7 @@ Danh mục đầy đủ giữ toàn bộ 346 lượt do runner báo cáo, gồm 
 - `MANIFEST-SHA256.txt` trong thư mục gốc liệt kê checksum từng tệp. `SHA256SUMS.txt` đặt cạnh ZIP dùng để kiểm tra checksum gói tải về.
 - Gói loại `.env`, `.git`, `.netlify`, `node_modules`, Python venv, SQLite sinh tự động, backup, `dist`, ảnh/trace kiểm thử tạm và các ZIP lồng nhau. Năm log trong hồ sơ nộp bài được giữ lại để đối chiếu kết quả.
 - [Release v1.0.0](https://github.com/Wis-olle/Chatbot_FAQ/releases/tag/v1.0.0) giữ bản bàn giao cũ. Khi nộp, dùng asset của **Release v2.0.0** trong mục 1 để có đầy đủ minh chứng AI và kiểm thử.
-- **Chưa hoàn tất:** video ≤ 2 phút thể hiện đủ 5 tính năng và đánh giá Gemini thật trên bản nộp.
+- **Video demo:** [Xem trên YouTube](https://youtu.be/hYEp6b93Rus).
+- **Cần bổ sung:** kết quả đánh giá Gemini thật trên bản nộp; các số liệu kiểm thử ở mục 11 là kết quả offline.
 - Không cần tài khoản demo; người chạy tự cung cấp API key nếu dùng Gemini.
 - Giữ nguyên phiên bản nộp trước hạn; thay đổi sau đó cần phiên bản riêng.
