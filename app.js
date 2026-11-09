@@ -1,5 +1,6 @@
 import { mountBooking, renderAdmin } from './booking.js';
 import { relatedSuggestions } from './suggestions.js';
+import { icon, closeSidebar, mountShell } from './ui-shell.js';
 
 const byId = (id) => document.getElementById(id);
 const conversation = byId('conversation');
@@ -21,6 +22,7 @@ function safeSuggestions(items = catalog.suggestions) {
 }
 
 function openBooking(topic = lastQuestion) {
+  closeSidebar(false);
   mountBooking(byId('booking-dialog'), topic, () => {
     if (location.hash === '#admin') renderAdmin(byId('admin-panel'));
     const toast = byId('toast');
@@ -38,8 +40,8 @@ function appendSuggestions(container, items) {
   for (const faq of suggestions) {
     const button = element('button', 'suggestion', faq.question);
     button.type = 'button';
-    button.append(element('span', 'suggestion-arrow', '↗'));
-    button.addEventListener('click', () => ask(faq.question, faq.id));
+    button.append(icon('arrow-up-right', 'suggestion-arrow'));
+    button.addEventListener('click', () => { closeSidebar(false); ask(faq.question, faq.id); });
     group.append(button);
   }
   container.append(group);
@@ -118,12 +120,16 @@ function appendRecommendations(container, reply) {
 }
 
 function appendAssistant(reply, welcome = false, topic = lastQuestion) {
-  const message = element('div', 'message assistant-message');
-  message.append(element('span', 'message-avatar', 's.'));
+  const message = element('div', `message assistant-message${welcome ? ' welcome-message' : ''}`);
   const body = element('div', 'message-content');
   body.append(element('span', 'message-author', 'Trợ lý Sen Hosting'));
   const bubble = element('div', 'bubble assistant-bubble');
-  if (welcome) bubble.append(element('h3', '', 'Chào bạn, mình có thể giúp gì?'));
+  if (welcome) {
+    const emblem = element('span', 'welcome-emblem');
+    emblem.setAttribute('aria-hidden', 'true');
+    body.append(emblem, element('p', 'welcome-kicker', 'Xin chào, mình là Sen.'));
+    bubble.append(element('h3', '', 'Bạn đang cần giải pháp nào?'));
+  }
   bubble.append(element('p', '', reply.text));
   body.append(bubble);
   appendRecommendations(body, reply);
@@ -144,16 +150,20 @@ function appendAssistant(reply, welcome = false, topic = lastQuestion) {
 async function ask(question, faqId) {
   const value = question.trim();
   if (busy || !value || value.length > 1000) return;
+  if (location.hash === '#admin') { location.hash = '#chat'; navigate(); }
   busy = true;
+  byId('chat-page').dataset.state = 'conversation';
   input.disabled = true;
   byId('chat-form').querySelector('button').disabled = true;
   byId('reset-chat').disabled = true;
+  byId('sidebar-new-chat').disabled = true;
   lastQuestion = value;
   const user = element('div', 'message user-message');
   user.append(element('div', 'bubble user-bubble', value));
   conversation.append(user);
   input.value = '';
-  const pending = element('p', 'notice', 'Đang tra cứu thông tin phù hợp…');
+  input.style.height = 'auto';
+  const pending = element('p', 'notice', 'Đang suy nghĩ…');
   pending.setAttribute('role', 'status');
   conversation.append(pending);
   conversation.scrollTop = conversation.scrollHeight;
@@ -178,6 +188,7 @@ async function ask(question, faqId) {
     input.disabled = false;
     byId('chat-form').querySelector('button').disabled = false;
     byId('reset-chat').disabled = false;
+    byId('sidebar-new-chat').disabled = false;
     conversation.scrollTop = conversation.scrollHeight;
     if (!byId('booking-dialog').open) input.focus({ preventScroll: true });
   }
@@ -186,9 +197,15 @@ async function ask(question, faqId) {
 function resetChat() {
   history = [];
   lastQuestion = '';
+  byId('chat-page').dataset.state = 'welcome';
+  byId('topic-list').querySelectorAll('button').forEach(button => button.setAttribute('aria-pressed', 'false'));
   conversation.replaceChildren(element('div', 'conversation-date', 'HÔM NAY · MỘT KHỞI ĐẦU MỚI'));
-  appendAssistant({ text: 'Mình là trợ lý Sen Hosting, sẵn sàng giải đáp về hosting, tên miền và SSL. Bạn hãy chia sẻ câu hỏi hoặc chọn một chủ đề bên dưới nhé.', kind: 'answer', suggestions: catalog.suggestions }, true);
+  const starters = ['SEN-HOSTING-DEFINITION', 'SEN-DOMAIN-DEFINITION', 'SEN-VPS-DEFINITION']
+    .map(id => catalog.faqs.find(faq => faq.id === id)).filter(Boolean);
+  appendAssistant({ text: 'Từ tên miền đầu tiên đến một website sẵn sàng hoạt động. Cùng tìm lựa chọn phù hợp với bạn.',
+    kind: 'answer', suggestions: relatedSuggestions(starters, { fallback: catalog.suggestions }) }, true);
   input.value = '';
+  input.style.height = 'auto';
   conversation.scrollTop = 0;
 }
 
@@ -196,6 +213,9 @@ function navigate() {
   const admin = location.hash === '#admin';
   byId('chat-page').hidden = admin;
   byId('admin-page').hidden = !admin;
+  byId('current-page-label').textContent = admin ? 'Lịch hẹn của bạn' : 'Trợ lý Sen';
+  byId('reset-chat').hidden = admin;
+  closeSidebar(false);
   for (const [id, active] of [['chat-nav', !admin], ['admin-nav', admin]]) {
     byId(id).classList.toggle('active', active);
     if (active) byId(id).setAttribute('aria-current', 'page');
@@ -205,16 +225,24 @@ function navigate() {
 }
 
 function renderCatalog() {
+  const serviceIcons = { 'hosting-gia-re': 'server', 'wordpress-hosting': 'brand-wordpress', 'windows-hosting': 'brand-windows',
+    'hosting-doanh-nghiep': 'building', 'thue-vps-gia-re': 'cpu', 'vps-n8n': 'hierarchy', 'email-hosting-chuyen-nghiep': 'mail' };
   byId('topic-list').replaceChildren();
-  for (const [index, topic] of catalog.topics.entries()) {
+  for (const topic of catalog.topics) {
     if (typeof topic.question !== 'string') continue;
     const button = element('button', 'topic-button');
     button.type = 'button';
-    button.append(element('span', 'topic-number', String(index + 1).padStart(2, '0')));
+    button.setAttribute('aria-pressed', 'false');
+    button.append(icon(serviceIcons[topic.id] ?? 'server'));
     const text = element('span', 'topic-copy');
     text.append(element('strong', '', topic.label), element('small', '', topic.description));
-    button.append(text, element('span', 'topic-arrow', '↗'));
-    button.addEventListener('click', () => ask(topic.question, topic.faqId));
+    button.append(text, icon('chevron-right', 'topic-arrow'));
+    button.addEventListener('click', () => {
+      if (busy) return;
+      byId('topic-list').querySelectorAll('button').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+      closeSidebar(false);
+      ask(topic.question, topic.faqId);
+    });
     byId('topic-list').append(button);
   }
   byId('all-faq-list').replaceChildren();
@@ -222,10 +250,10 @@ function renderCatalog() {
     if (typeof faq.question !== 'string') continue;
     const button = element('button', '', faq.question);
     button.type = 'button';
-    button.addEventListener('click', () => ask(faq.question, faq.id));
+    button.addEventListener('click', () => { closeSidebar(false); ask(faq.question, faq.id); });
     byId('all-faq-list').append(button);
   }
-  byId('all-faq-button').textContent = `Khám phá ${catalog.faqs.length} câu hỏi thường gặp ↗`;
+  byId('all-faq-button').replaceChildren(icon('book-2'), document.createTextNode(`${catalog.faqs.length} câu hỏi thường gặp`));
   byId('knowledge-description').textContent = `${catalog.stats.entries || catalog.faqs.length} mục kiến thức của Sen Hosting giúp bạn tìm hiểu và lựa chọn dịch vụ. Thông tin gói, giá và điều kiện áp dụng sẽ được nhân viên xác nhận.`;
 }
 
@@ -248,7 +276,7 @@ async function loadKnowledge() {
     if (!response.ok) throw new Error('Status unavailable');
     const status = await response.json();
     const available = status.knowledge?.entries > 0 || catalog.stats.entries > 0;
-    byId('ai-status').textContent = !available ? 'Kho kiến thức chưa khả dụng' : status.mode === 'gemini' && status.configured ? 'Gemini AI · Kiến thức Sen Hosting' : 'Tra cứu tài liệu · Sen Hosting';
+    byId('ai-status').textContent = !available ? 'Chưa kết nối được Sen Hosting' : 'FAQ & tư vấn · Sen Hosting';
   } catch { byId('ai-status').textContent = 'Chưa kết nối được máy chủ tra cứu'; }
 }
 
@@ -264,10 +292,24 @@ input.addEventListener('keydown', (event) => {
     ask(input.value);
   }
 });
-byId('reset-chat').addEventListener('click', resetChat);
+function startNewChat() {
+  if (busy) return;
+  location.hash = '#chat';
+  closeSidebar(false);
+  resetChat();
+  input.focus({ preventScroll: true });
+}
+byId('reset-chat').addEventListener('click', startNewChat);
+byId('sidebar-new-chat').addEventListener('click', startNewChat);
+input.addEventListener('input', () => { input.style.height = 'auto'; input.style.height = `${Math.min(input.scrollHeight, 150)}px`; });
 for (const id of ['inline-booking', 'book-consultation', 'admin-booking']) byId(id).addEventListener('click', () => openBooking());
+byId('booking-dialog').addEventListener('close', () => {
+  if (location.hash === '#admin') byId('admin-booking').focus({ preventScroll: true });
+  else input.focus({ preventScroll: true });
+});
 window.addEventListener('hashchange', navigate);
 window.addEventListener('storage', () => { if (location.hash === '#admin') renderAdmin(byId('admin-panel')); });
+mountShell();
 resetChat();
 navigate();
 loadKnowledge();

@@ -1,50 +1,61 @@
 <!doctype html>
-<html lang="vi">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#153f35">
-    <meta name="description" content="Sen Hosting — giải đáp về hosting, tên miền, SSL và tư vấn giải pháp cho website của bạn.">
-    <title>Sen Hosting — Khởi đầu cho website của bạn</title>
-    <link rel="stylesheet" href="./styles.css">
-    <script type="module" src="./app.js"></script>
-  </head>
-  <body>
-    <a class="skip-link" href="#main">Đến nội dung chính</a>
-    <header class="site-header">
-      <a class="brand" href="#chat" aria-label="Sen Hosting, trang tư vấn"><span class="brand-symbol" aria-hidden="true">s<span>.</span></span><span>Sen<span class="brand-light"> Hosting</span><small>NƠI WEBSITE BẮT ĐẦU.</small></span></a>
-      <nav class="top-nav" aria-label="Điều hướng chính">
-        <a href="#chat" id="chat-nav" class="nav-link active" aria-current="page">Tư vấn trực tuyến</a>
-        <a href="#admin" id="admin-nav" class="nav-link">Lịch hẹn <span class="nav-tag">Quản trị</span></a>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Hỏi Sen Hosting về hosting, tên miền và giải pháp cho website. Nhận tư vấn và đặt lịch trao đổi cùng nhân viên.">
+  <title>Sen Hosting · Trợ lý của bạn</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Đến nội dung chính</a>
+  <button id="sidebar-backdrop" class="sidebar-backdrop" type="button" aria-label="Đóng menu" tabindex="-1" hidden></button>
+  <aside id="app-sidebar" class="app-sidebar" aria-label="Menu chính">
+    <div class="sidebar-header">
+      <a class="brand" href="#chat" aria-label="Sen Hosting, trang tư vấn"><span>Sen<span class="brand-light"> Hosting</span></span></a>
+      <button id="close-sidebar" class="icon-button mobile-only" type="button" aria-label="Đóng menu dịch vụ"><svg class="icon" aria-hidden="true"><use href="/icons.svg#x"></use></svg></button>
+    </div>
+    <button id="sidebar-new-chat" class="new-chat-button" type="button"><svg class="icon" aria-hidden="true"><use href="/icons.svg#plus"></use></svg>Cuộc trò chuyện mới<span class="shortcut" aria-hidden="true">↗</span></button>
+    <div class="sidebar-scroll">
+      <nav class="side-nav" aria-label="Điều hướng chính">
+        <a href="#chat" id="chat-nav" class="nav-link active" aria-current="page"><svg class="icon" aria-hidden="true"><use href="/icons.svg#message-circle"></use></svg>Trò chuyện</a>
+        <a href="#admin" id="admin-nav" class="nav-link"><svg class="icon" aria-hidden="true"><use href="/icons.svg#calendar-event"></use></svg>Lịch hẹn<span class="nav-tag">Quản trị</span></a>
       </nav>
-      <span class="demo-label">Cùng bạn phát triển</span>
+      <aside class="topics" aria-label="Các dịch vụ của Sen Hosting">
+        <p class="eyebrow">Các dịch vụ của Sen Hosting</p>
+        <div class="topic-list" id="topic-list"></div>
+      </aside>
+      <div class="faq-section">
+        <button class="all-faq-button" id="all-faq-button" aria-expanded="false" aria-controls="all-faq-list"><svg class="icon" aria-hidden="true"><use href="/icons.svg#book-2"></use></svg>Đang tải câu hỏi thường gặp</button>
+        <div id="all-faq-list" class="all-faq-list" hidden></div>
+      </div>
+    </div>
+    <div class="sidebar-footer">
+      <div class="consultation-card"><span class="consultation-icon" aria-hidden="true"><svg class="icon"><use href="/icons.svg#calendar-event"></use></svg></span><div><strong>Trò chuyện cùng chuyên viên</strong><p>Một cuộc hẹn, rõ hơn mọi điều.</p></div><button id="book-consultation" class="secondary-button" type="button">Đặt lịch tư vấn<svg class="icon" aria-hidden="true"><use href="/icons.svg#arrow-up-right"></use></svg></button></div>
+      <div class="sidebar-signature"><div><strong>Sen Hosting</strong><span>Cùng bạn xây dựng website</span></div><svg class="icon signature-check" aria-hidden="true"><use href="/icons.svg#check"></use></svg></div>
+      <p id="knowledge-description" class="sr-only">Kiến thức và tư vấn dịch vụ của Sen Hosting.</p>
+    </div>
+  </aside>
+  <main id="main" class="app-main">
+    <header class="topbar">
+      <div class="topbar-title"><button id="open-sidebar" class="icon-button mobile-only" type="button" aria-label="Mở menu dịch vụ" aria-controls="app-sidebar" aria-expanded="false"><svg class="icon" aria-hidden="true"><use href="/icons.svg#menu-2"></use></svg></button><div class="assistant-identity"><span class="assistant-avatar" aria-hidden="true"></span><div><h2 id="current-page-label">Trợ lý Sen</h2><p id="ai-status">Đang kết nối…</p></div></div></div>
+      <div class="topbar-actions"><button id="theme-toggle" class="icon-button" type="button" aria-label="Chuyển sang giao diện tối" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="/icons.svg#moon"></use></svg></button><button id="reset-chat" class="icon-button" type="button" aria-label="Bắt đầu cuộc trò chuyện mới" title="Cuộc trò chuyện mới"><svg class="icon" aria-hidden="true"><use href="/icons.svg#plus"></use></svg></button></div>
     </header>
-    <main id="main">
-      <section id="chat-page" aria-labelledby="page-title">
-        <div class="page-intro"><div><p class="eyebrow">TRUNG TÂM TƯ VẤN</p><h1 id="page-title">Website của bạn.<br><span>Khởi đầu thật dễ dàng.</span></h1><p>Từ tên miền đầu tiên đến một website sẵn sàng hoạt động.<br class="desktop-break"> Mình ở đây để giúp bạn tìm câu trả lời.</p></div><div class="intro-note"><span class="orbit" aria-hidden="true">✳</span><span>Một câu hỏi nhỏ.<br>Một bước tiến mới.</span></div></div>
-        <div class="workspace">
-          <aside class="topics" aria-label="Các dịch vụ của Sen Hosting">
-            <p class="eyebrow">Các dịch vụ của Sen Hosting</p>
-            <div class="topic-list" id="topic-list"></div>
-            <div class="sidebar-note"><span class="small-mark" aria-hidden="true">i</span><p>Mới bắt đầu?<br><strong>Cứ hỏi theo cách của bạn.</strong><br>Mình hỗ trợ cả câu hỏi không dấu.</p></div>
-            <button class="all-faq-button" id="all-faq-button" aria-expanded="false" aria-controls="all-faq-list">Đang tải câu hỏi thường gặp <span aria-hidden="true">↗</span></button>
-            <div id="all-faq-list" class="all-faq-list" hidden></div>
-          </aside>
-          <section class="chat-card" aria-label="Trò chuyện với trợ lý">
-            <header class="chat-header"><div class="assistant-identity"><span class="assistant-avatar" aria-hidden="true">s.</span><div><h2>Trợ lý Sen Hosting</h2><p><span class="status-dot"></span>Sẵn sàng hỗ trợ bạn</p></div></div><button id="reset-chat" class="icon-button" aria-label="Bắt đầu cuộc trò chuyện mới" title="Bắt đầu lại">↺</button></header>
-            <div class="conversation" id="conversation" role="log" aria-label="Nội dung trò chuyện" aria-live="polite" aria-relevant="additions"></div>
-            <div class="composer-area"><form id="chat-form" class="composer"><label class="sr-only" for="message-input">Nhập câu hỏi của bạn</label><textarea id="message-input" name="message" rows="1" maxlength="1000" placeholder="Hỏi mình về hosting, tên miền…" required></textarea><button type="submit" class="send-button" aria-label="Gửi câu hỏi"><span aria-hidden="true">↑</span></button></form><div class="composer-footer"><span id="ai-status">Đang kiểm tra kho kiến thức…</span><button id="inline-booking" type="button">Đặt lịch tư vấn <span aria-hidden="true">↗</span></button></div></div>
-          </section>
-          <aside class="support-aside" aria-label="Tư vấn cùng nhân viên">
-            <section class="consultation-card"><div class="calendar-art" aria-hidden="true"><div></div><span>30</span><small>PHÚT</small></div><p class="eyebrow">CÙNG BẠN TÌM GIẢI PHÁP</p><h2>Cần trao đổi<br>kỹ hơn một chút?</h2><p>Đặt một buổi tư vấn để cùng làm rõ nhu cầu website của bạn.</p><div class="consultation-detail"><span aria-hidden="true">◷</span><span>09:00 – 17:00 · Giờ Việt Nam</span></div><button id="book-consultation" class="primary-button">Đặt lịch tư vấn <span aria-hidden="true">↗</span></button><small>Lịch hẹn được lưu trên trình duyệt này.</small></section>
-            <div class="knowledge-note"><span class="outline-mark" aria-hidden="true">✓</span><div><h3>Kiến thức Sen Hosting</h3><p id="knowledge-description">Tìm hiểu hosting, tên miền và SSL cùng Sen Hosting. Mỗi câu trả lời giúp bạn tiến gần hơn tới website phù hợp với nhu cầu.</p></div></div>
-          </aside>
+    <section id="chat-page" class="chat-page" data-state="welcome" aria-labelledby="page-title">
+      <h1 id="page-title" class="sr-only">Trợ lý tư vấn Sen Hosting</h1>
+      <div class="chat-card">
+        <div class="conversation" id="conversation" role="log" aria-label="Nội dung trò chuyện" aria-live="polite" aria-relevant="additions"></div>
+        <div class="composer-area">
+          <form id="chat-form" class="composer"><label class="sr-only" for="message-input">Nhập câu hỏi của bạn</label><textarea id="message-input" name="message" rows="1" maxlength="1000" placeholder="Hỏi Sen bất cứ điều gì…" required></textarea><div class="composer-controls"><span class="composer-context"><span class="mini-mark" aria-hidden="true"></span>Hỏi Sen<svg class="icon" aria-hidden="true"><use href="/icons.svg#chevron-right"></use></svg></span><button type="submit" class="send-button" aria-label="Gửi câu hỏi"><svg class="icon" aria-hidden="true"><use href="/icons.svg#arrow-up"></use></svg></button></div></form>
+          <div class="composer-footer"><span>Cần trao đổi kỹ hơn?</span><button id="inline-booking" type="button">Đặt lịch tư vấn<svg class="icon" aria-hidden="true"><use href="/icons.svg#arrow-up-right"></use></svg></button><span class="composer-note">Thông tin dịch vụ sẽ được nhân viên xác nhận.</span></div>
         </div>
-      </section>
-      <section id="admin-page" aria-labelledby="admin-title" hidden><div class="page-intro"><div><p class="eyebrow">KHÔNG GIAN QUẢN TRỊ</p><h1 id="admin-title">Những cuộc hẹn<br><span>đang chờ bạn.</span></h1><p>Xem và xử lý lịch tư vấn được lưu trên trình duyệt hiện tại.</p></div><button id="admin-booking" class="primary-button">Tạo lịch hẹn <span aria-hidden="true">＋</span></button></div><div id="admin-panel" class="admin-panel"></div></section>
-    </main>
-    <footer class="site-footer"><span>© 2026 Sen Hosting</span><span>Hosting, tên miền và giải pháp cho website.</span><span>Lịch hẹn được lưu trên trình duyệt này.</span></footer>
-    <dialog id="booking-dialog" aria-label="Đặt lịch tư vấn"></dialog>
-    <div id="toast" class="toast" role="status" hidden></div>
-  </body>
+      </div>
+    </section>
+    <section id="admin-page" class="admin-page" aria-labelledby="admin-title" hidden><div class="admin-titlebar"><div><p class="eyebrow">Không gian của bạn</p><h1 id="admin-title">Lịch hẹn</h1><p>Dành một chút thời gian cho giải pháp phù hợp.</p></div><button id="admin-booking" class="primary-button" type="button"><svg class="icon" aria-hidden="true"><use href="/icons.svg#plus"></use></svg>Tạo lịch hẹn</button></div><div id="admin-panel" class="admin-panel"></div></section>
+  </main>
+  <dialog id="booking-dialog" aria-label="Đặt lịch tư vấn"></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
 </html>

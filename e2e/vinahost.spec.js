@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { openServiceNavigation } from './navigation-helpers.js';
 
 test('Sen Hosting service navigation displays the requested list and starts consultation', async ({ page }, testInfo) => {
   const services = ['Hosting giá rẻ', 'WordPress Hosting', 'Windows Hosting', 'Hosting doanh nghiệp', 'VPS SSD', 'VPS n8n', 'Email Hosting'];
@@ -8,12 +9,14 @@ test('Sen Hosting service navigation displays the requested list and starts cons
     return route.fulfill({ json: { kind: 'answer', text: 'Mình sẽ tư vấn các gói phù hợp với nhu cầu của bạn.', suggestions: [] } });
   });
   await page.goto('/');
+  await openServiceNavigation(page);
   const navigation = page.getByRole('complementary', { name: 'Các dịch vụ của Sen Hosting', exact: true });
   await expect(navigation.locator('.eyebrow')).toHaveText('Các dịch vụ của Sen Hosting');
   await expect(navigation.locator('.topic-copy strong')).toHaveText(services);
   await expect(navigation).not.toContainText('BẠN MUỐN TÌM HIỂU');
   const input = page.getByLabel('Nhập câu hỏi của bạn');
   for (const [index, service] of services.entries()) {
+    await openServiceNavigation(page);
     await navigation.getByRole('button', { name: new RegExp(service) }).click();
     await expect(page.locator('.assistant-message')).toHaveCount(index + 2);
     await expect(input).toBeEnabled();

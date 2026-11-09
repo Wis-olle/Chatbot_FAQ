@@ -2,6 +2,8 @@
 
 Website tư vấn và chatbot tiếng Việt mang thương hiệu **Sen Hosting**. Nội dung công khai, lời chào và liên kết kiến thức dùng tên Sen Hosting.
 
+Giao diện lấy cảm hứng từ Grok Bot: màu đơn sắc, hội thoại toàn chiều cao và ô nhập cố định phía dưới. Sidebar hiển thị 7 dịch vụ; trên màn hình nhỏ sidebar mở thành menu trượt có hỗ trợ bàn phím. Nút sáng/tối lưu lựa chọn ở `hosting-demo.theme.v1`; dữ liệu lịch hẹn giữ nguyên khóa lưu trữ riêng. Icon dùng Tabler Icons theo giấy phép MIT trong `icons-LICENSE.txt`.
+
 Chatbot có hai luồng:
 
 - **Trò chuyện thường / kiến thức chung:** Gemini trả lời tự nhiên theo câu hỏi và lịch sử, không bắt buộc lấy một FAQ có sẵn.

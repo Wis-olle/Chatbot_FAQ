@@ -29,6 +29,13 @@ test('server rejects malformed URLs and private files then continues serving', {
     assert.equal((await request('/.env')).statusCode, 404);
     assert.equal((await request('/ai.js')).statusCode, 404);
     assert.equal((await request('/suggestions.js')).statusCode, 200);
+    assert.equal((await request('/ui-shell.js')).statusCode, 200);
+    const icons = await fetch(`${url}/icons.svg`);
+    assert.equal(icons.status, 200);
+    assert.match(icons.headers.get('content-type'), /^image\/svg\+xml/);
+    const sprite = await icons.text();
+    assert.match(sprite, /symbol id="calendar-event"/);
+    assert.doesNotMatch(sprite, /<script|foreignObject|onload=/i);
     const status = await (await fetch(`${url}/api/status`)).json();
     assert.equal(status.mode, 'retrieval');
     assert.equal(status.configured, true);

@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { openServiceNavigation } from './navigation-helpers.js';
 
 const suggestions = [
   { id: 'ssl-basics', question: 'SSL là gì?' },
@@ -66,11 +67,12 @@ test('catalog loads FAQ topics and fills empty API suggestions after every answe
   await page.goto('/');
   await expect(page.locator('#ai-status')).toContainText('Sen Hosting');
   await expect(page.locator('.assistant-message').first().locator('.suggestion')).toHaveCount(3);
-  await expect(page.locator('#topic-list')).toContainText('Chọn đúng dịch vụ');
   await page.locator('.assistant-message').first().locator('.suggestion').first().click();
   await expect.poll(() => requests.length).toBe(1);
   expect(requests[0].faqId).toBe('ssl-basics');
   await expect(page.getByLabel('Nhập câu hỏi của bạn')).toBeEnabled();
+  await openServiceNavigation(page);
+  await expect(page.locator('#topic-list')).toContainText('Chọn đúng dịch vụ');
   await page.locator('#topic-list button').first().click();
   await expect.poll(() => requests.length).toBe(2);
   expect(requests[1].faqId).toBe('ssl-basics');
@@ -177,6 +179,7 @@ test('corrupted storage is preserved and chat displays untrusted input as text',
   await expect(page.locator('.user-bubble')).toHaveText('<img src=x onerror=alert(1)>');
   await expect(page.locator('.user-bubble img')).toHaveCount(0);
   await page.evaluate(() => localStorage.setItem('hosting-demo.appointments.v1', 'broken'));
+  await openServiceNavigation(page);
   await page.locator('#admin-nav').click();
   await expect(page.locator('#admin-panel [role="alert"]')).toContainText('Dữ liệu lịch hẹn không hợp lệ');
   expect(await page.evaluate(() => localStorage.getItem('hosting-demo.appointments.v1'))).toBe('broken');

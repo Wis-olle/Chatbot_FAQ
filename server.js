@@ -39,8 +39,8 @@ async function chat(req, res) {
   } catch (error) { json(res, error.status || 500, { error: error.status ? error.message : 'Không thể xử lý câu hỏi. Vui lòng thử lại.' }); }
 }
 
-const files = { '/': 'index.html', '/index.html': 'index.html', '/styles.css': 'styles.css', '/app.js': 'app.js', '/appointments.js': 'appointments.js', '/booking.js': 'booking.js', '/suggestions.js': 'suggestions.js' };
-const types = { html: 'text/html', css: 'text/css', js: 'text/javascript' };
+const files = { '/': 'index.html', '/index.html': 'index.html', '/styles.css': 'styles.css', '/app.js': 'app.js', '/appointments.js': 'appointments.js', '/booking.js': 'booking.js', '/suggestions.js': 'suggestions.js', '/ui-shell.js': 'ui-shell.js', '/icons.svg': 'icons.svg', '/sen-logo.svg': 'sen-logo.svg' };
+const types = { html: 'text/html', css: 'text/css', js: 'text/javascript', svg: 'image/svg+xml' };
 const port = Number(process.env.PORT || 5173);
 const server = createServer(async (req, res) => {
   let file;
