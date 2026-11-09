@@ -23,6 +23,20 @@ async function fixtureCatalog(page) {
   await page.route('**/api/status', route => route.fulfill({ json: { mode: 'retrieval', configured: true, knowledge: catalog.stats } }));
 }
 
+test('Netlify non-JSON rate limit shows a useful message and allows retry', async ({ page }) => {
+  await fixtureCatalog(page);
+  await page.route('**/api/chat', route => route.fulfill({
+    status: 429, contentType: 'text/plain', body: 'Too Many Requests'
+  }));
+  await page.goto('/');
+  const input = page.getByLabel('Nhập câu hỏi của bạn');
+  await input.fill('Hosting là gì?');
+  await input.press('Enter');
+  await expect(page.locator('.assistant-bubble').last()).toContainText('Vui lòng đợi một phút');
+  await expect(input).toBeEnabled();
+  await expect(input).toHaveValue('Hosting là gì?');
+});
+
 test('source URLs, provenance and API conversation history are displayed safely', async ({ page }) => {
   await fixtureCatalog(page);
   const requests = [];

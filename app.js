@@ -172,9 +172,10 @@ async function ask(question, faqId) {
       method: 'POST', headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ message: value, history, ...(faqId ? { faqId } : {}) }), signal: AbortSignal.timeout(35000)
     });
-    const reply = await response.json();
-    if (!response.ok) throw new Error(reply.error || 'Chưa nhận được phản hồi từ máy chủ.');
-    if (typeof reply.text !== 'string') throw new Error('Phản hồi chưa hợp lệ. Vui lòng thử lại.');
+      const reply = await response.json().catch(() => null);
+      if (!response.ok) throw new Error(reply?.error || (response.status === 429
+        ? 'Bạn gửi quá nhiều yêu cầu. Vui lòng đợi một phút.' : 'Chưa nhận được phản hồi từ máy chủ.'));
+      if (typeof reply?.text !== 'string') throw new Error('Phản hồi chưa hợp lệ. Vui lòng thử lại.');
     pending.remove();
     appendAssistant(reply);
     history = [...history, { role: 'user', text: value }, { role: 'model', text: reply.text }].slice(-20);
