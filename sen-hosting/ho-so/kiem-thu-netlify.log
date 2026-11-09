@@ -1,0 +1,95 @@
+
+> hosting-demo-faq@1.0.0 test:coverage:netlify
+> node --experimental-test-coverage --test-coverage-include=netlify/api-handler.js --test-coverage-include=netlify/knowledge.js --test-coverage-include=scripts/build-netlify.js --test-coverage-lines=80 --test test/netlify.test.js
+
+✔ serverless knowledge has all public FAQ and catalog data without creating SQLite files (7.8702ms)
+✔ serverless knowledge preserves the existing SQLite catalog (8.1456ms)
+▶ serverless retrieval passes the existing offline acceptance cases
+  ✔ sen-hosting-definition (6.4869ms)
+  ✔ sen-hosting-domain (4.1965ms)
+  ✔ sen-shared-hosting (2.4224ms)
+  ✔ sen-storage-bandwidth (5.0115ms)
+  ✔ sen-backup-definition (2.5004ms)
+  ✔ sen-backup-restore (3.4013ms)
+  ✔ sen-migration-prepare (3.5709ms)
+  ✔ sen-renewal-check (2.739ms)
+  ✔ sen-wp-definition (2.877ms)
+  ✔ sen-wp-beginner (12.8063ms)
+  ✔ sen-wp-themes-plugins (6.3395ms)
+  ✔ sen-wp-update (5.2116ms)
+  ✔ sen-wp-cache (2.0589ms)
+  ✔ sen-wp-migration (2.4543ms)
+  ✔ sen-windows-definition (2.2813ms)
+  ✔ sen-windows-aspnet (4.6967ms)
+  ✔ sen-windows-compatibility (4.2561ms)
+  ✔ sen-domain-definition (1.8629ms)
+  ✔ sen-domain-dns (1.7691ms)
+  ✔ sen-domain-nameserver (4.0752ms)
+  ✔ sen-domain-record-a (5.2621ms)
+  ✔ sen-domain-cname (6.8145ms)
+  ✔ sen-domain-mx (6.4194ms)
+  ✔ sen-domain-external (3.7931ms)
+  ✔ sen-domain-transfer (3.5414ms)
+  ✔ sen-vps-definition (1.6097ms)
+  ✔ sen-vps-vs-hosting (1.7107ms)
+  ✔ sen-vps-admin (1.9744ms)
+  ✔ sen-vps-os (2.3526ms)
+  ✔ sen-vps-security (2.5345ms)
+  ✔ sen-email-definition (1.9407ms)
+  ✔ sen-email-client (2.7671ms)
+  ✔ sen-email-imap-pop (3.991ms)
+  ✔ sen-email-auth (8.5534ms)
+  ✔ sen-email-migration (2.7996ms)
+  ✔ sen-ssl-definition (1.2555ms)
+  ✔ sen-ssl-https (1.0285ms)
+  ✔ sen-ssl-wildcard (0.9299ms)
+  ✔ sen-ssl-multi-domain (2.2714ms)
+  ✔ sen-ssl-mixed-content (5.1639ms)
+  ✔ domain-hosting-paraphrase (2.9221ms)
+  ✔ wordpress-definition-noaccents (2.7783ms)
+  ✔ ssl-definition-noaccents (1.0053ms)
+  ✔ backup-policy (3.146ms)
+  ✔ price-policy (1.036ms)
+  ✔ refund-policy (4.2906ms)
+  ✔ contact-policy (4.5178ms)
+  ✔ sla-policy (3.5516ms)
+  ✔ payment-policy (6.1738ms)
+  ✔ free-ssl-policy (2.3373ms)
+  ✔ greeting (1.1118ms)
+  ✔ booking (1.8102ms)
+✔ serverless retrieval passes the existing offline acceptance cases (190.8318ms)
+✔ status reports runtime mode and public counts without exposing credentials (22.2527ms)
+✔ knowledge API returns the same seven services and forty FAQs (0.6268ms)
+✔ source pages support GET and HEAD with strict source IDs and security headers (17.043ms)
+✔ API rejects unknown routes, private files, and unsupported methods (0.9278ms)
+✔ HTTPS same-origin requests and requests without Origin work in retrieval mode (3.7148ms)
+✔ chat rejects foreign origins before invoking the provider (0.7922ms)
+✔ chat validates JSON content type, malformed JSON, and all input boundaries (2.3191ms)
+✔ body limits count UTF-8 bytes rather than JavaScript characters (0.9561ms)
+✔ configured chat injects runtime credentials, model, validated input, and serverless knowledge (0.4147ms)
+✔ explicit retrieval mode bypasses an available provider key (1.8308ms)
+✔ provider failures return JSON, preserve known status, and hide unexpected internal errors (0.7741ms)
+✔ Netlify function entrypoints declare separate IP and domain limits (3.7633ms)
+✔ static build publishes only the ten frontend files and removes stale output (43.3926ms)
+✔ static build refuses to replace a directory whose basename is not dist (2.584ms)
+ℹ tests 69
+ℹ suites 0
+ℹ pass 69
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 430.2452
+ℹ start of coverage report
+ℹ ------------------------------------------------------------------
+ℹ file              | line % | branch % | funcs % | uncovered lines
+ℹ ------------------------------------------------------------------
+ℹ netlify           |        |          |         | 
+ℹ  api-handler.js   | 100.00 |    96.49 |  100.00 | 
+ℹ  knowledge.js     | 100.00 |    83.33 |  100.00 | 
+ℹ scripts           |        |          |         | 
+ℹ  build-netlify.js |  90.32 |    76.92 |  100.00 | 29-31
+ℹ ------------------------------------------------------------------
+ℹ all files         |  97.54 |    92.11 |  100.00 | 
+ℹ ------------------------------------------------------------------
+ℹ end of coverage report

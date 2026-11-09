@@ -1,0 +1,8 @@
+test_domain_cards_preserve_separate_registration_and_renewal (test_import_catalog.CatalogTests) ... ok
+test_generated_snapshot_has_real_sources_unique_records_and_no_public_foreign_brand (test_import_catalog.CatalogTests) ... ok
+test_plan_grid_keeps_columns_aligned_and_ignores_comparison_table (test_import_catalog.CatalogTests) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 2.457s
+
+OK

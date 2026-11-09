@@ -2,7 +2,7 @@
 
 Website chatbot FAQ và đặt lịch tư vấn tiếng Việt của đội **WIS**, dự thi **Bảng A — Công nghệ**, **Đề 4: Chatbot FAQ & đặt lịch tư vấn**.
 
-README được điền theo `MAUREADME.md`. Các mục ghi **Chưa bổ sung** cần hoàn tất trước khi nộp. Source ZIP được gắn với phiên bản `v1.0.0` để tải đúng bản bàn giao.
+README được điền theo `MAUREADME.md`. Các mục ghi **Chưa bổ sung** cần hoàn tất trước khi nộp. Bản bàn giao được phát hành tại **Release v2.0.0**, chứa mã nguồn, minh chứng AI và toàn bộ hồ sơ kiểm thử; giữ nguyên thư mục gốc trong ZIP là `sen-hosting-v1.0.0-source/`.
 
 ## 1. Thông tin chung
 
@@ -15,9 +15,9 @@ README được điền theo `MAUREADME.md`. Các mục ghi **Chưa bổ sung** 
 | Demo online | [sen-hosting-faq.netlify.app](https://sen-hosting-faq.netlify.app) |
 | Mã nguồn | [Wis-olle/Chatbot_FAQ](https://github.com/Wis-olle/Chatbot_FAQ) |
 | Video demo (≤ 02 phút) | **Chưa bổ sung — mục 03** |
-| Source ZIP | [Tải sen-hosting-v1.0.0-source.zip](https://github.com/Wis-olle/Chatbot_FAQ/releases/download/v1.0.0/sen-hosting-v1.0.0-source.zip) · [Release v1.0.0](https://github.com/Wis-olle/Chatbot_FAQ/releases/tag/v1.0.0) |
-| Minh chứng dùng AI | **Chưa bổ sung — mục 04**, xem mục 10 bên dưới |
-| Bảng kiểm thử | Có trong mục 11 của README này; mã kiểm thử kèm trong `test/` và `e2e/` |
+| Source ZIP | [Tải sen-hosting-v2.0.0-source.zip](https://github.com/Wis-olle/Chatbot_FAQ/releases/download/v2.0.0/sen-hosting-v2.0.0-source.zip) · [Release v2.0.0](https://github.com/Wis-olle/Chatbot_FAQ/releases/tag/v2.0.0) |
+| Minh chứng dùng AI | [PDF 1 trang, 3 đoạn hội thoại thật](sen-hosting/ho-so/MINH_CHUNG_AI.pdf), xem mục 10 |
+| Bảng kiểm thử | [Toàn bộ 346 lượt kiểm thử](sen-hosting/ho-so/BANG_KIEM_THU_DAY_DU.pdf) · [CSV đầy đủ](sen-hosting/ho-so/BANG_KIEM_THU_DAY_DU.csv), xem mục 11 |
 
 ## 2. Tính năng chính
 
@@ -125,6 +125,7 @@ sen-hosting-v1.0.0-source/
 ├── sen-hosting/
 │   ├── content/                     # FAQ, hồ sơ doanh nghiệp, danh mục, ca đánh giá
 │   ├── prepared/                    # JSON đã chuẩn bị và xuất xứ danh mục
+│   ├── ho-so/                       # minh chứng AI, bảng kiểm thử, CSV, JSON và 5 log
 │   └── build-knowledge.js           # chuẩn hóa kiến thức Sen Hosting
 ├── faq/                             # mã và snapshot tham khảo/crawler
 ├── netlify/                         # backend serverless và Functions
@@ -179,13 +180,17 @@ SQLite không kèm trong ZIP; server dựng lại từ JSON khi chạy. Sau khi 
 
 ## 10. Minh chứng dùng AI để xây dựng sản phẩm
 
-**Chưa bổ sung — thực hiện ở mục 04 của hồ sơ.** Minh chứng theo mẫu: tối đa 1 trang, kèm tối đa 5 ảnh/đoạn hội thoại chọn lọc, ghi mục tiêu → yêu cầu cho AI → vấn đề khi thử → yêu cầu sửa → kết quả kiểm tra lại.
+Đã đóng gói [minh chứng AI bản PDF](sen-hosting/ho-so/MINH_CHUNG_AI.pdf) **đúng 1 trang, gồm 3 đoạn trích hội thoại thật**, trong giới hạn tối đa 5 ảnh/đoạn hội thoại. [Bản văn bản để chỉnh sửa](sen-hosting/ho-so/MINH_CHUNG_AI.md). Cả hai tệp nằm sẵn trong thư mục `sen-hosting/ho-so/` của Source ZIP; mở được sau khi giải nén.
 
-Cần đính kèm tệp hoặc đường dẫn minh chứng thực tế trước khi nộp. Tích hợp Gemini ở mục 4 không thay thế minh chứng quá trình xây dựng sản phẩm.
+Nội dung trình bày mục tiêu → yêu cầu cho AI → phát hiện thiếu 3 câu hỏi liên quan → yêu cầu sửa → kiểm tra lại. Nguồn là các chat phát triển dự án “Crawl dữ liệu FAQ Vinahost” và “Add AI-suggested related questions”, có mã lượt để đối chiếu. Codex hỗ trợ xây dựng sản phẩm; Gemini là AI tích hợp trong ứng dụng.
 
 ## 11. Bảng kiểm thử
 
-Đã chạy ngày **09/11/2026**, Node.js **v24.18.0**. Kiểm thử offline dùng retrieval/provider giả, không gọi Gemini thật và không tiêu thụ hạn mức API.
+Đã chạy lại toàn bộ các bộ kiểm thử hiện có ngày **09/11/2026**, Node.js **v24.18.0**: **346 lượt, 344 đạt, 2 bỏ qua, 0 lỗi**. Kiểm thử offline dùng retrieval/provider giả, không gọi Gemini thật và không tiêu thụ hạn mức API.
+
+- [Bảng kiểm thử đầy đủ bản PDF](sen-hosting/ho-so/BANG_KIEM_THU_DAY_DU.pdf) và [bản Markdown](sen-hosting/ho-so/BANG_KIEM_THU_DAY_DU.md): đối chiếu 5 yêu cầu đề bài, thao tác chi tiết theo mẫu Bảng A và danh mục toàn bộ ca.
+- [CSV đủ từng ca](sen-hosting/ho-so/BANG_KIEM_THU_DAY_DU.csv): mã ca, loại, đầu vào, bước thử, kỳ vọng, kết quả thực tế, tên test, tệp và dòng mã.
+- [Kết quả JSON](sen-hosting/ho-so/ket-qua-kiem-thu.json) và 5 log chạy trong `sen-hosting/ho-so/` để đối chiếu. Toàn bộ PDF, Markdown, CSV, JSON và log đã nằm trong Source ZIP; các log được thêm vào gói dù `.gitignore` không theo dõi `*.log`.
 
 ```powershell
 npm test
@@ -193,6 +198,10 @@ npm run test:coverage
 npm run test:coverage:netlify
 npx playwright install chromium
 npm run test:e2e
+# Chạy từ thư mục faq
+./.venv/bin/python.exe -m unittest discover -s tests -v
+# Chạy từ thư mục gốc
+./faq/.venv/bin/python.exe -m unittest discover -s sen-hosting/tests -v
 ```
 
 `npm run test:coverage` đã bao gồm toàn bộ suite của `npm test`. Lệnh cài Chromium chỉ cần khi máy chưa có browser phù hợp; Linux có thể cần `npx playwright install --with-deps chromium`. Playwright tự khởi động server kiểm thử ở cổng 5174 với chế độ mock/retrieval.
@@ -201,11 +210,14 @@ Kết quả lượt xác minh hồ sơ:
 
 | Nhóm | Kết quả thực tế |
 |---|---|
-| Unit/integration (`test:coverage`) | 237/237 đạt; line coverage 99,38% trong tập tệp cấu hình đo coverage |
-| Netlify (`test:coverage:netlify`) | 69/69 đạt, đã nằm trong suite 237 ở trên; line coverage riêng 97,54% |
-| E2E desktop/mobile | 34 ca đạt, 2 ca chỉ áp dụng mobile bỏ qua trên desktop; không có ca lỗi |
+| Unit/integration (`test:coverage`), 17 tệp | 241/241 đạt; line coverage 99,39% trong 12 tệp cấu hình đo coverage |
+| Netlify (`test:coverage:netlify`) | 69/69 đạt, đã nằm trong suite 241 ở trên; line coverage riêng 97,54% trên 3 tệp cấu hình đo |
+| E2E desktop/mobile, 4 tệp | 18 kịch bản × 2 cấu hình = 36 lượt; 34 đạt, 2 ca chỉ áp dụng mobile bỏ qua trên desktop |
+| Python FAQ, 4 tệp | 66/66 đạt |
+| Python nhập danh mục, 1 tệp | 3/3 đạt |
+| **Tổng, không cộng trùng Netlify** | **346 lượt: 344 đạt, 2 bỏ qua, 0 lỗi** |
 
-Các ca dưới được chọn từ mã kiểm thử đã chạy, có ít nhất 2 bình thường, 2 đầu vào không hợp lệ và 2 biên/sự cố cho Bảng A:
+Danh mục đầy đủ giữ toàn bộ 346 lượt do runner báo cáo, gồm các ca cha/con Node và từng cấu hình E2E. Không cộng số assertion, dòng dữ liệu hoặc báo cáo kiểm thử lịch sử thành ca mới. Bảng A yêu cầu ít nhất 6 ca; hồ sơ có đầy đủ các nhóm bình thường, đầu vào không hợp lệ và biên/sự cố. Tám dòng dưới minh họa các nhánh trong bộ kiểm thử, không cộng thêm vào tổng; mã chính thức TC001–TC346 nằm trong tài liệu đầy đủ.
 
 | Mã ca | Loại ca | Dữ liệu và bước thử | Kỳ vọng | Kết quả thực tế | Đạt/Chưa đạt |
 |---|---|---|---|---|---|
@@ -222,9 +234,11 @@ Các ca dưới được chọn từ mã kiểm thử đã chạy, có ít nhấ
 
 ## 12. Hồ sơ bàn giao
 
-- Source ZIP chứa mã nguồn, dữ liệu snapshot cần chạy, README đã điền, lockfile và `.env.example`.
-- Loại `.env`, `.git`, `.netlify`, `node_modules`, Python venv, SQLite sinh tự động, backup, `dist` và kết quả kiểm thử máy cá nhân khỏi gói.
-- Source ZIP đính kèm tại [Release v1.0.0](https://github.com/Wis-olle/Chatbot_FAQ/releases/tag/v1.0.0), kèm `SHA256SUMS.txt` để đối chiếu checksum. Dùng link tải trực tiếp theo phiên bản trong mục 1 cho bài nộp.
-- **Chưa hoàn tất:** video ≤ 2 phút thể hiện đủ 5 tính năng, minh chứng AI và đánh giá Gemini thật.
+- **Bản bàn giao đầy đủ:** [Release v2.0.0](https://github.com/Wis-olle/Chatbot_FAQ/releases/tag/v2.0.0), asset `sen-hosting-v2.0.0-source.zip`. Giữ nguyên thư mục gốc sau giải nén là `sen-hosting-v1.0.0-source/`, chứa mã nguồn, snapshot cần chạy, README này, lockfile và `.env.example`.
+- **Hồ sơ đi kèm trong ZIP:** `sen-hosting/ho-so/` có 11 tệp: minh chứng AI (PDF 1 trang và Markdown), bảng kiểm thử toàn bộ 346 lượt (PDF, Markdown và CSV), kết quả JSON cùng 5 log Node.js/Netlify/E2E/Python FAQ/Python nhập danh mục.
+- `MANIFEST-SHA256.txt` trong thư mục gốc liệt kê checksum từng tệp. `SHA256SUMS.txt` đặt cạnh ZIP dùng để kiểm tra checksum gói tải về.
+- Gói loại `.env`, `.git`, `.netlify`, `node_modules`, Python venv, SQLite sinh tự động, backup, `dist`, ảnh/trace kiểm thử tạm và các ZIP lồng nhau. Năm log trong hồ sơ nộp bài được giữ lại để đối chiếu kết quả.
+- [Release v1.0.0](https://github.com/Wis-olle/Chatbot_FAQ/releases/tag/v1.0.0) giữ bản bàn giao cũ. Khi nộp, dùng asset của **Release v2.0.0** trong mục 1 để có đầy đủ minh chứng AI và kiểm thử.
+- **Chưa hoàn tất:** video ≤ 2 phút thể hiện đủ 5 tính năng và đánh giá Gemini thật trên bản nộp.
 - Không cần tài khoản demo; người chạy tự cung cấp API key nếu dùng Gemini.
 - Giữ nguyên phiên bản nộp trước hạn; thay đổi sau đó cần phiên bản riêng.
